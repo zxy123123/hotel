@@ -1,0 +1,15 @@
+[ 2014-12-10T19:38:29+08:00 ] 127.0.0.1 /
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.049351s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.050283s ]
+
+[ 2014-12-10T21:21:23+08:00 ] 127.0.0.1 /
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.001203s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001590s ]
+
+[ 2014-12-10T22:00:43+08:00 ] 127.0.0.1 /
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.001955s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002240s ]
+

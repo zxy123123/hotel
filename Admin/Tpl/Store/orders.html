@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<script type="text/javascript" src="__PUBLIC__/js/jquery-1.8.0.min.js"></script>
+    <meta charset="UTF-8">
+    <title>Document</title>
+</head>
+<body>
+<h1>我的订单</h1>
+<div >
+    <form action="{:U('Store/orders')}" method="get">
+    <div style="float:left">
+        <select name="chaxun" id="">
+            <option value="1">订单编号</option>
+            <option value="2">联系电话</option>
+        </select>
+    </div>
+    <div style="float:left">
+        <input type="text" name="find" >
+    </div>
+    <div>
+        <input type="submit" value="搜索">
+    </div>
+    </form>
+</div>
+    <table border="1" cellpadding="1" cellspacing="1" width="100%" align="center">
+    <tr>
+        <th>订单编号</th>
+        <th>商品图片</th>
+        <th>数量</th>
+        <th>单价</th>
+        <th>联系人</th>
+        <th>联系电话</th>
+        <th>联系地址</th>
+        <th>总计</th>
+        <th>订单状态</th>
+    </tr>
+
+    <volist name="list" id="vo">
+    <tr>
+        <td>{$vo.ordernum}</td>
+        <td><img src="{$vo.iname}" alt=""></td>
+        <td>{$vo.qty}</td>
+        <td>{$vo.price}</td>
+        <td>{$vo.lname}</td>
+        <td>{$vo.phone}</td>
+        <td>{$vo.address}</td>
+        <td>{$vo.allprice}</td>
+        <td>
+        <if condition = "$vo.status eq 0">未发货
+        <elseif condition="$vo.status eq 1" />已发货
+        <elseif condition="$vo.status eq 2" />已完成
+        <else />已失效
+        </if> 
+        </td>
+    </tr>
+    </volist>
+
+    </table>
+</body>
+</html>

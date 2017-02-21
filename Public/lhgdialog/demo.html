@@ -1,0 +1,57 @@
+﻿<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <title>基础示例 - LHGDIALOG</title>
+    <script type="text/javascript" src="jquery-1.7.2.min.js"></script>
+    <script>
+        // skin demo
+        (function () {
+            var _skin, _lhgcore;
+            var _search = window.location.search;
+            if (_search) {
+                _skin = _search.split('demoSkin=')[1];
+            };
+
+            document.write('<scr' + 'ipt src="lhgdialog.min.js?skin=' + (_skin || 'iblue') + '"></sc' + 'ript>');
+            window._isDemoSkin = !!_skin;
+        })();
+    </script>
+    <!--<script type="text/javascript" src="demo.js"></script>-->
+    <script type="text/javascript">
+
+        $(function () {
+            // 按钮触发代码运行
+            $(document).bind('click', function (event) {
+                $.dialog({
+                    lock: true,
+                    content: '中断用户在对话框以外的交互，展示重要操作与消息',
+                    icon: 'error.gif',
+                    ok: true,
+                    cancel: true
+                });
+            });
+        });
+    </script>
+</head>
+<body>
+    <div class="container">
+        <div class="cbody">
+            <ol>
+                <li>
+                    <h3>
+                        锁屏 [lock & background & opacity]</h3>
+                    <p>
+                    </p>
+                    <pre class="prettyprint" id="demo_lock">
+
+</pre>
+                    <p>
+                        <button class="runcode" name="demo_lock">
+                            运行»</button></p>
+                </li>
+            </ol>
+        </div>
+    </div>
+</body>
+</html>

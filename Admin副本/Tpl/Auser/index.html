@@ -1,0 +1,352 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+
+<link id="easyuiTheme" rel="stylesheet" type="text/css" href="__PUBLIC__/themes/bootstrap/easyui.css" />
+<link rel="stylesheet" type="text/css" href="__PUBLIC__/themes/icon.css" />
+
+<link rel="stylesheet" type="text/css" href="__PUBLIC__/uploadify/uploadify.css" />
+<script type="text/javascript" src="__PUBLIC__/lhgdialog/lhgdialog.min.js"></script>
+
+  
+<script src="__PUBLIC__/uploadify/jquery.uploadify.min.js" type="text/javascript"></script>
+<script type="text/javascript" src="__PUBLIC__/js/jquery-1.8.0.min.js"></script>
+<script type="text/javascript" src="__PUBLIC__/js/jquery.easyui.min.js"></script>
+<script type="text/javascript" src="__PUBLIC__/js/admin.js" charset="utf-8"></script>
+<script type="text/javascript" charset="utf-8">
+var datagrid = $('#datagrid_user');
+var isClickOk = true;
+function edit(id) {
+	$.ajax({
+		url: '__APP__/Auser/getUserById',
+		data: {id: id},
+		dataType: 'json',
+		success: function (rows) {
+			$('#_name').val(rows.name);
+			$('#_password').val(rows.password);
+			$('#_phone').val(rows.admin_telephone);
+			$('#_userid').val(rows.admin_id);
+		}
+	});
+	$('#editDlg').dialog('open').dialog('setTitle', '修改用户信息');
+}
+
+function initpsw(num) {
+	$('#user_num').val(num);
+	$('#initpswDlg').dialog('open').dialog('setTitle', '初始化密码');
+}
+
+function append() {
+	$("#xianshi1").empty();
+	$("#xianshi2").empty();
+	$('#addDlg').dialog('open').dialog('setTitle', '添加管理员');
+	$('#addForm').form('clear');
+}
+function removeData() {
+	var rows = $('#datagrid_user').datagrid('getChecked');
+	var ids = [];
+	if (rows.length > 0) {
+		parent.dj.messagerConfirm('请确认', '您要删除当前所选项目？', function (r) {
+			if (r) {
+				for (var i = 0; i < rows.length; i++) {
+					ids.push(rows[i].admin_id);
+				}
+				$.ajax({
+					url: '__APP__/Auser/delete',
+					data: {
+						ids: ids.join(',')
+					},
+					dataType: 'json',
+					success: function (d) {
+						$('#datagrid_user').datagrid('loadData', { total: 0, rows: [] }); 
+						$('#datagrid_user').datagrid('load');
+						$('#datagrid_user').datagrid('unselectAll');
+						parent.dj.messagerShow({
+							title: '提示',
+							msg: d.info
+						});
+					}
+				});
+			}
+		});
+	} else {
+		parent.dj.messagerAlert('提示', '请勾选要删除的记录！', 'error');
+	}
+}
+function _search() {
+	
+	$('#datagrid_user').datagrid('loadData', { total: 0, rows: [] }); 
+	$('#datagrid_user').datagrid('load', dj.serializeObject($('#searchForm')));
+}
+function cleanSearch() {
+	$('#datagrid_user').datagrid('load', {});
+	$('#searchForm input').val('');
+}
+
+
+
+
+
+function add_ok() {
+	$.messager.defaults = { ok: "确定", cancel: "取消" };
+	$.messager.confirm('Confirm', '您确定增加?', function (r) {
+		if (r) {
+			$('#addForm').form('submit', {
+				url: "__APP__/Auser/add",
+				onSubmit: function () {
+					if (isClickOk == false) {
+						$.messager.alert('操作提示', '主键不能重复！', 'error');
+						return false;
+					}
+					else if ($('#addForm').form('validate')) {
+						//datagrid.datagrid('loadData', { total: 0, rows: [] }); 
+						datagrid.datagrid('load');
+						$.messager.alert('操作提示', '添加用户成功！', 'info');
+						return true;
+					} else {
+						$.messager.alert('操作提示', '信息填写不完整！', 'error');
+						return false;
+					}
+				}
+			});
+			$('#datagrid_user').datagrid('reload');
+			$('#addDlg').dialog('close');
+		}
+	});
+}
+
+$(function () {
+		var img_path = "";
+		$('#up_file_upload').uploadify({
+			'formData': {
+				'timestamp': '{$time}',            //时间
+				'token': '{$time | md5}', 	//加密字段
+				'url': $('#url').val() + '/upload/', //url
+				'imageUrl': $('#root').val()				//root
+			},
+
+			'fileTypeDesc': 'Image Files', 				//类型描述
+			//'removeCompleted' : false,    //是否自动消失
+			'fileTypeExts': '*.gif; *.jpg; *.png', 	//允许类型
+			'fileSizeLimit': '3MB', 				//允许上传最大值
+			'swf': $('#public').val() + '/uploadify/uploadify.swf', //加载swf
+			'uploader': $('#url').val() + '/uploadify', 				//上传路径
+			'buttonText': '文件上传', 								//按钮的文字
+
+			'onUploadSuccess': function (file, data, response) {			//成功上传返回
+				var n = parseInt(Math.random() * 100); 							//100以内的随机数
+				img_path += data + "|";
+				$('#hiddenimgpath').val(img_path);
+				//插入到image标签内，显示图片的缩略图
+				$('#up_image').append('<div id="adel_' + n + '" class="photo"><a href="' + data + '"  target="_blank"><img src="' + data + '"  height=80 width=80 /></a><div class="del"><a href="javascript:vo(0)" onclick=aDel("' + n +'");>删除</a></div></div>');
+			}
+		});
+	});
+
+
+function edit_ok() {
+	$.messager.defaults = { ok: "确定", cancel: "取消" };
+	$.messager.confirm('Confirm', '您确定修改?', function (r) {
+		if (r) {
+			$('#editForm').form('submit', {
+				url: "__APP__/Auser/edit",
+				dataType: 'json',
+				onSubmit: function () {
+
+					if ($('#editForm').form('validate')) {
+						datagrid.datagrid('loadData', { total: 0, rows: [] }); 
+						datagrid.datagrid('load');
+						$.messager.alert('操作提示', '修改信息成功！', 'info');
+						return true;
+					} else {
+						$.messager.alert('操作提示', '信息填写不完整！', 'error');
+						return false;
+					}
+				}
+			});
+			$('#datagrid_user').datagrid('reload');
+			$('#editDlg').dialog('close');
+		}
+
+	});
+}
+
+function formatOper(val,row,index){  
+	return '<a href="javascript:void(0);" onclick="edit('+row.admin_id+')">修改</a>';  
+}
+function formatRole(val,row,index){
+	if(row.permission==1){
+		return '超级管理员';
+	}else{
+		return '普通管理员';
+	}
+}
+
+	
+</script>
+<title>后台管理</title>
+</head>
+<body>
+<div class="easyui-panel" data-options="fit:true">
+	<table class="easyui-datagrid" id="datagrid_user" data-options="url:'__APP__/Auser/getAllUser',method:'post',pagination:true,fit:true,toolbar:'#toolbar',rownumbers:true,checkOnSelect: true">
+		<thead>
+			<tr>
+				<th data-options="field:'admin_id',sortable: true,checkbox: true">ID</th>
+				<th data-options="field:'name',sortable: true" width="100">用户名</th>
+				<th data-options="field:'admin_telephone',sortable: true" width="100">手机号码</th>
+				<th data-options="field:'password',sortable: true" width="100">用户密码</th>
+				<th data-options="field:'hotel_name',sortable: true" width="100">酒店名称</th>
+				<th data-options="field:'hotel_id',sortable: true" width="150">酒店编号</th>
+				<th data-options="field:'cz',width:80,align:'center',formatter:formatOper">操作</th>
+			</tr>
+		</thead>
+	</table>
+
+	<div id="toolbar" style="padding:5px;">
+		<a href="javascript:void(0)" class="easyui-linkbutton" iconCls="icon-add" plain="true" onclick="append()">新增</a>
+		<a href="javascript:void(0)" class="easyui-linkbutton" iconCls="icon-cut" plain="true" onclick="removeData()">删除</a>
+		<form id="searchForm" style="display:inline-block;*display:inline;zoom:1;">
+			<input name="search"  placeholder="标题或内容" data-options="prompt:'请输入搜索内容',searcher:''" class="easyui-validatebox textbox"
+				style="width: 180px; vertical-align: middle;" />
+			<input name="hiddenid" id="hiddenid" type="hidden" />
+			<a href="javascript:void(0);" class="easyui-linkbutton" plain="true" onclick="_search();">搜索</a>
+		</form>
+	</div>
+</div>
+
+
+
+    <!--	添加用户信息的表单		-->
+    <div id="addDlg" class="easyui-dialog" style="width: 500px; height: 500px; padding: 10px 20px"
+        closed="true" buttons="#addDlgBtn" data-options="modal:true">
+        <form id="addForm" method="post" enctype="multipart/form-data">
+        <table width="450" border="0">
+            <tr>
+                <td width="150" align="right">
+                    用户名：
+                </td>
+                <td width="250">
+                    <input name="name" class="easyui-validatebox textbox" required missingmessage="用户名不能为空" />
+                </td>
+            </tr>
+            <tr>
+                <td align="right">
+                    密码：
+                </td>
+                <td>
+                    <input name="password" class="easyui-validatebox textbox" required missingmessage="密码不能为空" />
+                </td>
+            </tr>
+            <tr>
+                <td align="right">
+                    电话号码：
+                </td>
+                <td>
+                    <input name="admin_telephone" class="easyui-validatebox textbox" required missingmessage="手机号不能为空"/>
+                </td>
+            </tr>
+			 <tr>
+                <td align="right">
+                    酒店名称：
+                </td>
+                <td>
+                    <input name="hotel_name" class="easyui-validatebox textbox" required missingmessage="酒店名称不能为空"/>
+                </td>
+            </tr>
+			 <tr>
+                <td align="right">
+                    酒店级别：
+              
+			</td>
+			<td>
+			<select name="hotel_star" style="width:100px">
+				<option value="kezhan">客栈公寓</option>
+				<option value="liansuo">经济连锁</option>
+				<option value="two">二星民宿</option>
+				<option value="three">三星舒适</option>
+				<option value="four">四星高档</option>
+				<option value="five">五星豪华</option>
+			</select>
+			</td>
+		</tr>	
+
+		 <tr>
+                <td align="right">
+                    是否支持社交：
+              
+			</td>
+			<td>
+			<select name="tieba" style="width:100px">
+				<option value="0">不支持</option>
+				<option value="1">支持</option>
+				
+			</select>
+			</td>
+		</tr>	
+
+			 
+			
+			
+			
+			
+			
+			
+        </table>
+		
+        </form>
+    </div>
+
+
+   
+
+	
+    <!--	修改用户信息的表单		-->
+    <div id="editDlg" class="easyui-dialog" style="width: 400px; height: 300px; padding: 10px 20px"
+        closed="true" buttons="#editDlgBtn" data-options="modal:true">
+        <form id="editForm" method="post">
+        <table width="350" border="0">
+            <tr>
+                <td width="150" align="right">
+                    用户名：
+                </td>
+                <td width="250">
+                    <input name="name" id="_name" class="easyui-validatebox textbox" required
+                        missingmessage="用户名不能为空" />
+                </td>
+                <input type="hidden" name="admin_id" id="_userid" />
+            </tr>
+            <tr>
+                <td align="right">
+                    密码：
+                </td>
+                <td>
+                    <input name="password" id="_password" type="password" class="easyui-validatebox textbox"
+                        required missingmessage="密码不能为空" />
+                </td>
+            </tr>
+            <tr>
+                <td align="right">
+                    手机号码：
+                </td>
+                <td>
+                    <input name="admin_telephone" id="_phone" class="easyui-validatebox textbox" />
+                </td>
+            </tr>
+        </table>
+        </form>
+    </div>
+    <!--	保用户信息的按钮，被Jquery设置，当没被调用的时候不显示		-->
+	 <div id="addDlgBtn">
+        <a href="#" id="addSaveBooktimecode" class="easyui-linkbutton" iconcls="icon-ok"
+            onclick="add_ok()">确认</a> <a href="#" class="easyui-linkbutton" iconcls="icon-cut"
+                onclick="javascript:$('#addDlg').dialog('close')">取消</a>
+    </div>
+    <!--	修改户信息的按钮，被Jquery设置，当没被调用的时候不显示		-->
+    <div id="editDlgBtn">
+        <a href="#" id="addSaveBooktimecode" class="easyui-linkbutton" iconcls="icon-ok"
+            onclick="edit_ok()">确认</a> <a href="#" class="easyui-linkbutton" iconcls="icon-cut"
+                onclick="javascript:$('#editDlg').dialog('close')">取消</a>
+    </div>
+</body>
+</html>

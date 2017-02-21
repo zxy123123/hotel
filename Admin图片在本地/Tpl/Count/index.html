@@ -1,0 +1,33 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <link id="easyuiTheme" rel="stylesheet" type="text/css" href="__PUBLIC__/themes/bootstrap/easyui.css">
+    <link rel="stylesheet" type="text/css" href="__PUBLIC__/themes/icon.css">
+    <script type="text/javascript" src="__PUBLIC__/js/jquery-1.8.0.min.js"></script>
+    <script type="text/javascript" src="__PUBLIC__/js/jquery.easyui.min.js"></script>
+    <script type="text/javascript" src="__PUBLIC__/js/admin.js" charset="utf-8"></script>
+	<title>后台管理</title>
+</head>
+<body>
+<div  style="width: 800px; height: 450px; padding: 10px 20px;
+    overflow-x: hidden;" closed="true" buttons="#addDlgBtn" data-options="modal:true">
+    <form id="addForm" method="post">
+    <table width="780" border="0">
+        <tr style="height: 50px;">
+            <td width="150">销售额： </td>
+            <td width="250">{$data['ze']} 元.</td>
+        </tr>
+        <tr style="height: 50px;">
+            <td width="150" >毛利润： </td>
+            <td width="250">{$data['lr']} 元.</td>
+        </tr>
+        <tr>
+            <td width="150" >会员男女比例： </td>
+            <td>{$data['bl']}.</td>
+        </tr>
+    </table>
+    </form>
+</div>
+</body>
+</html>

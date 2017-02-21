@@ -1,0 +1,522 @@
+[ 2016-12-03T23:56:49+08:00 ] 127.0.0.1 /admin.php/Order/index
+INFO: [ route_check ] --START--
+INFO: Run CheckRoute Behavior [ RunTime:0.001282s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001502s ]
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead D:\hotel\ThinkPHP\Lib\Core\Dispatcher.class.php 第 120 行.
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:-0.001119s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001378s ]
+NOTIC: [8] Undefined index: chaxun D:\hotel\Admin\Lib\Action\OrderAction.class.php 第 30 行.
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead D:\hotel\ThinkPHP\Lib\Driver\Db\DbMysql.class.php 第 55 行.
+SQL: SHOW COLUMNS FROM `orders` [ RunTime:0.000936s ]
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead D:\hotel\ThinkPHP\Lib\Core\Db.class.php 第 571 行.
+SQL: SELECT orders.id oid,user_usual_infos.name uname,user_usual_infos.phone up,users.score,orders.start_time ost,orders.end_time oed,orders.payment_status ops,orders.room_num orn,orders.payment_method opm,orders.check_in,hotels.name hn,rooms.display_name rdn,rooms.price rp,orders.order_status oos,orders.open_id ooi,orders.latest_arrive_time olat,orders.special_requirement osr,orders.remark ork FROM `orders` LEFT JOIN user_usual_infos ON user_usual_infos.id = orders.usual_user_info_id LEFT JOIN users ON orders.user_id = users.id LEFT JOIN hotels ON hotels.id = orders.hotel_id LEFT JOIN rooms ON rooms.id = orders.room_id ORDER BY oed desc  [ RunTime:0.001191s ]
+INFO: [ view_template ] --START--
+INFO: Run LocationTemplate Behavior [ RunTime:-0.031037s ]
+INFO: [ view_template ] --END-- [ RunTime:0.001087s ]
+INFO: [ view_parse ] --START--
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead D:\hotel\ThinkPHP\Lib\Template\ThinkTemplate.class.php 第 164 行.
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead D:\hotel\ThinkPHP\Lib\Template\ThinkTemplate.class.php 第 359 行.
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead D:\hotel\ThinkPHP\Lib\Template\ThinkTemplate.class.php 第 359 行.
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead D:\hotel\ThinkPHP\Lib\Template\ThinkTemplate.class.php 第 359 行.
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead D:\hotel\ThinkPHP\Lib\Template\ThinkTemplate.class.php 第 359 行.
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead D:\hotel\ThinkPHP\Lib\Template\ThinkTemplate.class.php 第 359 行.
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead D:\hotel\ThinkPHP\Lib\Template\ThinkTemplate.class.php 第 164 行.
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead D:\hotel\ThinkPHP\Lib\Template\ThinkTemplate.class.php 第 359 行.
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead D:\hotel\ThinkPHP\Lib\Template\ThinkTemplate.class.php 第 359 行.
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead D:\hotel\ThinkPHP\Lib\Template\ThinkTemplate.class.php 第 359 行.
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead D:\hotel\ThinkPHP\Lib\Template\ThinkTemplate.class.php 第 359 行.
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead D:\hotel\ThinkPHP\Lib\Template\ThinkTemplate.class.php 第 359 行.
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead D:\hotel\ThinkPHP\Lib\Template\ThinkTemplate.class.php 第 359 行.
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead D:\hotel\ThinkPHP\Lib\Template\ThinkTemplate.class.php 第 359 行.
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead D:\hotel\ThinkPHP\Lib\Template\ThinkTemplate.class.php 第 359 行.
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead D:\hotel\ThinkPHP\Lib\Template\ThinkTemplate.class.php 第 359 行.
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead D:\hotel\ThinkPHP\Lib\Template\ThinkTemplate.class.php 第 359 行.
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead D:\hotel\ThinkPHP\Lib\Template\ThinkTemplate.class.php 第 359 行.
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead D:\hotel\ThinkPHP\Lib\Template\ThinkTemplate.class.php 第 359 行.
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead D:\hotel\ThinkPHP\Lib\Template\ThinkTemplate.class.php 第 354 行.
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead D:\hotel\ThinkPHP\Lib\Template\ThinkTemplate.class.php 第 354 行.
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead D:\hotel\ThinkPHP\Lib\Template\ThinkTemplate.class.php 第 359 行.
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead D:\hotel\ThinkPHP\Lib\Template\ThinkTemplate.class.php 第 359 行.
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead D:\hotel\ThinkPHP\Lib\Template\ThinkTemplate.class.php 第 359 行.
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead D:\hotel\ThinkPHP\Lib\Template\ThinkTemplate.class.php 第 354 行.
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead D:\hotel\ThinkPHP\Lib\Template\ThinkTemplate.class.php 第 359 行.
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead D:\hotel\ThinkPHP\Lib\Template\ThinkTemplate.class.php 第 359 行.
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead D:\hotel\ThinkPHP\Lib\Template\ThinkTemplate.class.php 第 359 行.
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead D:\hotel\ThinkPHP\Lib\Template\ThinkTemplate.class.php 第 359 行.
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead D:\hotel\ThinkPHP\Lib\Template\ThinkTemplate.class.php 第 359 行.
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead D:\hotel\ThinkPHP\Lib\Template\ThinkTemplate.class.php 第 359 行.
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead D:\hotel\ThinkPHP\Lib\Template\ThinkTemplate.class.php 第 359 行.
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead D:\hotel\ThinkPHP\Lib\Template\ThinkTemplate.class.php 第 359 行.
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead D:\hotel\ThinkPHP\Lib\Template\ThinkTemplate.class.php 第 359 行.
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead D:\hotel\ThinkPHP\Lib\Template\ThinkTemplate.class.php 第 359 行.
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead D:\hotel\ThinkPHP\Lib\Template\ThinkTemplate.class.php 第 359 行.
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead D:\hotel\ThinkPHP\Lib\Template\ThinkTemplate.class.php 第 359 行.
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead D:\hotel\ThinkPHP\Lib\Template\ThinkTemplate.class.php 第 359 行.
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead D:\hotel\ThinkPHP\Lib\Template\ThinkTemplate.class.php 第 359 行.
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead D:\hotel\ThinkPHP\Lib\Template\ThinkTemplate.class.php 第 359 行.
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead D:\hotel\ThinkPHP\Lib\Template\ThinkTemplate.class.php 第 359 行.
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead D:\hotel\ThinkPHP\Lib\Template\ThinkTemplate.class.php 第 359 行.
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead D:\hotel\ThinkPHP\Lib\Template\ThinkTemplate.class.php 第 359 行.
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead D:\hotel\ThinkPHP\Lib\Template\ThinkTemplate.class.php 第 359 行.
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead D:\hotel\ThinkPHP\Lib\Template\ThinkTemplate.class.php 第 359 行.
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead D:\hotel\ThinkPHP\Lib\Template\ThinkTemplate.class.php 第 359 行.
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead D:\hotel\ThinkPHP\Lib\Template\ThinkTemplate.class.php 第 359 行.
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead D:\hotel\ThinkPHP\Lib\Template\ThinkTemplate.class.php 第 359 行.
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead D:\hotel\ThinkPHP\Lib\Template\ThinkTemplate.class.php 第 359 行.
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead D:\hotel\ThinkPHP\Lib\Template\ThinkTemplate.class.php 第 359 行.
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead D:\hotel\ThinkPHP\Lib\Template\ThinkTemplate.class.php 第 359 行.
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead D:\hotel\ThinkPHP\Lib\Template\ThinkTemplate.class.php 第 359 行.
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead D:\hotel\ThinkPHP\Lib\Template\ThinkTemplate.class.php 第 359 行.
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead D:\hotel\ThinkPHP\Lib\Template\ThinkTemplate.class.php 第 359 行.
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead D:\hotel\ThinkPHP\Lib\Template\ThinkTemplate.class.php 第 359 行.
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead D:\hotel\ThinkPHP\Lib\Template\ThinkTemplate.class.php 第 359 行.
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead D:\hotel\ThinkPHP\Lib\Template\ThinkTemplate.class.php 第 359 行.
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead D:\hotel\ThinkPHP\Lib\Template\ThinkTemplate.class.php 第 359 行.
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead D:\hotel\ThinkPHP\Lib\Template\ThinkTemplate.class.php 第 359 行.
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead D:\hotel\ThinkPHP\Lib\Template\ThinkTemplate.class.php 第 359 行.
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead D:\hotel\ThinkPHP\Lib\Template\ThinkTemplate.class.php 第 359 行.
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead D:\hotel\ThinkPHP\Lib\Template\ThinkTemplate.class.php 第 359 行.
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead D:\hotel\ThinkPHP\Lib\Template\ThinkTemplate.class.php 第 359 行.
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead D:\hotel\ThinkPHP\Lib\Template\ThinkTemplate.class.php 第 359 行.
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead D:\hotel\ThinkPHP\Lib\Template\ThinkTemplate.class.php 第 359 行.
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead D:\hotel\ThinkPHP\Lib\Template\ThinkTemplate.class.php 第 359 行.
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead D:\hotel\ThinkPHP\Lib\Template\ThinkTemplate.class.php 第 359 行.
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead D:\hotel\ThinkPHP\Lib\Template\ThinkTemplate.class.php 第 359 行.
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead D:\hotel\ThinkPHP\Lib\Template\ThinkTemplate.class.php 第 359 行.
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead D:\hotel\ThinkPHP\Lib\Template\ThinkTemplate.class.php 第 359 行.
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead D:\hotel\ThinkPHP\Lib\Template\ThinkTemplate.class.php 第 359 行.
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead D:\hotel\ThinkPHP\Lib\Template\ThinkTemplate.class.php 第 359 行.
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead D:\hotel\ThinkPHP\Lib\Template\ThinkTemplate.class.php 第 359 行.
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead D:\hotel\ThinkPHP\Lib\Template\ThinkTemplate.class.php 第 359 行.
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead D:\hotel\ThinkPHP\Lib\Template\ThinkTemplate.class.php 第 359 行.
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead D:\hotel\ThinkPHP\Lib\Template\ThinkTemplate.class.php 第 359 行.
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead D:\hotel\ThinkPHP\Lib\Template\ThinkTemplate.class.php 第 359 行.
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead D:\hotel\ThinkPHP\Lib\Template\ThinkTemplate.class.php 第 359 行.
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead D:\hotel\ThinkPHP\Lib\Template\ThinkTemplate.class.php 第 359 行.
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead D:\hotel\ThinkPHP\Lib\Template\ThinkTemplate.class.php 第 359 行.
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead D:\hotel\ThinkPHP\Lib\Template\ThinkTemplate.class.php 第 359 行.
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead D:\hotel\ThinkPHP\Lib\Template\ThinkTemplate.class.php 第 359 行.
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead D:\hotel\ThinkPHP\Lib\Template\ThinkTemplate.class.php 第 359 行.
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead D:\hotel\ThinkPHP\Lib\Template\ThinkTemplate.class.php 第 359 行.
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead D:\hotel\ThinkPHP\Lib\Template\ThinkTemplate.class.php 第 359 行.
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead D:\hotel\ThinkPHP\Lib\Template\ThinkTemplate.class.php 第 359 行.
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead D:\hotel\ThinkPHP\Lib\Template\ThinkTemplate.class.php 第 359 行.
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead D:\hotel\ThinkPHP\Lib\Template\ThinkTemplate.class.php 第 359 行.
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead D:\hotel\ThinkPHP\Lib\Template\ThinkTemplate.class.php 第 359 行.
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead D:\hotel\ThinkPHP\Lib\Template\ThinkTemplate.class.php 第 359 行.
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead D:\hotel\ThinkPHP\Lib\Template\ThinkTemplate.class.php 第 359 行.
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead D:\hotel\ThinkPHP\Lib\Template\ThinkTemplate.class.php 第 354 行.
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead D:\hotel\ThinkPHP\Lib\Template\ThinkTemplate.class.php 第 354 行.
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead D:\hotel\ThinkPHP\Lib\Template\ThinkTemplate.class.php 第 354 行.
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead D:\hotel\ThinkPHP\Lib\Template\ThinkTemplate.class.php 第 354 行.
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead D:\hotel\ThinkPHP\Lib\Template\ThinkTemplate.class.php 第 354 行.
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead D:\hotel\ThinkPHP\Lib\Template\ThinkTemplate.class.php 第 354 行.
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead D:\hotel\ThinkPHP\Lib\Template\ThinkTemplate.class.php 第 359 行.
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead D:\hotel\ThinkPHP\Lib\Template\ThinkTemplate.class.php 第 359 行.
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead D:\hotel\ThinkPHP\Lib\Template\ThinkTemplate.class.php 第 359 行.
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead D:\hotel\ThinkPHP\Lib\Template\ThinkTemplate.class.php 第 193 行.
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead D:\hotel\ThinkPHP\Lib\Template\ThinkTemplate.class.php 第 359 行.
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead D:\hotel\ThinkPHP\Lib\Template\ThinkTemplate.class.php 第 359 行.
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead D:\hotel\ThinkPHP\Lib\Template\ThinkTemplate.class.php 第 359 行.
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead D:\hotel\ThinkPHP\Lib\Template\ThinkTemplate.class.php 第 359 行.
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead D:\hotel\ThinkPHP\Lib\Template\ThinkTemplate.class.php 第 359 行.
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead D:\hotel\ThinkPHP\Lib\Template\ThinkTemplate.class.php 第 359 行.
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead D:\hotel\ThinkPHP\Lib\Template\ThinkTemplate.class.php 第 359 行.
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead D:\hotel\ThinkPHP\Lib\Template\ThinkTemplate.class.php 第 354 行.
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead D:\hotel\ThinkPHP\Lib\Template\ThinkTemplate.class.php 第 354 行.
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead D:\hotel\ThinkPHP\Lib\Template\ThinkTemplate.class.php 第 359 行.
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead D:\hotel\ThinkPHP\Lib\Template\ThinkTemplate.class.php 第 359 行.
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead D:\hotel\ThinkPHP\Lib\Template\ThinkTemplate.class.php 第 359 行.
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead D:\hotel\ThinkPHP\Lib\Template\ThinkTemplate.class.php 第 354 行.
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead D:\hotel\ThinkPHP\Lib\Template\ThinkTemplate.class.php 第 359 行.
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead D:\hotel\ThinkPHP\Lib\Template\ThinkTemplate.class.php 第 359 行.
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead D:\hotel\ThinkPHP\Lib\Template\ThinkTemplate.class.php 第 359 行.
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead D:\hotel\ThinkPHP\Lib\Template\ThinkTemplate.class.php 第 359 行.
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead D:\hotel\ThinkPHP\Lib\Template\ThinkTemplate.class.php 第 359 行.
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead D:\hotel\ThinkPHP\Lib\Template\ThinkTemplate.class.php 第 359 行.
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead D:\hotel\ThinkPHP\Lib\Template\ThinkTemplate.class.php 第 359 行.
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead D:\hotel\ThinkPHP\Lib\Template\ThinkTemplate.class.php 第 359 行.
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead D:\hotel\ThinkPHP\Lib\Template\ThinkTemplate.class.php 第 359 行.
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead D:\hotel\ThinkPHP\Lib\Template\ThinkTemplate.class.php 第 359 行.
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead D:\hotel\ThinkPHP\Lib\Template\ThinkTemplate.class.php 第 359 行.
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead D:\hotel\ThinkPHP\Lib\Template\ThinkTemplate.class.php 第 359 行.
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead D:\hotel\ThinkPHP\Lib\Template\ThinkTemplate.class.php 第 359 行.
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead D:\hotel\ThinkPHP\Lib\Template\ThinkTemplate.class.php 第 359 行.
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead D:\hotel\ThinkPHP\Lib\Template\ThinkTemplate.class.php 第 359 行.
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead D:\hotel\ThinkPHP\Lib\Template\ThinkTemplate.class.php 第 359 行.
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead D:\hotel\ThinkPHP\Lib\Template\ThinkTemplate.class.php 第 359 行.
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead D:\hotel\ThinkPHP\Lib\Template\ThinkTemplate.class.php 第 359 行.
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead D:\hotel\ThinkPHP\Lib\Template\ThinkTemplate.class.php 第 359 行.
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead D:\hotel\ThinkPHP\Lib\Template\ThinkTemplate.class.php 第 359 行.
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead D:\hotel\ThinkPHP\Lib\Template\ThinkTemplate.class.php 第 359 行.
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead D:\hotel\ThinkPHP\Lib\Template\ThinkTemplate.class.php 第 359 行.
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead D:\hotel\ThinkPHP\Lib\Template\ThinkTemplate.class.php 第 359 行.
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead D:\hotel\ThinkPHP\Lib\Template\ThinkTemplate.class.php 第 359 行.
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead D:\hotel\ThinkPHP\Lib\Template\ThinkTemplate.class.php 第 359 行.
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead D:\hotel\ThinkPHP\Lib\Template\ThinkTemplate.class.php 第 359 行.
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead D:\hotel\ThinkPHP\Lib\Template\ThinkTemplate.class.php 第 359 行.
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead D:\hotel\ThinkPHP\Lib\Template\ThinkTemplate.class.php 第 359 行.
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead D:\hotel\ThinkPHP\Lib\Template\ThinkTemplate.class.php 第 359 行.
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead D:\hotel\ThinkPHP\Lib\Template\ThinkTemplate.class.php 第 359 行.
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead D:\hotel\ThinkPHP\Lib\Template\ThinkTemplate.class.php 第 359 行.
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead D:\hotel\ThinkPHP\Lib\Template\ThinkTemplate.class.php 第 359 行.
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead D:\hotel\ThinkPHP\Lib\Template\ThinkTemplate.class.php 第 359 行.
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead D:\hotel\ThinkPHP\Lib\Template\ThinkTemplate.class.php 第 359 行.
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead D:\hotel\ThinkPHP\Lib\Template\ThinkTemplate.class.php 第 359 行.
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead D:\hotel\ThinkPHP\Lib\Template\ThinkTemplate.class.php 第 359 行.
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead D:\hotel\ThinkPHP\Lib\Template\ThinkTemplate.class.php 第 359 行.
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead D:\hotel\ThinkPHP\Lib\Template\ThinkTemplate.class.php 第 359 行.
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead D:\hotel\ThinkPHP\Lib\Template\ThinkTemplate.class.php 第 359 行.
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead D:\hotel\ThinkPHP\Lib\Template\ThinkTemplate.class.php 第 359 行.
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead D:\hotel\ThinkPHP\Lib\Template\ThinkTemplate.class.php 第 359 行.
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead D:\hotel\ThinkPHP\Lib\Template\ThinkTemplate.class.php 第 359 行.
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead D:\hotel\ThinkPHP\Lib\Template\ThinkTemplate.class.php 第 359 行.
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead D:\hotel\ThinkPHP\Lib\Template\ThinkTemplate.class.php 第 359 行.
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead D:\hotel\ThinkPHP\Lib\Template\ThinkTemplate.class.php 第 359 行.
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead D:\hotel\ThinkPHP\Lib\Template\ThinkTemplate.class.php 第 359 行.
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead D:\hotel\ThinkPHP\Lib\Template\ThinkTemplate.class.php 第 359 行.
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead D:\hotel\ThinkPHP\Lib\Template\ThinkTemplate.class.php 第 359 行.
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead D:\hotel\ThinkPHP\Lib\Template\ThinkTemplate.class.php 第 359 行.
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead D:\hotel\ThinkPHP\Lib\Template\ThinkTemplate.class.php 第 359 行.
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead D:\hotel\ThinkPHP\Lib\Template\ThinkTemplate.class.php 第 359 行.
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead D:\hotel\ThinkPHP\Lib\Template\ThinkTemplate.class.php 第 359 行.
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead D:\hotel\ThinkPHP\Lib\Template\ThinkTemplate.class.php 第 359 行.
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead D:\hotel\ThinkPHP\Lib\Template\ThinkTemplate.class.php 第 359 行.
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead D:\hotel\ThinkPHP\Lib\Template\ThinkTemplate.class.php 第 359 行.
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead D:\hotel\ThinkPHP\Lib\Template\ThinkTemplate.class.php 第 359 行.
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead D:\hotel\ThinkPHP\Lib\Template\ThinkTemplate.class.php 第 359 行.
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead D:\hotel\ThinkPHP\Lib\Template\ThinkTemplate.class.php 第 359 行.
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead D:\hotel\ThinkPHP\Lib\Template\ThinkTemplate.class.php 第 359 行.
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead D:\hotel\ThinkPHP\Lib\Template\ThinkTemplate.class.php 第 359 行.
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead D:\hotel\ThinkPHP\Lib\Template\ThinkTemplate.class.php 第 359 行.
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead D:\hotel\ThinkPHP\Lib\Template\ThinkTemplate.class.php 第 359 行.
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead D:\hotel\ThinkPHP\Lib\Template\ThinkTemplate.class.php 第 359 行.
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead D:\hotel\ThinkPHP\Lib\Template\ThinkTemplate.class.php 第 359 行.
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead D:\hotel\ThinkPHP\Lib\Template\ThinkTemplate.class.php 第 359 行.
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead D:\hotel\ThinkPHP\Lib\Template\ThinkTemplate.class.php 第 359 行.
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead D:\hotel\ThinkPHP\Lib\Template\ThinkTemplate.class.php 第 354 行.
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead D:\hotel\ThinkPHP\Lib\Template\ThinkTemplate.class.php 第 354 行.
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead D:\hotel\ThinkPHP\Lib\Template\ThinkTemplate.class.php 第 354 行.
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead D:\hotel\ThinkPHP\Lib\Template\ThinkTemplate.class.php 第 354 行.
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead D:\hotel\ThinkPHP\Lib\Template\ThinkTemplate.class.php 第 354 行.
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead D:\hotel\ThinkPHP\Lib\Template\ThinkTemplate.class.php 第 354 行.
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead D:\hotel\ThinkPHP\Lib\Template\ThinkTemplate.class.php 第 359 行.
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead D:\hotel\ThinkPHP\Lib\Template\ThinkTemplate.class.php 第 359 行.
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead D:\hotel\ThinkPHP\Lib\Template\ThinkTemplate.class.php 第 359 行.
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead D:\hotel\ThinkPHP\Lib\Template\ThinkTemplate.class.php 第 193 行.
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead D:\hotel\ThinkPHP\Lib\Template\ThinkTemplate.class.php 第 133 行.
+NOTIC: [8] Use of undefined constant paid - assumed 'paid' D:\hotel\Admin\Runtime\Cache\4421888e8abac251e17751c615e5e671.php 第 117 行.
+NOTIC: [8] Use of undefined constant not_paid - assumed 'not_paid' D:\hotel\Admin\Runtime\Cache\4421888e8abac251e17751c615e5e671.php 第 118 行.
+NOTIC: [8] Use of undefined constant wechat - assumed 'wechat' D:\hotel\Admin\Runtime\Cache\4421888e8abac251e17751c615e5e671.php 第 122 行.
+NOTIC: [8] Use of undefined constant score - assumed 'score' D:\hotel\Admin\Runtime\Cache\4421888e8abac251e17751c615e5e671.php 第 123 行.
+NOTIC: [8] Use of undefined constant wait_for_pay - assumed 'wait_for_pay' D:\hotel\Admin\Runtime\Cache\4421888e8abac251e17751c615e5e671.php 第 153 行.
+NOTIC: [8] Use of undefined constant wait_for_confirm - assumed 'wait_for_confirm' D:\hotel\Admin\Runtime\Cache\4421888e8abac251e17751c615e5e671.php 第 154 行.
+NOTIC: [8] Use of undefined constant success - assumed 'success' D:\hotel\Admin\Runtime\Cache\4421888e8abac251e17751c615e5e671.php 第 155 行.
+NOTIC: [8] Undefined index: id D:\hotel\Admin\Runtime\Cache\4421888e8abac251e17751c615e5e671.php 第 183 行.
+NOTIC: [8] Use of undefined constant paid - assumed 'paid' D:\hotel\Admin\Runtime\Cache\4421888e8abac251e17751c615e5e671.php 第 117 行.
+NOTIC: [8] Use of undefined constant wechat - assumed 'wechat' D:\hotel\Admin\Runtime\Cache\4421888e8abac251e17751c615e5e671.php 第 122 行.
+NOTIC: [8] Use of undefined constant score - assumed 'score' D:\hotel\Admin\Runtime\Cache\4421888e8abac251e17751c615e5e671.php 第 123 行.
+NOTIC: [8] Use of undefined constant wait_for_pay - assumed 'wait_for_pay' D:\hotel\Admin\Runtime\Cache\4421888e8abac251e17751c615e5e671.php 第 153 行.
+NOTIC: [8] Use of undefined constant wait_for_confirm - assumed 'wait_for_confirm' D:\hotel\Admin\Runtime\Cache\4421888e8abac251e17751c615e5e671.php 第 154 行.
+NOTIC: [8] Use of undefined constant success - assumed 'success' D:\hotel\Admin\Runtime\Cache\4421888e8abac251e17751c615e5e671.php 第 155 行.
+NOTIC: [8] Use of undefined constant cancle - assumed 'cancle' D:\hotel\Admin\Runtime\Cache\4421888e8abac251e17751c615e5e671.php 第 156 行.
+NOTIC: [8] Undefined index: id D:\hotel\Admin\Runtime\Cache\4421888e8abac251e17751c615e5e671.php 第 183 行.
+NOTIC: [8] Use of undefined constant paid - assumed 'paid' D:\hotel\Admin\Runtime\Cache\4421888e8abac251e17751c615e5e671.php 第 117 行.
+NOTIC: [8] Use of undefined constant not_paid - assumed 'not_paid' D:\hotel\Admin\Runtime\Cache\4421888e8abac251e17751c615e5e671.php 第 118 行.
+NOTIC: [8] Use of undefined constant wechat - assumed 'wechat' D:\hotel\Admin\Runtime\Cache\4421888e8abac251e17751c615e5e671.php 第 122 行.
+NOTIC: [8] Use of undefined constant score - assumed 'score' D:\hotel\Admin\Runtime\Cache\4421888e8abac251e17751c615e5e671.php 第 123 行.
+NOTIC: [8] Use of undefined constant wait_for_pay - assumed 'wait_for_pay' D:\hotel\Admin\Runtime\Cache\4421888e8abac251e17751c615e5e671.php 第 153 行.
+NOTIC: [8] Use of undefined constant wait_for_confirm - assumed 'wait_for_confirm' D:\hotel\Admin\Runtime\Cache\4421888e8abac251e17751c615e5e671.php 第 154 行.
+NOTIC: [8] Use of undefined constant success - assumed 'success' D:\hotel\Admin\Runtime\Cache\4421888e8abac251e17751c615e5e671.php 第 155 行.
+NOTIC: [8] Use of undefined constant cancle - assumed 'cancle' D:\hotel\Admin\Runtime\Cache\4421888e8abac251e17751c615e5e671.php 第 156 行.
+NOTIC: [8] Undefined index: id D:\hotel\Admin\Runtime\Cache\4421888e8abac251e17751c615e5e671.php 第 183 行.
+NOTIC: [8] Use of undefined constant paid - assumed 'paid' D:\hotel\Admin\Runtime\Cache\4421888e8abac251e17751c615e5e671.php 第 117 行.
+NOTIC: [8] Use of undefined constant wechat - assumed 'wechat' D:\hotel\Admin\Runtime\Cache\4421888e8abac251e17751c615e5e671.php 第 122 行.
+NOTIC: [8] Use of undefined constant score - assumed 'score' D:\hotel\Admin\Runtime\Cache\4421888e8abac251e17751c615e5e671.php 第 123 行.
+NOTIC: [8] Use of undefined constant wait_for_pay - assumed 'wait_for_pay' D:\hotel\Admin\Runtime\Cache\4421888e8abac251e17751c615e5e671.php 第 153 行.
+NOTIC: [8] Use of undefined constant wait_for_confirm - assumed 'wait_for_confirm' D:\hotel\Admin\Runtime\Cache\4421888e8abac251e17751c615e5e671.php 第 154 行.
+NOTIC: [8] Use of undefined constant success - assumed 'success' D:\hotel\Admin\Runtime\Cache\4421888e8abac251e17751c615e5e671.php 第 155 行.
+NOTIC: [8] Use of undefined constant cancle - assumed 'cancle' D:\hotel\Admin\Runtime\Cache\4421888e8abac251e17751c615e5e671.php 第 156 行.
+NOTIC: [8] Undefined index: id D:\hotel\Admin\Runtime\Cache\4421888e8abac251e17751c615e5e671.php 第 183 行.
+NOTIC: [8] Use of undefined constant paid - assumed 'paid' D:\hotel\Admin\Runtime\Cache\4421888e8abac251e17751c615e5e671.php 第 117 行.
+NOTIC: [8] Use of undefined constant not_paid - assumed 'not_paid' D:\hotel\Admin\Runtime\Cache\4421888e8abac251e17751c615e5e671.php 第 118 行.
+NOTIC: [8] Use of undefined constant wechat - assumed 'wechat' D:\hotel\Admin\Runtime\Cache\4421888e8abac251e17751c615e5e671.php 第 122 行.
+NOTIC: [8] Use of undefined constant wait_for_pay - assumed 'wait_for_pay' D:\hotel\Admin\Runtime\Cache\4421888e8abac251e17751c615e5e671.php 第 153 行.
+NOTIC: [8] Use of undefined constant wait_for_confirm - assumed 'wait_for_confirm' D:\hotel\Admin\Runtime\Cache\4421888e8abac251e17751c615e5e671.php 第 154 行.
+NOTIC: [8] Use of undefined constant success - assumed 'success' D:\hotel\Admin\Runtime\Cache\4421888e8abac251e17751c615e5e671.php 第 155 行.
+NOTIC: [8] Use of undefined constant cancle - assumed 'cancle' D:\hotel\Admin\Runtime\Cache\4421888e8abac251e17751c615e5e671.php 第 156 行.
+NOTIC: [8] Undefined index: id D:\hotel\Admin\Runtime\Cache\4421888e8abac251e17751c615e5e671.php 第 183 行.
+INFO: Run ParseTemplate Behavior [ RunTime:-0.032339s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.046862s ]
+INFO: [ view_filter ] --START--
+INFO: Run ContentReplace Behavior [ RunTime:-0.079309s ]
+INFO: Run TokenBuild Behavior [ RunTime:-0.080196s ]
+INFO: Run WriteHtmlCache Behavior [ RunTime:-0.080988s ]
+INFO: Run ShowRuntime Behavior [ RunTime:-0.081613s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.003312s ]
+INFO: [ view_end ] --START--
+INFO: Run ShowPageTrace Behavior [ RunTime:-0.083284s ]
+INFO: [ view_end ] --END-- [ RunTime:0.001346s ]
+
+[ 2016-12-03T23:56:55+08:00 ] 127.0.0.1 /admin.php/Order/index
+INFO: [ route_check ] --START--
+INFO: Run CheckRoute Behavior [ RunTime:0.001061s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001234s ]
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead D:\hotel\ThinkPHP\Lib\Core\Dispatcher.class.php 第 120 行.
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:-0.000985s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000995s ]
+NOTIC: [8] Undefined index: chaxun D:\hotel\Admin\Lib\Action\OrderAction.class.php 第 30 行.
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead D:\hotel\ThinkPHP\Lib\Driver\Db\DbMysql.class.php 第 55 行.
+SQL: SHOW COLUMNS FROM `orders` [ RunTime:0.000921s ]
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead D:\hotel\ThinkPHP\Lib\Core\Db.class.php 第 571 行.
+SQL: SELECT orders.id oid,user_usual_infos.name uname,user_usual_infos.phone up,users.score,orders.start_time ost,orders.end_time oed,orders.payment_status ops,orders.room_num orn,orders.payment_method opm,orders.check_in,hotels.name hn,rooms.display_name rdn,rooms.price rp,orders.order_status oos,orders.open_id ooi,orders.latest_arrive_time olat,orders.special_requirement osr,orders.remark ork FROM `orders` LEFT JOIN user_usual_infos ON user_usual_infos.id = orders.usual_user_info_id LEFT JOIN users ON orders.user_id = users.id LEFT JOIN hotels ON hotels.id = orders.hotel_id LEFT JOIN rooms ON rooms.id = orders.room_id ORDER BY oed desc  [ RunTime:0.001028s ]
+INFO: [ view_template ] --START--
+INFO: Run LocationTemplate Behavior [ RunTime:-0.021635s ]
+INFO: [ view_template ] --END-- [ RunTime:0.001446s ]
+INFO: [ view_parse ] --START--
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead D:\hotel\ThinkPHP\Lib\Template\ThinkTemplate.class.php 第 164 行.
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead D:\hotel\ThinkPHP\Lib\Template\ThinkTemplate.class.php 第 359 行.
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead D:\hotel\ThinkPHP\Lib\Template\ThinkTemplate.class.php 第 359 行.
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead D:\hotel\ThinkPHP\Lib\Template\ThinkTemplate.class.php 第 359 行.
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead D:\hotel\ThinkPHP\Lib\Template\ThinkTemplate.class.php 第 359 行.
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead D:\hotel\ThinkPHP\Lib\Template\ThinkTemplate.class.php 第 359 行.
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead D:\hotel\ThinkPHP\Lib\Template\ThinkTemplate.class.php 第 164 行.
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead D:\hotel\ThinkPHP\Lib\Template\ThinkTemplate.class.php 第 359 行.
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead D:\hotel\ThinkPHP\Lib\Template\ThinkTemplate.class.php 第 359 行.
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead D:\hotel\ThinkPHP\Lib\Template\ThinkTemplate.class.php 第 359 行.
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead D:\hotel\ThinkPHP\Lib\Template\ThinkTemplate.class.php 第 359 行.
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead D:\hotel\ThinkPHP\Lib\Template\ThinkTemplate.class.php 第 359 行.
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead D:\hotel\ThinkPHP\Lib\Template\ThinkTemplate.class.php 第 359 行.
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead D:\hotel\ThinkPHP\Lib\Template\ThinkTemplate.class.php 第 359 行.
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead D:\hotel\ThinkPHP\Lib\Template\ThinkTemplate.class.php 第 359 行.
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead D:\hotel\ThinkPHP\Lib\Template\ThinkTemplate.class.php 第 359 行.
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead D:\hotel\ThinkPHP\Lib\Template\ThinkTemplate.class.php 第 359 行.
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead D:\hotel\ThinkPHP\Lib\Template\ThinkTemplate.class.php 第 359 行.
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead D:\hotel\ThinkPHP\Lib\Template\ThinkTemplate.class.php 第 359 行.
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead D:\hotel\ThinkPHP\Lib\Template\ThinkTemplate.class.php 第 354 行.
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead D:\hotel\ThinkPHP\Lib\Template\ThinkTemplate.class.php 第 354 行.
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead D:\hotel\ThinkPHP\Lib\Template\ThinkTemplate.class.php 第 359 行.
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead D:\hotel\ThinkPHP\Lib\Template\ThinkTemplate.class.php 第 359 行.
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead D:\hotel\ThinkPHP\Lib\Template\ThinkTemplate.class.php 第 359 行.
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead D:\hotel\ThinkPHP\Lib\Template\ThinkTemplate.class.php 第 354 行.
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead D:\hotel\ThinkPHP\Lib\Template\ThinkTemplate.class.php 第 359 行.
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead D:\hotel\ThinkPHP\Lib\Template\ThinkTemplate.class.php 第 359 行.
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead D:\hotel\ThinkPHP\Lib\Template\ThinkTemplate.class.php 第 359 行.
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead D:\hotel\ThinkPHP\Lib\Template\ThinkTemplate.class.php 第 359 行.
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead D:\hotel\ThinkPHP\Lib\Template\ThinkTemplate.class.php 第 359 行.
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead D:\hotel\ThinkPHP\Lib\Template\ThinkTemplate.class.php 第 359 行.
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead D:\hotel\ThinkPHP\Lib\Template\ThinkTemplate.class.php 第 359 行.
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead D:\hotel\ThinkPHP\Lib\Template\ThinkTemplate.class.php 第 359 行.
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead D:\hotel\ThinkPHP\Lib\Template\ThinkTemplate.class.php 第 359 行.
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead D:\hotel\ThinkPHP\Lib\Template\ThinkTemplate.class.php 第 359 行.
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead D:\hotel\ThinkPHP\Lib\Template\ThinkTemplate.class.php 第 359 行.
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead D:\hotel\ThinkPHP\Lib\Template\ThinkTemplate.class.php 第 359 行.
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead D:\hotel\ThinkPHP\Lib\Template\ThinkTemplate.class.php 第 359 行.
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead D:\hotel\ThinkPHP\Lib\Template\ThinkTemplate.class.php 第 359 行.
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead D:\hotel\ThinkPHP\Lib\Template\ThinkTemplate.class.php 第 359 行.
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead D:\hotel\ThinkPHP\Lib\Template\ThinkTemplate.class.php 第 359 行.
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead D:\hotel\ThinkPHP\Lib\Template\ThinkTemplate.class.php 第 359 行.
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead D:\hotel\ThinkPHP\Lib\Template\ThinkTemplate.class.php 第 359 行.
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead D:\hotel\ThinkPHP\Lib\Template\ThinkTemplate.class.php 第 359 行.
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead D:\hotel\ThinkPHP\Lib\Template\ThinkTemplate.class.php 第 359 行.
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead D:\hotel\ThinkPHP\Lib\Template\ThinkTemplate.class.php 第 359 行.
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead D:\hotel\ThinkPHP\Lib\Template\ThinkTemplate.class.php 第 359 行.
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead D:\hotel\ThinkPHP\Lib\Template\ThinkTemplate.class.php 第 359 行.
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead D:\hotel\ThinkPHP\Lib\Template\ThinkTemplate.class.php 第 359 行.
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead D:\hotel\ThinkPHP\Lib\Template\ThinkTemplate.class.php 第 359 行.
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead D:\hotel\ThinkPHP\Lib\Template\ThinkTemplate.class.php 第 359 行.
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead D:\hotel\ThinkPHP\Lib\Template\ThinkTemplate.class.php 第 359 行.
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead D:\hotel\ThinkPHP\Lib\Template\ThinkTemplate.class.php 第 359 行.
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead D:\hotel\ThinkPHP\Lib\Template\ThinkTemplate.class.php 第 359 行.
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead D:\hotel\ThinkPHP\Lib\Template\ThinkTemplate.class.php 第 359 行.
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead D:\hotel\ThinkPHP\Lib\Template\ThinkTemplate.class.php 第 359 行.
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead D:\hotel\ThinkPHP\Lib\Template\ThinkTemplate.class.php 第 359 行.
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead D:\hotel\ThinkPHP\Lib\Template\ThinkTemplate.class.php 第 359 行.
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead D:\hotel\ThinkPHP\Lib\Template\ThinkTemplate.class.php 第 359 行.
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead D:\hotel\ThinkPHP\Lib\Template\ThinkTemplate.class.php 第 359 行.
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead D:\hotel\ThinkPHP\Lib\Template\ThinkTemplate.class.php 第 359 行.
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead D:\hotel\ThinkPHP\Lib\Template\ThinkTemplate.class.php 第 359 行.
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead D:\hotel\ThinkPHP\Lib\Template\ThinkTemplate.class.php 第 359 行.
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead D:\hotel\ThinkPHP\Lib\Template\ThinkTemplate.class.php 第 359 行.
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead D:\hotel\ThinkPHP\Lib\Template\ThinkTemplate.class.php 第 359 行.
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead D:\hotel\ThinkPHP\Lib\Template\ThinkTemplate.class.php 第 359 行.
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead D:\hotel\ThinkPHP\Lib\Template\ThinkTemplate.class.php 第 359 行.
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead D:\hotel\ThinkPHP\Lib\Template\ThinkTemplate.class.php 第 359 行.
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead D:\hotel\ThinkPHP\Lib\Template\ThinkTemplate.class.php 第 359 行.
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead D:\hotel\ThinkPHP\Lib\Template\ThinkTemplate.class.php 第 359 行.
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead D:\hotel\ThinkPHP\Lib\Template\ThinkTemplate.class.php 第 359 行.
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead D:\hotel\ThinkPHP\Lib\Template\ThinkTemplate.class.php 第 359 行.
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead D:\hotel\ThinkPHP\Lib\Template\ThinkTemplate.class.php 第 359 行.
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead D:\hotel\ThinkPHP\Lib\Template\ThinkTemplate.class.php 第 359 行.
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead D:\hotel\ThinkPHP\Lib\Template\ThinkTemplate.class.php 第 359 行.
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead D:\hotel\ThinkPHP\Lib\Template\ThinkTemplate.class.php 第 359 行.
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead D:\hotel\ThinkPHP\Lib\Template\ThinkTemplate.class.php 第 359 行.
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead D:\hotel\ThinkPHP\Lib\Template\ThinkTemplate.class.php 第 359 行.
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead D:\hotel\ThinkPHP\Lib\Template\ThinkTemplate.class.php 第 359 行.
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead D:\hotel\ThinkPHP\Lib\Template\ThinkTemplate.class.php 第 359 行.
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead D:\hotel\ThinkPHP\Lib\Template\ThinkTemplate.class.php 第 359 行.
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead D:\hotel\ThinkPHP\Lib\Template\ThinkTemplate.class.php 第 359 行.
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead D:\hotel\ThinkPHP\Lib\Template\ThinkTemplate.class.php 第 359 行.
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead D:\hotel\ThinkPHP\Lib\Template\ThinkTemplate.class.php 第 359 行.
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead D:\hotel\ThinkPHP\Lib\Template\ThinkTemplate.class.php 第 359 行.
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead D:\hotel\ThinkPHP\Lib\Template\ThinkTemplate.class.php 第 359 行.
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead D:\hotel\ThinkPHP\Lib\Template\ThinkTemplate.class.php 第 359 行.
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead D:\hotel\ThinkPHP\Lib\Template\ThinkTemplate.class.php 第 359 行.
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead D:\hotel\ThinkPHP\Lib\Template\ThinkTemplate.class.php 第 359 行.
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead D:\hotel\ThinkPHP\Lib\Template\ThinkTemplate.class.php 第 359 行.
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead D:\hotel\ThinkPHP\Lib\Template\ThinkTemplate.class.php 第 359 行.
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead D:\hotel\ThinkPHP\Lib\Template\ThinkTemplate.class.php 第 354 行.
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead D:\hotel\ThinkPHP\Lib\Template\ThinkTemplate.class.php 第 354 行.
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead D:\hotel\ThinkPHP\Lib\Template\ThinkTemplate.class.php 第 354 行.
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead D:\hotel\ThinkPHP\Lib\Template\ThinkTemplate.class.php 第 354 行.
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead D:\hotel\ThinkPHP\Lib\Template\ThinkTemplate.class.php 第 354 行.
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead D:\hotel\ThinkPHP\Lib\Template\ThinkTemplate.class.php 第 354 行.
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead D:\hotel\ThinkPHP\Lib\Template\ThinkTemplate.class.php 第 359 行.
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead D:\hotel\ThinkPHP\Lib\Template\ThinkTemplate.class.php 第 359 行.
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead D:\hotel\ThinkPHP\Lib\Template\ThinkTemplate.class.php 第 359 行.
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead D:\hotel\ThinkPHP\Lib\Template\ThinkTemplate.class.php 第 193 行.
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead D:\hotel\ThinkPHP\Lib\Template\ThinkTemplate.class.php 第 359 行.
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead D:\hotel\ThinkPHP\Lib\Template\ThinkTemplate.class.php 第 359 行.
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead D:\hotel\ThinkPHP\Lib\Template\ThinkTemplate.class.php 第 359 行.
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead D:\hotel\ThinkPHP\Lib\Template\ThinkTemplate.class.php 第 359 行.
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead D:\hotel\ThinkPHP\Lib\Template\ThinkTemplate.class.php 第 359 行.
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead D:\hotel\ThinkPHP\Lib\Template\ThinkTemplate.class.php 第 359 行.
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead D:\hotel\ThinkPHP\Lib\Template\ThinkTemplate.class.php 第 359 行.
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead D:\hotel\ThinkPHP\Lib\Template\ThinkTemplate.class.php 第 354 行.
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead D:\hotel\ThinkPHP\Lib\Template\ThinkTemplate.class.php 第 354 行.
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead D:\hotel\ThinkPHP\Lib\Template\ThinkTemplate.class.php 第 359 行.
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead D:\hotel\ThinkPHP\Lib\Template\ThinkTemplate.class.php 第 359 行.
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead D:\hotel\ThinkPHP\Lib\Template\ThinkTemplate.class.php 第 359 行.
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead D:\hotel\ThinkPHP\Lib\Template\ThinkTemplate.class.php 第 354 行.
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead D:\hotel\ThinkPHP\Lib\Template\ThinkTemplate.class.php 第 359 行.
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead D:\hotel\ThinkPHP\Lib\Template\ThinkTemplate.class.php 第 359 行.
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead D:\hotel\ThinkPHP\Lib\Template\ThinkTemplate.class.php 第 359 行.
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead D:\hotel\ThinkPHP\Lib\Template\ThinkTemplate.class.php 第 359 行.
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead D:\hotel\ThinkPHP\Lib\Template\ThinkTemplate.class.php 第 359 行.
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead D:\hotel\ThinkPHP\Lib\Template\ThinkTemplate.class.php 第 359 行.
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead D:\hotel\ThinkPHP\Lib\Template\ThinkTemplate.class.php 第 359 行.
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead D:\hotel\ThinkPHP\Lib\Template\ThinkTemplate.class.php 第 359 行.
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead D:\hotel\ThinkPHP\Lib\Template\ThinkTemplate.class.php 第 359 行.
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead D:\hotel\ThinkPHP\Lib\Template\ThinkTemplate.class.php 第 359 行.
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead D:\hotel\ThinkPHP\Lib\Template\ThinkTemplate.class.php 第 359 行.
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead D:\hotel\ThinkPHP\Lib\Template\ThinkTemplate.class.php 第 359 行.
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead D:\hotel\ThinkPHP\Lib\Template\ThinkTemplate.class.php 第 359 行.
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead D:\hotel\ThinkPHP\Lib\Template\ThinkTemplate.class.php 第 359 行.
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead D:\hotel\ThinkPHP\Lib\Template\ThinkTemplate.class.php 第 359 行.
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead D:\hotel\ThinkPHP\Lib\Template\ThinkTemplate.class.php 第 359 行.
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead D:\hotel\ThinkPHP\Lib\Template\ThinkTemplate.class.php 第 359 行.
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead D:\hotel\ThinkPHP\Lib\Template\ThinkTemplate.class.php 第 359 行.
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead D:\hotel\ThinkPHP\Lib\Template\ThinkTemplate.class.php 第 359 行.
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead D:\hotel\ThinkPHP\Lib\Template\ThinkTemplate.class.php 第 359 行.
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead D:\hotel\ThinkPHP\Lib\Template\ThinkTemplate.class.php 第 359 行.
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead D:\hotel\ThinkPHP\Lib\Template\ThinkTemplate.class.php 第 359 行.
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead D:\hotel\ThinkPHP\Lib\Template\ThinkTemplate.class.php 第 359 行.
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead D:\hotel\ThinkPHP\Lib\Template\ThinkTemplate.class.php 第 359 行.
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead D:\hotel\ThinkPHP\Lib\Template\ThinkTemplate.class.php 第 359 行.
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead D:\hotel\ThinkPHP\Lib\Template\ThinkTemplate.class.php 第 359 行.
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead D:\hotel\ThinkPHP\Lib\Template\ThinkTemplate.class.php 第 359 行.
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead D:\hotel\ThinkPHP\Lib\Template\ThinkTemplate.class.php 第 359 行.
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead D:\hotel\ThinkPHP\Lib\Template\ThinkTemplate.class.php 第 359 行.
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead D:\hotel\ThinkPHP\Lib\Template\ThinkTemplate.class.php 第 359 行.
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead D:\hotel\ThinkPHP\Lib\Template\ThinkTemplate.class.php 第 359 行.
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead D:\hotel\ThinkPHP\Lib\Template\ThinkTemplate.class.php 第 359 行.
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead D:\hotel\ThinkPHP\Lib\Template\ThinkTemplate.class.php 第 359 行.
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead D:\hotel\ThinkPHP\Lib\Template\ThinkTemplate.class.php 第 359 行.
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead D:\hotel\ThinkPHP\Lib\Template\ThinkTemplate.class.php 第 359 行.
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead D:\hotel\ThinkPHP\Lib\Template\ThinkTemplate.class.php 第 359 行.
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead D:\hotel\ThinkPHP\Lib\Template\ThinkTemplate.class.php 第 359 行.
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead D:\hotel\ThinkPHP\Lib\Template\ThinkTemplate.class.php 第 359 行.
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead D:\hotel\ThinkPHP\Lib\Template\ThinkTemplate.class.php 第 359 行.
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead D:\hotel\ThinkPHP\Lib\Template\ThinkTemplate.class.php 第 359 行.
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead D:\hotel\ThinkPHP\Lib\Template\ThinkTemplate.class.php 第 359 行.
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead D:\hotel\ThinkPHP\Lib\Template\ThinkTemplate.class.php 第 359 行.
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead D:\hotel\ThinkPHP\Lib\Template\ThinkTemplate.class.php 第 359 行.
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead D:\hotel\ThinkPHP\Lib\Template\ThinkTemplate.class.php 第 359 行.
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead D:\hotel\ThinkPHP\Lib\Template\ThinkTemplate.class.php 第 359 行.
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead D:\hotel\ThinkPHP\Lib\Template\ThinkTemplate.class.php 第 359 行.
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead D:\hotel\ThinkPHP\Lib\Template\ThinkTemplate.class.php 第 359 行.
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead D:\hotel\ThinkPHP\Lib\Template\ThinkTemplate.class.php 第 359 行.
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead D:\hotel\ThinkPHP\Lib\Template\ThinkTemplate.class.php 第 359 行.
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead D:\hotel\ThinkPHP\Lib\Template\ThinkTemplate.class.php 第 359 行.
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead D:\hotel\ThinkPHP\Lib\Template\ThinkTemplate.class.php 第 359 行.
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead D:\hotel\ThinkPHP\Lib\Template\ThinkTemplate.class.php 第 359 行.
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead D:\hotel\ThinkPHP\Lib\Template\ThinkTemplate.class.php 第 359 行.
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead D:\hotel\ThinkPHP\Lib\Template\ThinkTemplate.class.php 第 359 行.
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead D:\hotel\ThinkPHP\Lib\Template\ThinkTemplate.class.php 第 359 行.
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead D:\hotel\ThinkPHP\Lib\Template\ThinkTemplate.class.php 第 359 行.
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead D:\hotel\ThinkPHP\Lib\Template\ThinkTemplate.class.php 第 359 行.
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead D:\hotel\ThinkPHP\Lib\Template\ThinkTemplate.class.php 第 359 行.
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead D:\hotel\ThinkPHP\Lib\Template\ThinkTemplate.class.php 第 359 行.
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead D:\hotel\ThinkPHP\Lib\Template\ThinkTemplate.class.php 第 359 行.
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead D:\hotel\ThinkPHP\Lib\Template\ThinkTemplate.class.php 第 359 行.
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead D:\hotel\ThinkPHP\Lib\Template\ThinkTemplate.class.php 第 359 行.
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead D:\hotel\ThinkPHP\Lib\Template\ThinkTemplate.class.php 第 359 行.
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead D:\hotel\ThinkPHP\Lib\Template\ThinkTemplate.class.php 第 359 行.
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead D:\hotel\ThinkPHP\Lib\Template\ThinkTemplate.class.php 第 359 行.
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead D:\hotel\ThinkPHP\Lib\Template\ThinkTemplate.class.php 第 359 行.
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead D:\hotel\ThinkPHP\Lib\Template\ThinkTemplate.class.php 第 354 行.
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead D:\hotel\ThinkPHP\Lib\Template\ThinkTemplate.class.php 第 354 行.
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead D:\hotel\ThinkPHP\Lib\Template\ThinkTemplate.class.php 第 354 行.
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead D:\hotel\ThinkPHP\Lib\Template\ThinkTemplate.class.php 第 354 行.
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead D:\hotel\ThinkPHP\Lib\Template\ThinkTemplate.class.php 第 354 行.
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead D:\hotel\ThinkPHP\Lib\Template\ThinkTemplate.class.php 第 354 行.
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead D:\hotel\ThinkPHP\Lib\Template\ThinkTemplate.class.php 第 359 行.
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead D:\hotel\ThinkPHP\Lib\Template\ThinkTemplate.class.php 第 359 行.
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead D:\hotel\ThinkPHP\Lib\Template\ThinkTemplate.class.php 第 359 行.
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead D:\hotel\ThinkPHP\Lib\Template\ThinkTemplate.class.php 第 193 行.
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead D:\hotel\ThinkPHP\Lib\Template\ThinkTemplate.class.php 第 133 行.
+NOTIC: [8] Use of undefined constant paid - assumed 'paid' D:\hotel\Admin\Runtime\Cache\4421888e8abac251e17751c615e5e671.php 第 117 行.
+NOTIC: [8] Use of undefined constant not_paid - assumed 'not_paid' D:\hotel\Admin\Runtime\Cache\4421888e8abac251e17751c615e5e671.php 第 118 行.
+NOTIC: [8] Use of undefined constant wechat - assumed 'wechat' D:\hotel\Admin\Runtime\Cache\4421888e8abac251e17751c615e5e671.php 第 122 行.
+NOTIC: [8] Use of undefined constant score - assumed 'score' D:\hotel\Admin\Runtime\Cache\4421888e8abac251e17751c615e5e671.php 第 123 行.
+NOTIC: [8] Use of undefined constant wait_for_pay - assumed 'wait_for_pay' D:\hotel\Admin\Runtime\Cache\4421888e8abac251e17751c615e5e671.php 第 153 行.
+NOTIC: [8] Use of undefined constant wait_for_confirm - assumed 'wait_for_confirm' D:\hotel\Admin\Runtime\Cache\4421888e8abac251e17751c615e5e671.php 第 154 行.
+NOTIC: [8] Use of undefined constant success - assumed 'success' D:\hotel\Admin\Runtime\Cache\4421888e8abac251e17751c615e5e671.php 第 155 行.
+NOTIC: [8] Undefined index: id D:\hotel\Admin\Runtime\Cache\4421888e8abac251e17751c615e5e671.php 第 183 行.
+NOTIC: [8] Use of undefined constant paid - assumed 'paid' D:\hotel\Admin\Runtime\Cache\4421888e8abac251e17751c615e5e671.php 第 117 行.
+NOTIC: [8] Use of undefined constant wechat - assumed 'wechat' D:\hotel\Admin\Runtime\Cache\4421888e8abac251e17751c615e5e671.php 第 122 行.
+NOTIC: [8] Use of undefined constant score - assumed 'score' D:\hotel\Admin\Runtime\Cache\4421888e8abac251e17751c615e5e671.php 第 123 行.
+NOTIC: [8] Use of undefined constant wait_for_pay - assumed 'wait_for_pay' D:\hotel\Admin\Runtime\Cache\4421888e8abac251e17751c615e5e671.php 第 153 行.
+NOTIC: [8] Use of undefined constant wait_for_confirm - assumed 'wait_for_confirm' D:\hotel\Admin\Runtime\Cache\4421888e8abac251e17751c615e5e671.php 第 154 行.
+NOTIC: [8] Use of undefined constant success - assumed 'success' D:\hotel\Admin\Runtime\Cache\4421888e8abac251e17751c615e5e671.php 第 155 行.
+NOTIC: [8] Use of undefined constant cancle - assumed 'cancle' D:\hotel\Admin\Runtime\Cache\4421888e8abac251e17751c615e5e671.php 第 156 行.
+NOTIC: [8] Undefined index: id D:\hotel\Admin\Runtime\Cache\4421888e8abac251e17751c615e5e671.php 第 183 行.
+NOTIC: [8] Use of undefined constant paid - assumed 'paid' D:\hotel\Admin\Runtime\Cache\4421888e8abac251e17751c615e5e671.php 第 117 行.
+NOTIC: [8] Use of undefined constant not_paid - assumed 'not_paid' D:\hotel\Admin\Runtime\Cache\4421888e8abac251e17751c615e5e671.php 第 118 行.
+NOTIC: [8] Use of undefined constant wechat - assumed 'wechat' D:\hotel\Admin\Runtime\Cache\4421888e8abac251e17751c615e5e671.php 第 122 行.
+NOTIC: [8] Use of undefined constant score - assumed 'score' D:\hotel\Admin\Runtime\Cache\4421888e8abac251e17751c615e5e671.php 第 123 行.
+NOTIC: [8] Use of undefined constant wait_for_pay - assumed 'wait_for_pay' D:\hotel\Admin\Runtime\Cache\4421888e8abac251e17751c615e5e671.php 第 153 行.
+NOTIC: [8] Use of undefined constant wait_for_confirm - assumed 'wait_for_confirm' D:\hotel\Admin\Runtime\Cache\4421888e8abac251e17751c615e5e671.php 第 154 行.
+NOTIC: [8] Use of undefined constant success - assumed 'success' D:\hotel\Admin\Runtime\Cache\4421888e8abac251e17751c615e5e671.php 第 155 行.
+NOTIC: [8] Use of undefined constant cancle - assumed 'cancle' D:\hotel\Admin\Runtime\Cache\4421888e8abac251e17751c615e5e671.php 第 156 行.
+NOTIC: [8] Undefined index: id D:\hotel\Admin\Runtime\Cache\4421888e8abac251e17751c615e5e671.php 第 183 行.
+NOTIC: [8] Use of undefined constant paid - assumed 'paid' D:\hotel\Admin\Runtime\Cache\4421888e8abac251e17751c615e5e671.php 第 117 行.
+NOTIC: [8] Use of undefined constant wechat - assumed 'wechat' D:\hotel\Admin\Runtime\Cache\4421888e8abac251e17751c615e5e671.php 第 122 行.
+NOTIC: [8] Use of undefined constant score - assumed 'score' D:\hotel\Admin\Runtime\Cache\4421888e8abac251e17751c615e5e671.php 第 123 行.
+NOTIC: [8] Use of undefined constant wait_for_pay - assumed 'wait_for_pay' D:\hotel\Admin\Runtime\Cache\4421888e8abac251e17751c615e5e671.php 第 153 行.
+NOTIC: [8] Use of undefined constant wait_for_confirm - assumed 'wait_for_confirm' D:\hotel\Admin\Runtime\Cache\4421888e8abac251e17751c615e5e671.php 第 154 行.
+NOTIC: [8] Use of undefined constant success - assumed 'success' D:\hotel\Admin\Runtime\Cache\4421888e8abac251e17751c615e5e671.php 第 155 行.
+NOTIC: [8] Use of undefined constant cancle - assumed 'cancle' D:\hotel\Admin\Runtime\Cache\4421888e8abac251e17751c615e5e671.php 第 156 行.
+NOTIC: [8] Undefined index: id D:\hotel\Admin\Runtime\Cache\4421888e8abac251e17751c615e5e671.php 第 183 行.
+NOTIC: [8] Use of undefined constant paid - assumed 'paid' D:\hotel\Admin\Runtime\Cache\4421888e8abac251e17751c615e5e671.php 第 117 行.
+NOTIC: [8] Use of undefined constant not_paid - assumed 'not_paid' D:\hotel\Admin\Runtime\Cache\4421888e8abac251e17751c615e5e671.php 第 118 行.
+NOTIC: [8] Use of undefined constant wechat - assumed 'wechat' D:\hotel\Admin\Runtime\Cache\4421888e8abac251e17751c615e5e671.php 第 122 行.
+NOTIC: [8] Use of undefined constant wait_for_pay - assumed 'wait_for_pay' D:\hotel\Admin\Runtime\Cache\4421888e8abac251e17751c615e5e671.php 第 153 行.
+NOTIC: [8] Use of undefined constant wait_for_confirm - assumed 'wait_for_confirm' D:\hotel\Admin\Runtime\Cache\4421888e8abac251e17751c615e5e671.php 第 154 行.
+NOTIC: [8] Use of undefined constant success - assumed 'success' D:\hotel\Admin\Runtime\Cache\4421888e8abac251e17751c615e5e671.php 第 155 行.
+NOTIC: [8] Use of undefined constant cancle - assumed 'cancle' D:\hotel\Admin\Runtime\Cache\4421888e8abac251e17751c615e5e671.php 第 156 行.
+NOTIC: [8] Undefined index: id D:\hotel\Admin\Runtime\Cache\4421888e8abac251e17751c615e5e671.php 第 183 行.
+INFO: Run ParseTemplate Behavior [ RunTime:-0.023225s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.042323s ]
+INFO: [ view_filter ] --START--
+INFO: Run ContentReplace Behavior [ RunTime:-0.065664s ]
+INFO: Run TokenBuild Behavior [ RunTime:-0.066569s ]
+INFO: Run WriteHtmlCache Behavior [ RunTime:-0.067392s ]
+INFO: Run ShowRuntime Behavior [ RunTime:-0.068131s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.003512s ]
+INFO: [ view_end ] --START--
+INFO: Run ShowPageTrace Behavior [ RunTime:-0.069828s ]
+INFO: [ view_end ] --END-- [ RunTime:0.001302s ]
+

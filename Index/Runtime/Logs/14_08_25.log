@@ -1,0 +1,24 @@
+[ 2014-08-25T09:36:32+08:00 ] ERR: (ThinkException) 无法加载模块:favicon
+[ 2014-08-25T09:36:37+08:00 ] ERR: (ThinkException) 无法加载模块:favicon
+[ 2014-08-25T09:42:51+08:00 ] 221.218.158.35 /
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.000309s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000371s ]
+INFO: [ view_parse ] --START--
+INFO: Run ParseTemplate Behavior [ RunTime:-0.000491s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.003758s ]
+INFO: [ view_filter ] --START--
+INFO: Run ContentReplace Behavior [ RunTime:-0.004278s ]
+INFO: Run TokenBuild Behavior [ RunTime:-0.004495s ]
+INFO: Run WriteHtmlCache Behavior [ RunTime:-0.004723s ]
+INFO: Run ShowRuntime Behavior [ RunTime:-0.004880s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000918s ]
+INFO: [ view_end ] --START--
+INFO: Run ShowPageTrace Behavior [ RunTime:-0.005245s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000387s ]
+
+[ 2014-08-25T09:42:51+08:00 ] ERR: (ThinkException) 无法加载模块:favicon
+[ 2014-08-25T09:42:51+08:00 ] ERR: (ThinkException) 无法加载模块:favicon
+[ 2014-08-25T09:52:23+08:00 ] ERR: (ThinkException) 无法加载模块:Public
+[ 2014-08-25T09:54:43+08:00 ] ERR: (ThinkException) 无法加载模块:Public
+[ 2014-08-25T09:55:15+08:00 ] ERR: (ThinkException) 无法加载模块:Public

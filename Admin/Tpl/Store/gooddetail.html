@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <script type="text/javascript" src="__PUBLIC__/js/bootstrap.js"></script>
+    <script type="text/javascript" src="__PUBLIC__/js/jquery.js"></script>
+    <script type="text/javascript" src="__PUBLIC__/js/jquery.min.js"></script>
+<link href="__PUBLIC__/css/store.css" rel="stylesheet" type="text/css" />
+    <title>Document</title>
+</head>
+<body>
+    <div class="aaa">
+        <div class="fl">
+        <img src="{$list.iname}" alt="">
+        </div>
+        <div class='ccc fr'>
+        <ul style="list-style:none">
+        <h1><li>{$list.gname}</li></h1>
+        <h3><li>{$list.msg}</li></h3>
+        <h2><li style="color:#FF851B">抢购价:{$list.price}</li></h2>
+        </ul>
+
+        <form action="{:U('Store/cartdo')}" method="get">   
+        <input type="hidden" name="goods_id" value="{$list.goods_id}">
+        数量:
+                <button type="button" onclick="show()">－</button>
+                <input type="text" id="count" value="1" name="qty"
+                maxlength="3">
+                <button type="button" onclick="document.getElementById('count').value++">＋</button>
+                库存:{$list.stock}
+                <button type="submit" name="b" value="add">加入购物车</button>
+                <button type="submit" name="b" value="buy">立即购买</button>
+        </form>
+        </div>
+    </div>
+
+    <script>
+    function show(){
+    var getNum = parseInt(document.getElementById("count").value);
+    if(getNum >1){
+    document.getElementById("count").value = getNum - 1;
+    }else{
+    alert("至少一件哦");
+    }
+    }
+
+    </script>
+
+
+
+</body>
+</html>

@@ -1,0 +1,136 @@
+﻿<include file="Public:header"/>
+<!-- <link rel="stylesheet" type="text/css" href="__PUBLIC__/uploadify/uploadify.css" /> -->
+<!-- <link rel="stylesheet" type="text/css" href="__PUBLIC__/css/iframe.css" /> -->
+<!-- <link rel="stylesheet" type="text/css" href="__PUBLIC__/css/reset.css" /> -->
+<script src="__PUBLIC__/uploadify/jquery.uploadify.min.js" type="text/javascript"></script>
+<!-- <script src="//hm.baidu.com/hm.js?4b889ea3d1a9c076184ed8da84e5d719" ></script> -->
+
+<script src="__PUBLIC__/layer/layer.js" type="text/javascript"></script>
+<!-- <script src="__PUBLIC__/js/ajaxfileupload.js" type="text/javascript"></script> -->
+<!-- <script>
+
+    var _hmt = _hmt || [];
+    (function() {
+        var hm = document.createElement("script");
+        hm.src = "//hm.baidu.com/hm.js?4b889ea3d1a9c076184ed8da84e5d719";
+        var s = document.getElementsByTagName("script")[0];
+        s.parentNode.insertBefore(hm, s);
+    })();
+
+</script> -->
+<body>
+<!-- <div class="easyui-panel" fit="true"> -->
+<!-- <form action="{:U('Goods/uploadify')}" id="editForm" method="post" enctype="multipart/form-data" onsubmit="return check()">
+<input name="type_id" type="hidden" value="{$list.id}"/> 
+	<table width="780" border="0">
+		<tr style="height: 50px;">
+			<td align="right">
+				修改：
+			</td>
+			<td>
+				<input id="picture" name="img" type="file">
+				<div id="up_image" class="image">
+				</div>
+			</td>
+		</tr>
+	</table>
+	 <div style="text-align:left;padding:20px;">
+		<input type="submit" value="修改">
+	</div>
+	</form> -->
+<form method="post" action="http://up.qiniu.com" enctype="multipart/form-data" class="upfile"  onsubmit="return check()"> 
+
+ <input name="token" type="hidden" value="{$uptoken}">
+
+  <input name="file" type="file" id="uploadPic"/>
+
+  <input type="submit" name="修改" id="btn">
+
+  </form>
+<script type="text/javascript">
+	function check()
+	{
+		if ($('#uploadPic').val() == '') 
+		{
+			layer.msg('请上传图片');
+			setTimeout(function(){
+				$('#uploadPic').focus();
+			});
+			return false;
+		}
+ 		// var file = $("#uploadPic")[0].files[0];
+		 //        if(file.size>4194304){
+		 //            alert("上传图片请小于4M");
+		 //            return false;
+		 //        }else if (!/image\/\w+/.test(file.type)) {
+		 //            alert("文件必须为图片！");
+		 //            return false;
+		 //        }
+		}
+
+$('input[name=file]').change(function() {
+function compress(obj, callback) => {
+  var file = obj;
+  //判断类型是不是图片
+  if(!/image\/\w+/.test(file.type)){
+    alert("请确保文件为图像类型");
+    return false;
+  }
+
+  var reader = new FileReader();
+  reader.readAsDataURL(file);
+  reader.onload = function (e) {
+    var img = new Image,
+      width = 200,    //图片resize宽度
+      quality = 1.0,  //图像质量
+      canvas = document.createElement("canvas"),
+      drawer = canvas.getContext("2d");
+    img.src = this.result;
+    canvas.width = width;
+    canvas.height = width * (img.height / img.width);
+    drawer.drawImage(img, 0, 0, canvas.width, canvas.height);
+    img.src = canvas.toDataURL();
+    var image_base64 = img.src.replace("data:image/jpg;base64,","");
+    // 调用回调
+    callback && callback(image_base64);
+
+  }
+}
+ });
+
+
+function compress(obj, callback) => {
+  var file = obj;
+  //判断类型是不是图片
+  if(!/image\/\w+/.test(file.type)){
+    alert("请确保文件为图像类型");
+    return false;
+  }
+
+  var reader = new FileReader();
+  reader.readAsDataURL(file);
+  reader.onload = function (e) {
+    var img = new Image,
+      width = 200,    //图片resize宽度
+      quality = 1.0,  //图像质量
+      canvas = document.createElement("canvas"),
+      drawer = canvas.getContext("2d");
+    img.src = this.result;
+    canvas.width = width;
+    canvas.height = width * (img.height / img.width);
+    drawer.drawImage(img, 0, 0, canvas.width, canvas.height);
+    img.src = canvas.toDataURL();
+    var image_base64 = img.src.replace("data:image/jpg;base64,","");
+    // 调用回调
+    callback && callback(image_base64);
+    var formData = new FormData();
+var base64 ='/* 这里面是base64字符串 */';
+formData.append('file', base64);
+  }
+}
+
+</script>
+
+</body>
+
+

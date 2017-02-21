@@ -1,0 +1,103 @@
+[ 2014-11-30T09:55:19+08:00 ] 127.0.0.1 /
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.002563s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002847s ]
+INFO: [ view_parse ] --START--
+INFO: Run ParseTemplate Behavior [ RunTime:-0.036940s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.024663s ]
+INFO: [ view_filter ] --START--
+INFO: Run ContentReplace Behavior [ RunTime:-0.061763s ]
+INFO: Run TokenBuild Behavior [ RunTime:-0.063656s ]
+INFO: Run WriteHtmlCache Behavior [ RunTime:-0.066469s ]
+INFO: Run ShowRuntime Behavior [ RunTime:-0.069340s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.009921s ]
+INFO: [ view_end ] --START--
+INFO: Run ShowPageTrace Behavior [ RunTime:-0.071948s ]
+INFO: [ view_end ] --END-- [ RunTime:0.002519s ]
+
+[ 2014-11-30T10:06:25+08:00 ] 127.0.0.1 /
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.002713s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003019s ]
+INFO: [ view_parse ] --START--
+INFO: Run ParseTemplate Behavior [ RunTime:-0.023106s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.018509s ]
+INFO: [ view_filter ] --START--
+INFO: Run ContentReplace Behavior [ RunTime:-0.041789s ]
+INFO: Run TokenBuild Behavior [ RunTime:-0.043655s ]
+INFO: Run WriteHtmlCache Behavior [ RunTime:-0.045647s ]
+INFO: Run ShowRuntime Behavior [ RunTime:-0.047126s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.007361s ]
+INFO: [ view_end ] --START--
+INFO: Run ShowPageTrace Behavior [ RunTime:-0.049398s ]
+INFO: [ view_end ] --END-- [ RunTime:0.002219s ]
+
+[ 2014-11-30T10:09:41+08:00 ] 127.0.0.1 /
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.002848s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003160s ]
+INFO: [ view_parse ] --START--
+INFO: Run ParseTemplate Behavior [ RunTime:-0.004225s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.016190s ]
+INFO: [ view_filter ] --START--
+INFO: Run ContentReplace Behavior [ RunTime:-0.020576s ]
+INFO: Run TokenBuild Behavior [ RunTime:-0.022224s ]
+INFO: Run WriteHtmlCache Behavior [ RunTime:-0.023820s ]
+INFO: Run ShowRuntime Behavior [ RunTime:-0.025188s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.006440s ]
+INFO: [ view_end ] --START--
+INFO: Run ShowPageTrace Behavior [ RunTime:-0.027280s ]
+INFO: [ view_end ] --END-- [ RunTime:0.001903s ]
+
+[ 2014-11-30T10:13:22+08:00 ] 127.0.0.1 /
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.002999s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003305s ]
+
+[ 2014-11-30T10:13:34+08:00 ] 127.0.0.1 /
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.001393s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001656s ]
+
+[ 2014-11-30T10:13:39+08:00 ] 127.0.0.1 /
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.001784s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002097s ]
+
+[ 2014-11-30T10:13:53+08:00 ] 127.0.0.1 /
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.001431s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001712s ]
+INFO: [ view_parse ] --START--
+INFO: Run ParseTemplate Behavior [ RunTime:-0.002940s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.039823s ]
+INFO: [ view_filter ] --START--
+INFO: Run ContentReplace Behavior [ RunTime:-0.042921s ]
+INFO: Run TokenBuild Behavior [ RunTime:-0.044841s ]
+INFO: Run WriteHtmlCache Behavior [ RunTime:-0.046762s ]
+INFO: Run ShowRuntime Behavior [ RunTime:-0.048251s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.007444s ]
+INFO: [ view_end ] --START--
+INFO: Run ShowPageTrace Behavior [ RunTime:-0.050622s ]
+INFO: [ view_end ] --END-- [ RunTime:0.002525s ]
+
+[ 2014-11-30T10:14:17+08:00 ] 127.0.0.1 /
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.001689s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001947s ]
+
+[ 2014-11-30T10:14:18+08:00 ] 127.0.0.1 /
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.001332s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001594s ]
+
+[ 2014-11-30T10:15:01+08:00 ] 127.0.0.1 /
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.001543s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001902s ]
+
+[ 2014-11-30T23:53:55+08:00 ] 127.0.0.1 /
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.441368s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.441731s ]
+

@@ -1,0 +1,26 @@
+[ 2016-10-20T06:47:45+08:00 ] 42.156.251.185 /
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.000731s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000811s ]
+
+[ 2016-10-20T18:23:07+08:00 ] 183.39.159.165 /
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.001051s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001180s ]
+
+[ 2016-10-20T18:50:53+08:00 ] 127.0.0.1 /
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.011408s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.011635s ]
+
+[ 2016-10-20T18:51:20+08:00 ] 127.0.0.1 /
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.001344s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001597s ]
+
+[ 2016-10-20T18:51:31+08:00 ] ERR: (ThinkException) 非法操作:login
+[ 2016-10-20T21:36:18+08:00 ] 127.0.0.1 /
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.000863s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001072s ]
+

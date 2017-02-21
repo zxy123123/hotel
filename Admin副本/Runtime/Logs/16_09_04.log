@@ -1,0 +1,3257 @@
+[ 2016-09-04T20:45:06+08:00 ] 127.0.0.1 /hotel/admin.php/Index/login
+INFO: [ route_check ] --START--
+INFO: Run CheckRoute Behavior [ RunTime:0.001527s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001634s ]
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:-0.000329s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000824s ]
+INFO: [ view_template ] --START--
+INFO: Run LocationTemplate Behavior [ RunTime:-0.002971s ]
+INFO: [ view_template ] --END-- [ RunTime:0.000991s ]
+INFO: [ view_parse ] --START--
+INFO: Run ParseTemplate Behavior [ RunTime:-0.004019s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.064910s ]
+INFO: [ view_filter ] --START--
+INFO: Run ContentReplace Behavior [ RunTime:-0.068977s ]
+INFO: Run TokenBuild Behavior [ RunTime:-0.098211s ]
+INFO: Run WriteHtmlCache Behavior [ RunTime:-0.101701s ]
+INFO: Run ShowRuntime Behavior [ RunTime:-0.102744s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.035105s ]
+INFO: [ view_end ] --START--
+INFO: Run ShowPageTrace Behavior [ RunTime:-0.104207s ]
+INFO: [ view_end ] --END-- [ RunTime:0.002752s ]
+
+[ 2016-09-04T20:45:13+08:00 ] 127.0.0.1 /hotel/admin.php
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.000685s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000759s ]
+INFO: [ view_template ] --START--
+INFO: Run LocationTemplate Behavior [ RunTime:-0.000980s ]
+INFO: [ view_template ] --END-- [ RunTime:0.000815s ]
+INFO: [ view_parse ] --START--
+INFO: Run ParseTemplate Behavior [ RunTime:-0.001834s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.030565s ]
+INFO: [ view_filter ] --START--
+INFO: Run ContentReplace Behavior [ RunTime:-0.032453s ]
+INFO: Run TokenBuild Behavior [ RunTime:-0.034114s ]
+INFO: Run WriteHtmlCache Behavior [ RunTime:-0.035537s ]
+INFO: Run ShowRuntime Behavior [ RunTime:-0.036059s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.004071s ]
+INFO: [ view_end ] --START--
+INFO: Run ShowPageTrace Behavior [ RunTime:-0.036556s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000549s ]
+
+[ 2016-09-04T20:45:14+08:00 ] 127.0.0.1 /hotel/admin.php/Layout/north?_=1472993113956
+INFO: [ route_check ] --START--
+INFO: Run CheckRoute Behavior [ RunTime:0.001170s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001249s ]
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:-0.000497s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000764s ]
+INFO: [ view_template ] --START--
+INFO: Run LocationTemplate Behavior [ RunTime:-0.003283s ]
+INFO: [ view_template ] --END-- [ RunTime:0.000738s ]
+INFO: [ view_parse ] --START--
+INFO: Run ParseTemplate Behavior [ RunTime:-0.004074s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.033950s ]
+INFO: [ view_filter ] --START--
+INFO: Run ContentReplace Behavior [ RunTime:-0.038058s ]
+INFO: Run TokenBuild Behavior [ RunTime:-0.038646s ]
+INFO: Run WriteHtmlCache Behavior [ RunTime:-0.039931s ]
+INFO: Run ShowRuntime Behavior [ RunTime:-0.040409s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.003039s ]
+INFO: [ view_end ] --START--
+INFO: Run ShowPageTrace Behavior [ RunTime:-0.041158s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000838s ]
+
+[ 2016-09-04T20:45:14+08:00 ] 127.0.0.1 /hotel/admin.php/Layout/west?_=1472993113976
+INFO: [ route_check ] --START--
+INFO: Run CheckRoute Behavior [ RunTime:0.001763s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001854s ]
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:-0.000617s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000884s ]
+INFO: [ view_template ] --START--
+INFO: Run LocationTemplate Behavior [ RunTime:-0.011740s ]
+INFO: [ view_template ] --END-- [ RunTime:0.000642s ]
+INFO: [ view_parse ] --START--
+INFO: Run ParseTemplate Behavior [ RunTime:-0.012414s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.031394s ]
+INFO: [ view_filter ] --START--
+INFO: Run ContentReplace Behavior [ RunTime:-0.043847s ]
+INFO: Run TokenBuild Behavior [ RunTime:-0.044472s ]
+INFO: Run WriteHtmlCache Behavior [ RunTime:-0.045176s ]
+INFO: Run ShowRuntime Behavior [ RunTime:-0.045791s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002709s ]
+INFO: [ view_end ] --START--
+INFO: Run ShowPageTrace Behavior [ RunTime:-0.046620s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000889s ]
+
+[ 2016-09-04T20:45:14+08:00 ] 127.0.0.1 /hotel/admin.php/Layout/center?_=1472993113996
+INFO: [ route_check ] --START--
+INFO: Run CheckRoute Behavior [ RunTime:0.004771s ]
+INFO: [ route_check ] --END-- [ RunTime:0.004849s ]
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:-0.000531s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000791s ]
+INFO: [ view_template ] --START--
+INFO: Run LocationTemplate Behavior [ RunTime:-0.036219s ]
+INFO: [ view_template ] --END-- [ RunTime:0.000489s ]
+INFO: [ view_parse ] --START--
+INFO: Run ParseTemplate Behavior [ RunTime:-0.036710s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.007542s ]
+INFO: [ view_filter ] --START--
+INFO: Run ContentReplace Behavior [ RunTime:-0.044296s ]
+INFO: Run TokenBuild Behavior [ RunTime:-0.044899s ]
+INFO: Run WriteHtmlCache Behavior [ RunTime:-0.045536s ]
+INFO: Run ShowRuntime Behavior [ RunTime:-0.046058s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002554s ]
+INFO: [ view_end ] --START--
+INFO: Run ShowPageTrace Behavior [ RunTime:-0.046924s ]
+INFO: [ view_end ] --END-- [ RunTime:0.001609s ]
+
+[ 2016-09-04T20:45:14+08:00 ] 127.0.0.1 /hotel/admin.php/Order/index
+INFO: [ route_check ] --START--
+INFO: Run CheckRoute Behavior [ RunTime:0.000856s ]
+INFO: [ route_check ] --END-- [ RunTime:0.000931s ]
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:-0.000295s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000668s ]
+INFO: [ view_template ] --START--
+INFO: Run LocationTemplate Behavior [ RunTime:-0.018031s ]
+INFO: [ view_template ] --END-- [ RunTime:0.000944s ]
+INFO: [ view_parse ] --START--
+INFO: Run ParseTemplate Behavior [ RunTime:-0.019019s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.020958s ]
+INFO: [ view_filter ] --START--
+INFO: Run ContentReplace Behavior [ RunTime:-0.039993s ]
+INFO: Run TokenBuild Behavior [ RunTime:-0.040352s ]
+INFO: Run WriteHtmlCache Behavior [ RunTime:-0.040646s ]
+INFO: Run ShowRuntime Behavior [ RunTime:-0.040855s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001220s ]
+INFO: [ view_end ] --START--
+INFO: Run ShowPageTrace Behavior [ RunTime:-0.041428s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000609s ]
+
+[ 2016-09-04T20:45:14+08:00 ] 127.0.0.1 /hotel/admin.php/Order/index
+INFO: [ route_check ] --START--
+INFO: Run CheckRoute Behavior [ RunTime:0.000948s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001032s ]
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:-0.000326s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000730s ]
+INFO: [ view_template ] --START--
+INFO: Run LocationTemplate Behavior [ RunTime:-0.040748s ]
+INFO: [ view_template ] --END-- [ RunTime:0.001029s ]
+INFO: [ view_parse ] --START--
+INFO: Run ParseTemplate Behavior [ RunTime:-0.041790s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.010151s ]
+INFO: [ view_filter ] --START--
+INFO: Run ContentReplace Behavior [ RunTime:-0.051984s ]
+INFO: Run TokenBuild Behavior [ RunTime:-0.052545s ]
+INFO: Run WriteHtmlCache Behavior [ RunTime:-0.052995s ]
+INFO: Run ShowRuntime Behavior [ RunTime:-0.053322s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001905s ]
+INFO: [ view_end ] --START--
+INFO: Run ShowPageTrace Behavior [ RunTime:-0.054208s ]
+INFO: [ view_end ] --END-- [ RunTime:0.001042s ]
+
+[ 2016-09-04T20:45:24+08:00 ] 127.0.0.1 /hotel/admin.php/Credit/index
+INFO: [ route_check ] --START--
+INFO: Run CheckRoute Behavior [ RunTime:0.001255s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001344s ]
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:-0.000770s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001050s ]
+INFO: [ view_template ] --START--
+INFO: Run LocationTemplate Behavior [ RunTime:-0.004008s ]
+INFO: [ view_template ] --END-- [ RunTime:0.001329s ]
+INFO: [ view_parse ] --START--
+INFO: Run ParseTemplate Behavior [ RunTime:-0.006089s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.466775s ]
+INFO: [ view_filter ] --START--
+INFO: Run ContentReplace Behavior [ RunTime:-0.472223s ]
+INFO: Run TokenBuild Behavior [ RunTime:-0.473237s ]
+INFO: Run WriteHtmlCache Behavior [ RunTime:-0.474236s ]
+INFO: Run ShowRuntime Behavior [ RunTime:-0.475089s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.004107s ]
+INFO: [ view_end ] --START--
+INFO: Run ShowPageTrace Behavior [ RunTime:-0.476438s ]
+INFO: [ view_end ] --END-- [ RunTime:0.001690s ]
+
+[ 2016-09-04T20:45:24+08:00 ] 127.0.0.1 /hotel/admin.php/Credit/index
+INFO: [ route_check ] --START--
+INFO: Run CheckRoute Behavior [ RunTime:0.001565s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001693s ]
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:-0.000495s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001169s ]
+INFO: [ view_template ] --START--
+INFO: Run LocationTemplate Behavior [ RunTime:-0.154681s ]
+INFO: [ view_template ] --END-- [ RunTime:0.001756s ]
+INFO: [ view_parse ] --START--
+INFO: Run ParseTemplate Behavior [ RunTime:-0.156510s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.013353s ]
+INFO: [ view_filter ] --START--
+INFO: Run ContentReplace Behavior [ RunTime:-0.169924s ]
+INFO: Run TokenBuild Behavior [ RunTime:-0.170720s ]
+INFO: Run WriteHtmlCache Behavior [ RunTime:-0.171481s ]
+INFO: Run ShowRuntime Behavior [ RunTime:-0.172083s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.003219s ]
+INFO: [ view_end ] --START--
+INFO: Run ShowPageTrace Behavior [ RunTime:-0.173248s ]
+INFO: [ view_end ] --END-- [ RunTime:0.001483s ]
+
+[ 2016-09-04T20:45:49+08:00 ] 127.0.0.1 /hotel/admin.php/Order/onorder
+INFO: [ route_check ] --START--
+INFO: Run CheckRoute Behavior [ RunTime:0.000649s ]
+INFO: [ route_check ] --END-- [ RunTime:0.000732s ]
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:-0.000394s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000737s ]
+INFO: [ view_template ] --START--
+INFO: Run LocationTemplate Behavior [ RunTime:-0.002432s ]
+INFO: [ view_template ] --END-- [ RunTime:0.000714s ]
+INFO: [ view_parse ] --START--
+INFO: Run ParseTemplate Behavior [ RunTime:-0.003171s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.339657s ]
+INFO: [ view_filter ] --START--
+INFO: Run ContentReplace Behavior [ RunTime:-0.342918s ]
+INFO: Run TokenBuild Behavior [ RunTime:-0.343942s ]
+INFO: Run WriteHtmlCache Behavior [ RunTime:-0.344825s ]
+INFO: Run ShowRuntime Behavior [ RunTime:-0.345401s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.003467s ]
+INFO: [ view_end ] --START--
+INFO: Run ShowPageTrace Behavior [ RunTime:-0.346932s ]
+INFO: [ view_end ] --END-- [ RunTime:0.001808s ]
+
+[ 2016-09-04T20:45:51+08:00 ] 127.0.0.1 /hotel/admin.php/Order/payorder
+INFO: [ route_check ] --START--
+INFO: Run CheckRoute Behavior [ RunTime:0.001500s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001625s ]
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:-0.000501s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001134s ]
+INFO: [ view_template ] --START--
+INFO: Run LocationTemplate Behavior [ RunTime:-0.006597s ]
+INFO: [ view_template ] --END-- [ RunTime:0.001240s ]
+INFO: [ view_parse ] --START--
+INFO: Run ParseTemplate Behavior [ RunTime:-0.007913s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.102060s ]
+INFO: [ view_filter ] --START--
+INFO: Run ContentReplace Behavior [ RunTime:-0.110052s ]
+INFO: Run TokenBuild Behavior [ RunTime:-0.111178s ]
+INFO: Run WriteHtmlCache Behavior [ RunTime:-0.111958s ]
+INFO: Run ShowRuntime Behavior [ RunTime:-0.112401s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.003089s ]
+INFO: [ view_end ] --START--
+INFO: Run ShowPageTrace Behavior [ RunTime:-0.113592s ]
+INFO: [ view_end ] --END-- [ RunTime:0.001316s ]
+
+[ 2016-09-04T20:45:51+08:00 ] 127.0.0.1 /hotel/admin.php/Order/payorder
+INFO: [ route_check ] --START--
+INFO: Run CheckRoute Behavior [ RunTime:0.001774s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001919s ]
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:-0.000403s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000821s ]
+INFO: [ view_template ] --START--
+INFO: Run LocationTemplate Behavior [ RunTime:-0.098681s ]
+INFO: [ view_template ] --END-- [ RunTime:0.001222s ]
+INFO: [ view_parse ] --START--
+INFO: Run ParseTemplate Behavior [ RunTime:-0.099940s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.014189s ]
+INFO: [ view_filter ] --START--
+INFO: Run ContentReplace Behavior [ RunTime:-0.114211s ]
+INFO: Run TokenBuild Behavior [ RunTime:-0.115229s ]
+INFO: Run WriteHtmlCache Behavior [ RunTime:-0.115914s ]
+INFO: Run ShowRuntime Behavior [ RunTime:-0.116352s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002889s ]
+INFO: [ view_end ] --START--
+INFO: Run ShowPageTrace Behavior [ RunTime:-0.117490s ]
+INFO: [ view_end ] --END-- [ RunTime:0.001484s ]
+
+[ 2016-09-04T20:48:08+08:00 ] 127.0.0.1 /hotel/admin.php/Order/index
+INFO: [ route_check ] --START--
+INFO: Run CheckRoute Behavior [ RunTime:0.002031s ]
+INFO: [ route_check ] --END-- [ RunTime:0.002164s ]
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:-0.005159s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001796s ]
+INFO: [ view_template ] --START--
+INFO: Run LocationTemplate Behavior [ RunTime:-0.010208s ]
+INFO: [ view_template ] --END-- [ RunTime:0.001735s ]
+INFO: [ view_parse ] --START--
+INFO: Run ParseTemplate Behavior [ RunTime:-0.012013s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.019943s ]
+INFO: [ view_filter ] --START--
+INFO: Run ContentReplace Behavior [ RunTime:-0.032024s ]
+INFO: Run TokenBuild Behavior [ RunTime:-0.033186s ]
+INFO: Run WriteHtmlCache Behavior [ RunTime:-0.034192s ]
+INFO: Run ShowRuntime Behavior [ RunTime:-0.035171s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.004740s ]
+INFO: [ view_end ] --START--
+INFO: Run ShowPageTrace Behavior [ RunTime:-0.037329s ]
+INFO: [ view_end ] --END-- [ RunTime:0.001706s ]
+
+[ 2016-09-04T20:48:40+08:00 ] 127.0.0.1 /hotel/admin.php/Order/index
+INFO: [ route_check ] --START--
+INFO: Run CheckRoute Behavior [ RunTime:0.001688s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001801s ]
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:-0.000799s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001271s ]
+INFO: [ view_template ] --START--
+INFO: Run LocationTemplate Behavior [ RunTime:-0.004987s ]
+INFO: [ view_template ] --END-- [ RunTime:0.002251s ]
+INFO: [ view_parse ] --START--
+INFO: Run ParseTemplate Behavior [ RunTime:-0.007416s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.017560s ]
+INFO: [ view_filter ] --START--
+INFO: Run ContentReplace Behavior [ RunTime:-0.025006s ]
+INFO: Run TokenBuild Behavior [ RunTime:-0.026140s ]
+INFO: Run WriteHtmlCache Behavior [ RunTime:-0.027541s ]
+INFO: Run ShowRuntime Behavior [ RunTime:-0.028325s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.004374s ]
+INFO: [ view_end ] --START--
+INFO: Run ShowPageTrace Behavior [ RunTime:-0.029891s ]
+INFO: [ view_end ] --END-- [ RunTime:0.001453s ]
+
+[ 2016-09-04T20:53:45+08:00 ] 127.0.0.1 /hotel/admin.php/Credit/index
+INFO: [ route_check ] --START--
+INFO: Run CheckRoute Behavior [ RunTime:0.001195s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001276s ]
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:-0.000600s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000824s ]
+INFO: [ view_template ] --START--
+INFO: Run LocationTemplate Behavior [ RunTime:-0.002704s ]
+INFO: [ view_template ] --END-- [ RunTime:0.000927s ]
+INFO: [ view_parse ] --START--
+INFO: Run ParseTemplate Behavior [ RunTime:-0.003676s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.008214s ]
+INFO: [ view_filter ] --START--
+INFO: Run ContentReplace Behavior [ RunTime:-0.011930s ]
+INFO: Run TokenBuild Behavior [ RunTime:-0.012517s ]
+INFO: Run WriteHtmlCache Behavior [ RunTime:-0.013262s ]
+INFO: Run ShowRuntime Behavior [ RunTime:-0.013926s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.003277s ]
+INFO: [ view_end ] --START--
+INFO: Run ShowPageTrace Behavior [ RunTime:-0.015477s ]
+INFO: [ view_end ] --END-- [ RunTime:0.001501s ]
+
+[ 2016-09-04T20:54:12+08:00 ] 127.0.0.1 /hotel/admin.php/User/index
+INFO: [ route_check ] --START--
+INFO: Run CheckRoute Behavior [ RunTime:0.001989s ]
+INFO: [ route_check ] --END-- [ RunTime:0.002116s ]
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:-0.001328s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001462s ]
+INFO: [ view_template ] --START--
+INFO: Run LocationTemplate Behavior [ RunTime:-0.073305s ]
+INFO: [ view_template ] --END-- [ RunTime:0.002097s ]
+INFO: [ view_parse ] --START--
+INFO: Run ParseTemplate Behavior [ RunTime:-0.075470s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.074243s ]
+INFO: [ view_filter ] --START--
+INFO: Run ContentReplace Behavior [ RunTime:-0.149779s ]
+INFO: Run TokenBuild Behavior [ RunTime:-0.151052s ]
+INFO: Run WriteHtmlCache Behavior [ RunTime:-0.152461s ]
+INFO: Run ShowRuntime Behavior [ RunTime:-0.153327s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.004777s ]
+INFO: [ view_end ] --START--
+INFO: Run ShowPageTrace Behavior [ RunTime:-0.154714s ]
+INFO: [ view_end ] --END-- [ RunTime:0.001585s ]
+
+[ 2016-09-04T20:54:18+08:00 ] 127.0.0.1 /hotel/admin.php/Goods/index
+INFO: [ route_check ] --START--
+INFO: Run CheckRoute Behavior [ RunTime:0.001827s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001966s ]
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:-0.000576s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001213s ]
+INFO: [ view_template ] --START--
+INFO: Run LocationTemplate Behavior [ RunTime:-0.075017s ]
+INFO: [ view_template ] --END-- [ RunTime:0.001139s ]
+INFO: [ view_parse ] --START--
+INFO: Run ParseTemplate Behavior [ RunTime:-0.076197s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.065061s ]
+INFO: [ view_filter ] --START--
+INFO: Run ContentReplace Behavior [ RunTime:-0.141334s ]
+INFO: Run TokenBuild Behavior [ RunTime:-0.142278s ]
+INFO: Run WriteHtmlCache Behavior [ RunTime:-0.143088s ]
+INFO: Run ShowRuntime Behavior [ RunTime:-0.143658s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.003314s ]
+INFO: [ view_end ] --START--
+INFO: Run ShowPageTrace Behavior [ RunTime:-0.145214s ]
+INFO: [ view_end ] --END-- [ RunTime:0.002315s ]
+
+[ 2016-09-04T20:54:26+08:00 ] 127.0.0.1 /hotel/admin.php/Goods/uppd?id=3
+INFO: [ route_check ] --START--
+INFO: Run CheckRoute Behavior [ RunTime:0.001456s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001570s ]
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:-0.000663s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002008s ]
+SQL: SHOW COLUMNS FROM `rooms` [ RunTime:0.001481s ]
+NOTIC: [8] Use of undefined constant type_id - assumed 'type_id' D:\Hotel\Apache\htdocs\hotel\Admin\Lib\Action\GoodsAction.class.php 第 187 行.
+SQL: SELECT * FROM `rooms` WHERE ( `type_id` = 3 ) LIMIT 1   [ RunTime:0.000304s ]
+INFO: [ view_template ] --START--
+INFO: Run LocationTemplate Behavior [ RunTime:-0.030063s ]
+INFO: [ view_template ] --END-- [ RunTime:0.000798s ]
+INFO: [ view_parse ] --START--
+INFO: Run ParseTemplate Behavior [ RunTime:-0.030893s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.075020s ]
+INFO: [ view_filter ] --START--
+INFO: Run ContentReplace Behavior [ RunTime:-0.105990s ]
+INFO: Run TokenBuild Behavior [ RunTime:-0.106975s ]
+INFO: Run WriteHtmlCache Behavior [ RunTime:-0.107889s ]
+INFO: Run ShowRuntime Behavior [ RunTime:-0.108577s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.003620s ]
+INFO: [ view_end ] --START--
+INFO: Run ShowPageTrace Behavior [ RunTime:-0.109719s ]
+INFO: [ view_end ] --END-- [ RunTime:0.001532s ]
+
+[ 2016-09-04T20:54:27+08:00 ] 127.0.0.1 /hotel/admin.php/Goods/
+INFO: [ route_check ] --START--
+INFO: Run CheckRoute Behavior [ RunTime:0.000947s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001020s ]
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:-0.000293s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000651s ]
+INFO: [ view_template ] --START--
+INFO: Run LocationTemplate Behavior [ RunTime:-0.002328s ]
+INFO: [ view_template ] --END-- [ RunTime:0.000686s ]
+INFO: [ view_parse ] --START--
+INFO: Run ParseTemplate Behavior [ RunTime:-0.003057s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.009497s ]
+INFO: [ view_filter ] --START--
+INFO: Run ContentReplace Behavior [ RunTime:-0.012589s ]
+INFO: Run TokenBuild Behavior [ RunTime:-0.013096s ]
+INFO: Run WriteHtmlCache Behavior [ RunTime:-0.013534s ]
+INFO: Run ShowRuntime Behavior [ RunTime:-0.013850s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001806s ]
+INFO: [ view_end ] --START--
+INFO: Run ShowPageTrace Behavior [ RunTime:-0.014653s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000789s ]
+
+[ 2016-09-04T20:54:31+08:00 ] 127.0.0.1 /hotel/admin.php/Goods/index
+INFO: [ route_check ] --START--
+INFO: Run CheckRoute Behavior [ RunTime:0.000684s ]
+INFO: [ route_check ] --END-- [ RunTime:0.000742s ]
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:-0.000251s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000511s ]
+INFO: [ view_template ] --START--
+INFO: Run LocationTemplate Behavior [ RunTime:-0.001874s ]
+INFO: [ view_template ] --END-- [ RunTime:0.000500s ]
+INFO: [ view_parse ] --START--
+INFO: Run ParseTemplate Behavior [ RunTime:-0.002404s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.007132s ]
+INFO: [ view_filter ] --START--
+INFO: Run ContentReplace Behavior [ RunTime:-0.009566s ]
+INFO: Run TokenBuild Behavior [ RunTime:-0.009958s ]
+INFO: Run WriteHtmlCache Behavior [ RunTime:-0.010302s ]
+INFO: Run ShowRuntime Behavior [ RunTime:-0.010545s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001391s ]
+INFO: [ view_end ] --START--
+INFO: Run ShowPageTrace Behavior [ RunTime:-0.011190s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000621s ]
+
+[ 2016-09-04T20:54:35+08:00 ] ERR: (ThinkException) 非法操作:﻿
+[ 2016-09-04T20:54:55+08:00 ] 127.0.0.1 /hotel/admin.php/Goods/index
+INFO: [ route_check ] --START--
+INFO: Run CheckRoute Behavior [ RunTime:0.002285s ]
+INFO: [ route_check ] --END-- [ RunTime:0.002424s ]
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:-0.000988s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001392s ]
+INFO: [ view_template ] --START--
+INFO: Run LocationTemplate Behavior [ RunTime:-0.005856s ]
+INFO: [ view_template ] --END-- [ RunTime:0.001935s ]
+INFO: [ view_parse ] --START--
+INFO: Run ParseTemplate Behavior [ RunTime:-0.007845s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.019532s ]
+INFO: [ view_filter ] --START--
+INFO: Run ContentReplace Behavior [ RunTime:-0.027442s ]
+INFO: Run TokenBuild Behavior [ RunTime:-0.028611s ]
+INFO: Run WriteHtmlCache Behavior [ RunTime:-0.029629s ]
+INFO: Run ShowRuntime Behavior [ RunTime:-0.030400s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.004126s ]
+INFO: [ view_end ] --START--
+INFO: Run ShowPageTrace Behavior [ RunTime:-0.032027s ]
+INFO: [ view_end ] --END-- [ RunTime:0.001812s ]
+
+[ 2016-09-04T20:55:05+08:00 ] 127.0.0.1 /hotel/admin.php/Goods/addpd
+INFO: [ route_check ] --START--
+INFO: Run CheckRoute Behavior [ RunTime:0.001211s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001303s ]
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:-0.000365s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000772s ]
+NOTIC: [8] Undefined index: pid D:\Hotel\Apache\htdocs\hotel\Admin\Lib\Action\GoodsAction.class.php 第 88 行.
+INFO: [ view_template ] --START--
+INFO: Run LocationTemplate Behavior [ RunTime:-0.002743s ]
+INFO: [ view_template ] --END-- [ RunTime:0.000890s ]
+INFO: [ view_parse ] --START--
+INFO: Run ParseTemplate Behavior [ RunTime:-0.003684s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.074470s ]
+INFO: [ view_filter ] --START--
+INFO: Run ContentReplace Behavior [ RunTime:-0.078188s ]
+INFO: Run TokenBuild Behavior [ RunTime:-0.078617s ]
+INFO: Run WriteHtmlCache Behavior [ RunTime:-0.079068s ]
+INFO: Run ShowRuntime Behavior [ RunTime:-0.079472s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001929s ]
+INFO: [ view_end ] --START--
+INFO: Run ShowPageTrace Behavior [ RunTime:-0.080188s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000836s ]
+
+[ 2016-09-04T20:55:06+08:00 ] 127.0.0.1 /hotel/admin.php/Goods/
+INFO: [ route_check ] --START--
+INFO: Run CheckRoute Behavior [ RunTime:0.001113s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001208s ]
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:-0.000348s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000938s ]
+INFO: [ view_template ] --START--
+INFO: Run LocationTemplate Behavior [ RunTime:-0.003486s ]
+INFO: [ view_template ] --END-- [ RunTime:0.000911s ]
+INFO: [ view_parse ] --START--
+INFO: Run ParseTemplate Behavior [ RunTime:-0.004439s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.011490s ]
+INFO: [ view_filter ] --START--
+INFO: Run ContentReplace Behavior [ RunTime:-0.015979s ]
+INFO: Run TokenBuild Behavior [ RunTime:-0.016907s ]
+INFO: Run WriteHtmlCache Behavior [ RunTime:-0.018603s ]
+INFO: Run ShowRuntime Behavior [ RunTime:-0.019129s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.004368s ]
+INFO: [ view_end ] --START--
+INFO: Run ShowPageTrace Behavior [ RunTime:-0.020947s ]
+INFO: [ view_end ] --END-- [ RunTime:0.001704s ]
+
+[ 2016-09-04T20:55:37+08:00 ] 127.0.0.1 /hotel/admin.php/Goods/uploadify
+INFO: [ route_check ] --START--
+INFO: Run CheckRoute Behavior [ RunTime:0.001005s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001093s ]
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:-0.000335s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000947s ]
+NOTIC: [8] Undefined property: UploadFile::$zipImags D:\Hotel\Apache\htdocs\hotel\ThinkPHP\Extend\Library\ORG\Net\UploadFile.class.php 第 172 行.
+
+[ 2016-09-04T20:55:37+08:00 ] ERR: (ThinkException) 非法操作:﻿
+[ 2016-09-04T20:55:46+08:00 ] 127.0.0.1 /hotel/admin.php/Goods/index
+INFO: [ route_check ] --START--
+INFO: Run CheckRoute Behavior [ RunTime:0.001051s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001139s ]
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:-0.000376s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001051s ]
+INFO: [ view_template ] --START--
+INFO: Run LocationTemplate Behavior [ RunTime:-0.002997s ]
+INFO: [ view_template ] --END-- [ RunTime:0.001143s ]
+INFO: [ view_parse ] --START--
+INFO: Run ParseTemplate Behavior [ RunTime:-0.004184s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.010479s ]
+INFO: [ view_filter ] --START--
+INFO: Run ContentReplace Behavior [ RunTime:-0.014739s ]
+INFO: Run TokenBuild Behavior [ RunTime:-0.015447s ]
+INFO: Run WriteHtmlCache Behavior [ RunTime:-0.016270s ]
+INFO: Run ShowRuntime Behavior [ RunTime:-0.016834s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002850s ]
+INFO: [ view_end ] --START--
+INFO: Run ShowPageTrace Behavior [ RunTime:-0.017933s ]
+INFO: [ view_end ] --END-- [ RunTime:0.001554s ]
+
+[ 2016-09-04T21:55:15+08:00 ] 127.0.0.1 /hotel/admin.php/Credit/index
+INFO: [ route_check ] --START--
+INFO: Run CheckRoute Behavior [ RunTime:0.002095s ]
+INFO: [ route_check ] --END-- [ RunTime:0.002236s ]
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:-0.000876s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001708s ]
+INFO: [ view_template ] --START--
+INFO: Run LocationTemplate Behavior [ RunTime:-0.005603s ]
+INFO: [ view_template ] --END-- [ RunTime:0.002537s ]
+INFO: [ view_parse ] --START--
+INFO: Run ParseTemplate Behavior [ RunTime:-0.008213s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.016767s ]
+INFO: [ view_filter ] --START--
+INFO: Run ContentReplace Behavior [ RunTime:-0.025033s ]
+INFO: Run TokenBuild Behavior [ RunTime:-0.026469s ]
+INFO: Run WriteHtmlCache Behavior [ RunTime:-0.028036s ]
+INFO: Run ShowRuntime Behavior [ RunTime:-0.029196s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.005616s ]
+INFO: [ view_end ] --START--
+INFO: Run ShowPageTrace Behavior [ RunTime:-0.030750s ]
+INFO: [ view_end ] --END-- [ RunTime:0.001604s ]
+
+[ 2016-09-04T21:57:58+08:00 ] 127.0.0.1 /hotel/admin.php/Credit/index
+INFO: [ route_check ] --START--
+INFO: Run CheckRoute Behavior [ RunTime:0.002001s ]
+INFO: [ route_check ] --END-- [ RunTime:0.002127s ]
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:-0.000855s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001349s ]
+INFO: [ view_template ] --START--
+INFO: Run LocationTemplate Behavior [ RunTime:-0.004661s ]
+INFO: [ view_template ] --END-- [ RunTime:0.001902s ]
+INFO: [ view_parse ] --START--
+INFO: Run ParseTemplate Behavior [ RunTime:-0.006635s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.014674s ]
+INFO: [ view_filter ] --START--
+INFO: Run ContentReplace Behavior [ RunTime:-0.021375s ]
+INFO: Run TokenBuild Behavior [ RunTime:-0.022384s ]
+INFO: Run WriteHtmlCache Behavior [ RunTime:-0.023560s ]
+INFO: Run ShowRuntime Behavior [ RunTime:-0.024329s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.004977s ]
+INFO: [ view_end ] --START--
+INFO: Run ShowPageTrace Behavior [ RunTime:-0.026473s ]
+INFO: [ view_end ] --END-- [ RunTime:0.002397s ]
+
+[ 2016-09-04T22:16:37+08:00 ] 127.0.0.1 /hotel/admin.php/User/index
+INFO: [ route_check ] --START--
+INFO: Run CheckRoute Behavior [ RunTime:0.002753s ]
+INFO: [ route_check ] --END-- [ RunTime:0.002888s ]
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:-0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001612s ]
+INFO: [ view_template ] --START--
+INFO: Run LocationTemplate Behavior [ RunTime:-0.006621s ]
+INFO: [ view_template ] --END-- [ RunTime:0.002222s ]
+INFO: [ view_parse ] --START--
+INFO: Run ParseTemplate Behavior [ RunTime:-0.008912s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.021423s ]
+INFO: [ view_filter ] --START--
+INFO: Run ContentReplace Behavior [ RunTime:-0.030405s ]
+INFO: Run TokenBuild Behavior [ RunTime:-0.031761s ]
+INFO: Run WriteHtmlCache Behavior [ RunTime:-0.032927s ]
+INFO: Run ShowRuntime Behavior [ RunTime:-0.033868s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.004807s ]
+INFO: [ view_end ] --START--
+INFO: Run ShowPageTrace Behavior [ RunTime:-0.035332s ]
+INFO: [ view_end ] --END-- [ RunTime:0.001648s ]
+
+[ 2016-09-04T22:16:49+08:00 ] 127.0.0.1 /hotel/admin.php/Index/login
+INFO: [ route_check ] --START--
+INFO: Run CheckRoute Behavior [ RunTime:0.000953s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001032s ]
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:-0.000295s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000721s ]
+INFO: [ view_template ] --START--
+INFO: Run LocationTemplate Behavior [ RunTime:-0.002813s ]
+INFO: [ view_template ] --END-- [ RunTime:0.000712s ]
+INFO: [ view_parse ] --START--
+INFO: Run ParseTemplate Behavior [ RunTime:-0.003563s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.009257s ]
+INFO: [ view_filter ] --START--
+INFO: Run ContentReplace Behavior [ RunTime:-0.012862s ]
+INFO: Run TokenBuild Behavior [ RunTime:-0.013483s ]
+INFO: Run WriteHtmlCache Behavior [ RunTime:-0.014074s ]
+INFO: Run ShowRuntime Behavior [ RunTime:-0.014532s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002388s ]
+INFO: [ view_end ] --START--
+INFO: Run ShowPageTrace Behavior [ RunTime:-0.015315s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000905s ]
+
+[ 2016-09-04T22:18:08+08:00 ] 127.0.0.1 /hotel/admin.php
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.000745s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000823s ]
+INFO: [ view_template ] --START--
+INFO: Run LocationTemplate Behavior [ RunTime:-0.001501s ]
+INFO: [ view_template ] --END-- [ RunTime:0.001313s ]
+INFO: [ view_parse ] --START--
+INFO: Run ParseTemplate Behavior [ RunTime:-0.002844s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.011587s ]
+INFO: [ view_filter ] --START--
+INFO: Run ContentReplace Behavior [ RunTime:-0.014521s ]
+INFO: Run TokenBuild Behavior [ RunTime:-0.015887s ]
+INFO: Run WriteHtmlCache Behavior [ RunTime:-0.017209s ]
+INFO: Run ShowRuntime Behavior [ RunTime:-0.018250s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.004962s ]
+INFO: [ view_end ] --START--
+INFO: Run ShowPageTrace Behavior [ RunTime:-0.019532s ]
+INFO: [ view_end ] --END-- [ RunTime:0.001528s ]
+
+[ 2016-09-04T22:18:08+08:00 ] 127.0.0.1 /hotel/admin.php/Layout/north?_=1472998688380
+INFO: [ route_check ] --START--
+INFO: Run CheckRoute Behavior [ RunTime:0.001213s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001319s ]
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:-0.000663s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001098s ]
+INFO: [ view_template ] --START--
+INFO: Run LocationTemplate Behavior [ RunTime:-0.003638s ]
+INFO: [ view_template ] --END-- [ RunTime:0.001204s ]
+INFO: [ view_parse ] --START--
+INFO: Run ParseTemplate Behavior [ RunTime:-0.004883s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.011637s ]
+INFO: [ view_filter ] --START--
+INFO: Run ContentReplace Behavior [ RunTime:-0.016567s ]
+INFO: Run TokenBuild Behavior [ RunTime:-0.017374s ]
+INFO: Run WriteHtmlCache Behavior [ RunTime:-0.018265s ]
+INFO: Run ShowRuntime Behavior [ RunTime:-0.018946s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.003401s ]
+INFO: [ view_end ] --START--
+INFO: Run ShowPageTrace Behavior [ RunTime:-0.020033s ]
+INFO: [ view_end ] --END-- [ RunTime:0.001085s ]
+
+[ 2016-09-04T22:18:08+08:00 ] 127.0.0.1 /hotel/admin.php/Layout/west?_=1472998688397
+INFO: [ route_check ] --START--
+INFO: Run CheckRoute Behavior [ RunTime:0.001592s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001674s ]
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:-0.000312s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000686s ]
+INFO: [ view_template ] --START--
+INFO: Run LocationTemplate Behavior [ RunTime:-0.002316s ]
+INFO: [ view_template ] --END-- [ RunTime:0.000766s ]
+INFO: [ view_parse ] --START--
+INFO: Run ParseTemplate Behavior [ RunTime:-0.003131s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.010019s ]
+INFO: [ view_filter ] --START--
+INFO: Run ContentReplace Behavior [ RunTime:-0.013187s ]
+INFO: Run TokenBuild Behavior [ RunTime:-0.013682s ]
+INFO: Run WriteHtmlCache Behavior [ RunTime:-0.014302s ]
+INFO: Run ShowRuntime Behavior [ RunTime:-0.014689s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002058s ]
+INFO: [ view_end ] --START--
+INFO: Run ShowPageTrace Behavior [ RunTime:-0.015304s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000716s ]
+
+[ 2016-09-04T22:18:08+08:00 ] 127.0.0.1 /hotel/admin.php/Layout/center?_=1472998688405
+INFO: [ route_check ] --START--
+INFO: Run CheckRoute Behavior [ RunTime:0.001199s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001287s ]
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:-0.000540s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001066s ]
+INFO: [ view_template ] --START--
+INFO: Run LocationTemplate Behavior [ RunTime:-0.003931s ]
+INFO: [ view_template ] --END-- [ RunTime:0.001258s ]
+INFO: [ view_parse ] --START--
+INFO: Run ParseTemplate Behavior [ RunTime:-0.005240s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.010593s ]
+INFO: [ view_filter ] --START--
+INFO: Run ContentReplace Behavior [ RunTime:-0.015884s ]
+INFO: Run TokenBuild Behavior [ RunTime:-0.016590s ]
+INFO: Run WriteHtmlCache Behavior [ RunTime:-0.017369s ]
+INFO: Run ShowRuntime Behavior [ RunTime:-0.017939s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.003648s ]
+INFO: [ view_end ] --START--
+INFO: Run ShowPageTrace Behavior [ RunTime:-0.019594s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000909s ]
+
+[ 2016-09-04T22:18:08+08:00 ] 127.0.0.1 /hotel/admin.php/Order/index
+INFO: [ route_check ] --START--
+INFO: Run CheckRoute Behavior [ RunTime:0.001114s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001191s ]
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:-0.000470s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000872s ]
+INFO: [ view_template ] --START--
+INFO: Run LocationTemplate Behavior [ RunTime:-0.003298s ]
+INFO: [ view_template ] --END-- [ RunTime:0.001122s ]
+INFO: [ view_parse ] --START--
+INFO: Run ParseTemplate Behavior [ RunTime:-0.004463s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.010615s ]
+INFO: [ view_filter ] --START--
+INFO: Run ContentReplace Behavior [ RunTime:-0.015113s ]
+INFO: Run TokenBuild Behavior [ RunTime:-0.015878s ]
+INFO: Run WriteHtmlCache Behavior [ RunTime:-0.016775s ]
+INFO: Run ShowRuntime Behavior [ RunTime:-0.017482s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.003049s ]
+INFO: [ view_end ] --START--
+INFO: Run ShowPageTrace Behavior [ RunTime:-0.018632s ]
+INFO: [ view_end ] --END-- [ RunTime:0.001130s ]
+
+[ 2016-09-04T22:18:08+08:00 ] 127.0.0.1 /hotel/admin.php/Order/index
+INFO: [ route_check ] --START--
+INFO: Run CheckRoute Behavior [ RunTime:0.000889s ]
+INFO: [ route_check ] --END-- [ RunTime:0.000959s ]
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:-0.000287s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000631s ]
+INFO: [ view_template ] --START--
+INFO: Run LocationTemplate Behavior [ RunTime:-0.018045s ]
+INFO: [ view_template ] --END-- [ RunTime:0.000566s ]
+INFO: [ view_parse ] --START--
+INFO: Run ParseTemplate Behavior [ RunTime:-0.018632s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.006514s ]
+INFO: [ view_filter ] --START--
+INFO: Run ContentReplace Behavior [ RunTime:-0.025181s ]
+INFO: Run TokenBuild Behavior [ RunTime:-0.025730s ]
+INFO: Run WriteHtmlCache Behavior [ RunTime:-0.026075s ]
+INFO: Run ShowRuntime Behavior [ RunTime:-0.026284s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001499s ]
+INFO: [ view_end ] --START--
+INFO: Run ShowPageTrace Behavior [ RunTime:-0.026896s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000554s ]
+
+[ 2016-09-04T22:18:14+08:00 ] 127.0.0.1 /hotel/admin.php/Auser/index
+INFO: [ route_check ] --START--
+INFO: Run CheckRoute Behavior [ RunTime:0.001347s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001439s ]
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:-0.000549s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001289s ]
+INFO: [ view_template ] --START--
+INFO: Run LocationTemplate Behavior [ RunTime:-0.075378s ]
+INFO: [ view_template ] --END-- [ RunTime:0.001615s ]
+INFO: [ view_parse ] --START--
+NOTIC: [8] Undefined variable: time D:\Hotel\Apache\htdocs\hotel\Admin\Runtime\Cache\17f64007229cc80dfeec02b2cf21cc3e.php 第 123 行.
+NOTIC: [8] Undefined variable: time D:\Hotel\Apache\htdocs\hotel\Admin\Runtime\Cache\17f64007229cc80dfeec02b2cf21cc3e.php 第 124 行.
+INFO: Run ParseTemplate Behavior [ RunTime:-0.077045s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.028581s ]
+INFO: [ view_filter ] --START--
+INFO: Run ContentReplace Behavior [ RunTime:-0.105656s ]
+INFO: Run TokenBuild Behavior [ RunTime:-0.106672s ]
+INFO: Run WriteHtmlCache Behavior [ RunTime:-0.107482s ]
+INFO: Run ShowRuntime Behavior [ RunTime:-0.108047s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.003240s ]
+INFO: [ view_end ] --START--
+INFO: Run ShowPageTrace Behavior [ RunTime:-0.109235s ]
+INFO: [ view_end ] --END-- [ RunTime:0.001390s ]
+
+[ 2016-09-04T22:21:29+08:00 ] 127.0.0.1 /hotel/admin.php/Auser/index
+INFO: [ route_check ] --START--
+INFO: Run CheckRoute Behavior [ RunTime:0.002116s ]
+INFO: [ route_check ] --END-- [ RunTime:0.002248s ]
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:-0.001593s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001391s ]
+INFO: [ view_template ] --START--
+INFO: Run LocationTemplate Behavior [ RunTime:-0.006147s ]
+INFO: [ view_template ] --END-- [ RunTime:0.001809s ]
+INFO: [ view_parse ] --START--
+NOTIC: [8] Undefined variable: time D:\Hotel\Apache\htdocs\hotel\Admin\Runtime\Cache\17f64007229cc80dfeec02b2cf21cc3e.php 第 123 行.
+NOTIC: [8] Undefined variable: time D:\Hotel\Apache\htdocs\hotel\Admin\Runtime\Cache\17f64007229cc80dfeec02b2cf21cc3e.php 第 124 行.
+INFO: Run ParseTemplate Behavior [ RunTime:-0.008039s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.022722s ]
+INFO: [ view_filter ] --START--
+INFO: Run ContentReplace Behavior [ RunTime:-0.030821s ]
+INFO: Run TokenBuild Behavior [ RunTime:-0.032058s ]
+INFO: Run WriteHtmlCache Behavior [ RunTime:-0.033108s ]
+INFO: Run ShowRuntime Behavior [ RunTime:-0.033993s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.004362s ]
+INFO: [ view_end ] --START--
+INFO: Run ShowPageTrace Behavior [ RunTime:-0.035695s ]
+INFO: [ view_end ] --END-- [ RunTime:0.001761s ]
+
+[ 2016-09-04T22:23:18+08:00 ] 127.0.0.1 /hotel/admin.php/Auser/index
+INFO: [ route_check ] --START--
+INFO: Run CheckRoute Behavior [ RunTime:0.001940s ]
+INFO: [ route_check ] --END-- [ RunTime:0.002105s ]
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:-0.001406s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002054s ]
+INFO: [ view_template ] --START--
+INFO: Run LocationTemplate Behavior [ RunTime:-0.006714s ]
+INFO: [ view_template ] --END-- [ RunTime:0.002661s ]
+INFO: [ view_parse ] --START--
+NOTIC: [8] Undefined variable: time D:\Hotel\Apache\htdocs\hotel\Admin\Runtime\Cache\17f64007229cc80dfeec02b2cf21cc3e.php 第 123 行.
+NOTIC: [8] Undefined variable: time D:\Hotel\Apache\htdocs\hotel\Admin\Runtime\Cache\17f64007229cc80dfeec02b2cf21cc3e.php 第 124 行.
+INFO: Run ParseTemplate Behavior [ RunTime:-0.009408s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.026007s ]
+INFO: [ view_filter ] --START--
+INFO: Run ContentReplace Behavior [ RunTime:-0.035477s ]
+INFO: Run TokenBuild Behavior [ RunTime:-0.037544s ]
+INFO: Run WriteHtmlCache Behavior [ RunTime:-0.039021s ]
+INFO: Run ShowRuntime Behavior [ RunTime:-0.040001s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.005903s ]
+INFO: [ view_end ] --START--
+INFO: Run ShowPageTrace Behavior [ RunTime:-0.041896s ]
+INFO: [ view_end ] --END-- [ RunTime:0.002368s ]
+
+[ 2016-09-04T22:27:42+08:00 ] 127.0.0.1 /hotel/admin.php/Auser/index
+INFO: [ route_check ] --START--
+INFO: Run CheckRoute Behavior [ RunTime:0.002127s ]
+INFO: [ route_check ] --END-- [ RunTime:0.002261s ]
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:-0.000880s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001366s ]
+INFO: [ view_template ] --START--
+INFO: Run LocationTemplate Behavior [ RunTime:-0.006663s ]
+INFO: [ view_template ] --END-- [ RunTime:0.001850s ]
+INFO: [ view_parse ] --START--
+NOTIC: [8] Undefined variable: time D:\Hotel\Apache\htdocs\hotel\Admin\Runtime\Cache\17f64007229cc80dfeec02b2cf21cc3e.php 第 123 行.
+NOTIC: [8] Undefined variable: time D:\Hotel\Apache\htdocs\hotel\Admin\Runtime\Cache\17f64007229cc80dfeec02b2cf21cc3e.php 第 124 行.
+INFO: Run ParseTemplate Behavior [ RunTime:-0.008584s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.019360s ]
+INFO: [ view_filter ] --START--
+INFO: Run ContentReplace Behavior [ RunTime:-0.028006s ]
+INFO: Run TokenBuild Behavior [ RunTime:-0.029179s ]
+INFO: Run WriteHtmlCache Behavior [ RunTime:-0.030792s ]
+INFO: Run ShowRuntime Behavior [ RunTime:-0.031596s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.005605s ]
+INFO: [ view_end ] --START--
+INFO: Run ShowPageTrace Behavior [ RunTime:-0.034305s ]
+INFO: [ view_end ] --END-- [ RunTime:0.002771s ]
+
+[ 2016-09-04T22:28:28+08:00 ] ERR: (ThinkException) Column 'hotel_id' cannot be null
+ [ SQL语句 ] : INSERT INTO `hotel_admin` (`hotel_id`,`name`,`password`,`admin_telephone`) VALUES (null,'fj','123456','18888889999')
+[ 2016-09-04T22:28:31+08:00 ] 127.0.0.1 /hotel/admin.php/Auser/index
+INFO: [ route_check ] --START--
+INFO: Run CheckRoute Behavior [ RunTime:0.001564s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001676s ]
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:-0.000587s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001075s ]
+INFO: [ view_template ] --START--
+INFO: Run LocationTemplate Behavior [ RunTime:-0.003987s ]
+INFO: [ view_template ] --END-- [ RunTime:0.001522s ]
+INFO: [ view_parse ] --START--
+NOTIC: [8] Undefined variable: time D:\Hotel\Apache\htdocs\hotel\Admin\Runtime\Cache\17f64007229cc80dfeec02b2cf21cc3e.php 第 123 行.
+NOTIC: [8] Undefined variable: time D:\Hotel\Apache\htdocs\hotel\Admin\Runtime\Cache\17f64007229cc80dfeec02b2cf21cc3e.php 第 124 行.
+INFO: Run ParseTemplate Behavior [ RunTime:-0.005564s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.010840s ]
+INFO: [ view_filter ] --START--
+INFO: Run ContentReplace Behavior [ RunTime:-0.016412s ]
+INFO: Run TokenBuild Behavior [ RunTime:-0.016917s ]
+INFO: Run WriteHtmlCache Behavior [ RunTime:-0.017320s ]
+INFO: Run ShowRuntime Behavior [ RunTime:-0.017644s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001690s ]
+INFO: [ view_end ] --START--
+INFO: Run ShowPageTrace Behavior [ RunTime:-0.018339s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000784s ]
+
+[ 2016-09-04T22:28:38+08:00 ] 127.0.0.1 /hotel/admin.php
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.001102s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001202s ]
+INFO: [ view_template ] --START--
+INFO: Run LocationTemplate Behavior [ RunTime:-0.002106s ]
+INFO: [ view_template ] --END-- [ RunTime:0.001137s ]
+INFO: [ view_parse ] --START--
+INFO: Run ParseTemplate Behavior [ RunTime:-0.003291s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.007910s ]
+INFO: [ view_filter ] --START--
+INFO: Run ContentReplace Behavior [ RunTime:-0.011220s ]
+INFO: Run TokenBuild Behavior [ RunTime:-0.011662s ]
+INFO: Run WriteHtmlCache Behavior [ RunTime:-0.012136s ]
+INFO: Run ShowRuntime Behavior [ RunTime:-0.012464s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001734s ]
+INFO: [ view_end ] --START--
+INFO: Run ShowPageTrace Behavior [ RunTime:-0.013001s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000621s ]
+
+[ 2016-09-04T22:28:38+08:00 ] 127.0.0.1 /hotel/admin.php/Layout/north?_=1472999318934
+INFO: [ route_check ] --START--
+INFO: Run CheckRoute Behavior [ RunTime:0.001444s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001532s ]
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:-0.000384s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001100s ]
+INFO: [ view_template ] --START--
+INFO: Run LocationTemplate Behavior [ RunTime:-0.002984s ]
+INFO: [ view_template ] --END-- [ RunTime:0.000636s ]
+INFO: [ view_parse ] --START--
+INFO: Run ParseTemplate Behavior [ RunTime:-0.003685s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.006873s ]
+INFO: [ view_filter ] --START--
+INFO: Run ContentReplace Behavior [ RunTime:-0.010575s ]
+INFO: Run TokenBuild Behavior [ RunTime:-0.010917s ]
+INFO: Run WriteHtmlCache Behavior [ RunTime:-0.011251s ]
+INFO: Run ShowRuntime Behavior [ RunTime:-0.011492s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001320s ]
+INFO: [ view_end ] --START--
+INFO: Run ShowPageTrace Behavior [ RunTime:-0.011938s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000529s ]
+
+[ 2016-09-04T22:28:38+08:00 ] 127.0.0.1 /hotel/admin.php/Layout/west?_=1472999318941
+INFO: [ route_check ] --START--
+INFO: Run CheckRoute Behavior [ RunTime:0.000883s ]
+INFO: [ route_check ] --END-- [ RunTime:0.000954s ]
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:-0.000269s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000625s ]
+INFO: [ view_template ] --START--
+INFO: Run LocationTemplate Behavior [ RunTime:-0.002269s ]
+INFO: [ view_template ] --END-- [ RunTime:0.000901s ]
+INFO: [ view_parse ] --START--
+INFO: Run ParseTemplate Behavior [ RunTime:-0.003215s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.006373s ]
+INFO: [ view_filter ] --START--
+INFO: Run ContentReplace Behavior [ RunTime:-0.009603s ]
+INFO: Run TokenBuild Behavior [ RunTime:-0.009922s ]
+INFO: Run WriteHtmlCache Behavior [ RunTime:-0.010243s ]
+INFO: Run ShowRuntime Behavior [ RunTime:-0.010452s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001194s ]
+INFO: [ view_end ] --START--
+INFO: Run ShowPageTrace Behavior [ RunTime:-0.010835s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000637s ]
+
+[ 2016-09-04T22:28:39+08:00 ] 127.0.0.1 /hotel/admin.php/Layout/center?_=1472999318946
+INFO: [ route_check ] --START--
+INFO: Run CheckRoute Behavior [ RunTime:0.000565s ]
+INFO: [ route_check ] --END-- [ RunTime:0.000615s ]
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:-0.000174s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000416s ]
+INFO: [ view_template ] --START--
+INFO: Run LocationTemplate Behavior [ RunTime:-0.001480s ]
+INFO: [ view_template ] --END-- [ RunTime:0.000507s ]
+INFO: [ view_parse ] --START--
+INFO: Run ParseTemplate Behavior [ RunTime:-0.002010s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.005397s ]
+INFO: [ view_filter ] --START--
+INFO: Run ContentReplace Behavior [ RunTime:-0.007452s ]
+INFO: Run TokenBuild Behavior [ RunTime:-0.007765s ]
+INFO: Run WriteHtmlCache Behavior [ RunTime:-0.008058s ]
+INFO: Run ShowRuntime Behavior [ RunTime:-0.008288s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001197s ]
+INFO: [ view_end ] --START--
+INFO: Run ShowPageTrace Behavior [ RunTime:-0.008681s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000453s ]
+
+[ 2016-09-04T22:28:39+08:00 ] 127.0.0.1 /hotel/admin.php/Order/index
+INFO: [ route_check ] --START--
+INFO: Run CheckRoute Behavior [ RunTime:0.000884s ]
+INFO: [ route_check ] --END-- [ RunTime:0.000970s ]
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:-0.000316s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000649s ]
+INFO: [ view_template ] --START--
+INFO: Run LocationTemplate Behavior [ RunTime:-0.002692s ]
+INFO: [ view_template ] --END-- [ RunTime:0.000948s ]
+INFO: [ view_parse ] --START--
+INFO: Run ParseTemplate Behavior [ RunTime:-0.003688s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.010915s ]
+INFO: [ view_filter ] --START--
+INFO: Run ContentReplace Behavior [ RunTime:-0.014625s ]
+INFO: Run TokenBuild Behavior [ RunTime:-0.015023s ]
+INFO: Run WriteHtmlCache Behavior [ RunTime:-0.015354s ]
+INFO: Run ShowRuntime Behavior [ RunTime:-0.015584s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001391s ]
+INFO: [ view_end ] --START--
+INFO: Run ShowPageTrace Behavior [ RunTime:-0.016376s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000854s ]
+
+[ 2016-09-04T22:28:39+08:00 ] 127.0.0.1 /hotel/admin.php/Order/index
+INFO: [ route_check ] --START--
+INFO: Run CheckRoute Behavior [ RunTime:0.000926s ]
+INFO: [ route_check ] --END-- [ RunTime:0.000998s ]
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:-0.000458s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000885s ]
+INFO: [ view_template ] --START--
+INFO: Run LocationTemplate Behavior [ RunTime:-0.006706s ]
+INFO: [ view_template ] --END-- [ RunTime:0.000882s ]
+INFO: [ view_parse ] --START--
+INFO: Run ParseTemplate Behavior [ RunTime:-0.007624s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.015436s ]
+INFO: [ view_filter ] --START--
+INFO: Run ContentReplace Behavior [ RunTime:-0.023084s ]
+INFO: Run TokenBuild Behavior [ RunTime:-0.023586s ]
+INFO: Run WriteHtmlCache Behavior [ RunTime:-0.024102s ]
+INFO: Run ShowRuntime Behavior [ RunTime:-0.024584s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002196s ]
+INFO: [ view_end ] --START--
+INFO: Run ShowPageTrace Behavior [ RunTime:-0.025597s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000999s ]
+
+[ 2016-09-04T22:28:42+08:00 ] 127.0.0.1 /hotel/admin.php/User/index
+INFO: [ route_check ] --START--
+INFO: Run CheckRoute Behavior [ RunTime:0.001151s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001264s ]
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:-0.000549s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000968s ]
+INFO: [ view_template ] --START--
+INFO: Run LocationTemplate Behavior [ RunTime:-0.003233s ]
+INFO: [ view_template ] --END-- [ RunTime:0.001668s ]
+INFO: [ view_parse ] --START--
+INFO: Run ParseTemplate Behavior [ RunTime:-0.004957s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.012461s ]
+INFO: [ view_filter ] --START--
+INFO: Run ContentReplace Behavior [ RunTime:-0.017436s ]
+INFO: Run TokenBuild Behavior [ RunTime:-0.017874s ]
+INFO: Run WriteHtmlCache Behavior [ RunTime:-0.018274s ]
+INFO: Run ShowRuntime Behavior [ RunTime:-0.018688s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001720s ]
+INFO: [ view_end ] --START--
+INFO: Run ShowPageTrace Behavior [ RunTime:-0.019205s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000557s ]
+
+[ 2016-09-04T22:28:42+08:00 ] 127.0.0.1 /hotel/admin.php/User/index
+INFO: [ route_check ] --START--
+INFO: Run CheckRoute Behavior [ RunTime:0.000906s ]
+INFO: [ route_check ] --END-- [ RunTime:0.000986s ]
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:-0.000316s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000760s ]
+INFO: [ view_template ] --START--
+INFO: Run LocationTemplate Behavior [ RunTime:-0.003066s ]
+INFO: [ view_template ] --END-- [ RunTime:0.000743s ]
+INFO: [ view_parse ] --START--
+INFO: Run ParseTemplate Behavior [ RunTime:-0.003837s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.008506s ]
+INFO: [ view_filter ] --START--
+INFO: Run ContentReplace Behavior [ RunTime:-0.012400s ]
+INFO: Run TokenBuild Behavior [ RunTime:-0.012983s ]
+INFO: Run WriteHtmlCache Behavior [ RunTime:-0.013503s ]
+INFO: Run ShowRuntime Behavior [ RunTime:-0.013941s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002182s ]
+INFO: [ view_end ] --START--
+INFO: Run ShowPageTrace Behavior [ RunTime:-0.014651s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000665s ]
+
+[ 2016-09-04T22:28:58+08:00 ] 127.0.0.1 /hotel/admin.php/User/index
+INFO: [ route_check ] --START--
+INFO: Run CheckRoute Behavior [ RunTime:0.001584s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001713s ]
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:-0.000772s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001253s ]
+INFO: [ view_template ] --START--
+INFO: Run LocationTemplate Behavior [ RunTime:-0.004659s ]
+INFO: [ view_template ] --END-- [ RunTime:0.001489s ]
+INFO: [ view_parse ] --START--
+INFO: Run ParseTemplate Behavior [ RunTime:-0.006217s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.013057s ]
+INFO: [ view_filter ] --START--
+INFO: Run ContentReplace Behavior [ RunTime:-0.019302s ]
+INFO: Run TokenBuild Behavior [ RunTime:-0.020053s ]
+INFO: Run WriteHtmlCache Behavior [ RunTime:-0.020632s ]
+INFO: Run ShowRuntime Behavior [ RunTime:-0.020987s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002282s ]
+INFO: [ view_end ] --START--
+INFO: Run ShowPageTrace Behavior [ RunTime:-0.021661s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000755s ]
+
+[ 2016-09-04T22:29:05+08:00 ] 127.0.0.1 /hotel/admin.php/Auser/index
+INFO: [ route_check ] --START--
+INFO: Run CheckRoute Behavior [ RunTime:0.002632s ]
+INFO: [ route_check ] --END-- [ RunTime:0.002788s ]
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:-0.001348s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001502s ]
+INFO: [ view_template ] --START--
+INFO: Run LocationTemplate Behavior [ RunTime:-0.005021s ]
+INFO: [ view_template ] --END-- [ RunTime:0.001335s ]
+INFO: [ view_parse ] --START--
+NOTIC: [8] Undefined variable: time D:\Hotel\Apache\htdocs\hotel\Admin\Runtime\Cache\17f64007229cc80dfeec02b2cf21cc3e.php 第 123 行.
+NOTIC: [8] Undefined variable: time D:\Hotel\Apache\htdocs\hotel\Admin\Runtime\Cache\17f64007229cc80dfeec02b2cf21cc3e.php 第 124 行.
+INFO: Run ParseTemplate Behavior [ RunTime:-0.006377s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.008076s ]
+INFO: [ view_filter ] --START--
+INFO: Run ContentReplace Behavior [ RunTime:-0.014471s ]
+INFO: Run TokenBuild Behavior [ RunTime:-0.014878s ]
+INFO: Run WriteHtmlCache Behavior [ RunTime:-0.015222s ]
+INFO: Run ShowRuntime Behavior [ RunTime:-0.015485s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001408s ]
+INFO: [ view_end ] --START--
+INFO: Run ShowPageTrace Behavior [ RunTime:-0.016120s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000827s ]
+
+[ 2016-09-04T22:29:31+08:00 ] ERR: (ThinkException) Column 'hotel_id' cannot be null
+ [ SQL语句 ] : INSERT INTO `hotel_admin` (`hotel_id`,`name`,`password`,`admin_telephone`) VALUES (null,'fj','123456','18888888888')
+[ 2016-09-04T22:30:35+08:00 ] 127.0.0.1 /hotel/admin.php/Auser/index
+INFO: [ route_check ] --START--
+INFO: Run CheckRoute Behavior [ RunTime:0.001979s ]
+INFO: [ route_check ] --END-- [ RunTime:0.002109s ]
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:-0.000891s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001637s ]
+INFO: [ view_template ] --START--
+INFO: Run LocationTemplate Behavior [ RunTime:-0.005944s ]
+INFO: [ view_template ] --END-- [ RunTime:0.001608s ]
+INFO: [ view_parse ] --START--
+NOTIC: [8] Undefined variable: time D:\Hotel\Apache\htdocs\hotel\Admin\Runtime\Cache\17f64007229cc80dfeec02b2cf21cc3e.php 第 123 行.
+NOTIC: [8] Undefined variable: time D:\Hotel\Apache\htdocs\hotel\Admin\Runtime\Cache\17f64007229cc80dfeec02b2cf21cc3e.php 第 124 行.
+INFO: Run ParseTemplate Behavior [ RunTime:-0.007620s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.021045s ]
+INFO: [ view_filter ] --START--
+INFO: Run ContentReplace Behavior [ RunTime:-0.028733s ]
+INFO: Run TokenBuild Behavior [ RunTime:-0.030062s ]
+INFO: Run WriteHtmlCache Behavior [ RunTime:-0.031079s ]
+INFO: Run ShowRuntime Behavior [ RunTime:-0.031933s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.004382s ]
+INFO: [ view_end ] --START--
+INFO: Run ShowPageTrace Behavior [ RunTime:-0.033619s ]
+INFO: [ view_end ] --END-- [ RunTime:0.002126s ]
+
+[ 2016-09-04T22:48:11+08:00 ] 127.0.0.1 /hotel/admin.php/Auser/index
+INFO: [ route_check ] --START--
+INFO: Run CheckRoute Behavior [ RunTime:0.002030s ]
+INFO: [ route_check ] --END-- [ RunTime:0.002171s ]
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:-0.000877s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001367s ]
+INFO: [ view_template ] --START--
+INFO: Run LocationTemplate Behavior [ RunTime:-0.005586s ]
+INFO: [ view_template ] --END-- [ RunTime:0.002297s ]
+INFO: [ view_parse ] --START--
+NOTIC: [8] Undefined variable: time D:\Hotel\Apache\htdocs\hotel\Admin\Runtime\Cache\17f64007229cc80dfeec02b2cf21cc3e.php 第 123 行.
+NOTIC: [8] Undefined variable: time D:\Hotel\Apache\htdocs\hotel\Admin\Runtime\Cache\17f64007229cc80dfeec02b2cf21cc3e.php 第 124 行.
+INFO: Run ParseTemplate Behavior [ RunTime:-0.008010s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.022807s ]
+INFO: [ view_filter ] --START--
+INFO: Run ContentReplace Behavior [ RunTime:-0.030817s ]
+INFO: Run TokenBuild Behavior [ RunTime:-0.031548s ]
+INFO: Run WriteHtmlCache Behavior [ RunTime:-0.032204s ]
+INFO: Run ShowRuntime Behavior [ RunTime:-0.032829s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002752s ]
+INFO: [ view_end ] --START--
+INFO: Run ShowPageTrace Behavior [ RunTime:-0.033945s ]
+INFO: [ view_end ] --END-- [ RunTime:0.001281s ]
+
+[ 2016-09-04T22:48:59+08:00 ] 127.0.0.1 /hotel/admin.php/Auser/index
+INFO: [ route_check ] --START--
+INFO: Run CheckRoute Behavior [ RunTime:0.000760s ]
+INFO: [ route_check ] --END-- [ RunTime:0.000834s ]
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:-0.000241s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000526s ]
+INFO: [ view_template ] --START--
+INFO: Run LocationTemplate Behavior [ RunTime:-0.002419s ]
+INFO: [ view_template ] --END-- [ RunTime:0.001200s ]
+INFO: [ view_parse ] --START--
+NOTIC: [8] Undefined variable: time D:\Hotel\Apache\htdocs\hotel\Admin\Runtime\Cache\17f64007229cc80dfeec02b2cf21cc3e.php 第 123 行.
+NOTIC: [8] Undefined variable: time D:\Hotel\Apache\htdocs\hotel\Admin\Runtime\Cache\17f64007229cc80dfeec02b2cf21cc3e.php 第 124 行.
+INFO: Run ParseTemplate Behavior [ RunTime:-0.003764s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.010941s ]
+INFO: [ view_filter ] --START--
+INFO: Run ContentReplace Behavior [ RunTime:-0.014745s ]
+INFO: Run TokenBuild Behavior [ RunTime:-0.015511s ]
+INFO: Run WriteHtmlCache Behavior [ RunTime:-0.016343s ]
+INFO: Run ShowRuntime Behavior [ RunTime:-0.017280s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.004162s ]
+INFO: [ view_end ] --START--
+INFO: Run ShowPageTrace Behavior [ RunTime:-0.021040s ]
+INFO: [ view_end ] --END-- [ RunTime:0.001942s ]
+
+[ 2016-09-04T22:50:06+08:00 ] 127.0.0.1 /hotel/admin.php/Credit/index
+INFO: [ route_check ] --START--
+INFO: Run CheckRoute Behavior [ RunTime:0.002077s ]
+INFO: [ route_check ] --END-- [ RunTime:0.002254s ]
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:-0.000913s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001426s ]
+INFO: [ view_template ] --START--
+INFO: Run LocationTemplate Behavior [ RunTime:-0.004482s ]
+INFO: [ view_template ] --END-- [ RunTime:0.002069s ]
+INFO: [ view_parse ] --START--
+INFO: Run ParseTemplate Behavior [ RunTime:-0.007315s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.020729s ]
+INFO: [ view_filter ] --START--
+INFO: Run ContentReplace Behavior [ RunTime:-0.027483s ]
+INFO: Run TokenBuild Behavior [ RunTime:-0.028708s ]
+INFO: Run WriteHtmlCache Behavior [ RunTime:-0.029710s ]
+INFO: Run ShowRuntime Behavior [ RunTime:-0.030485s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.004247s ]
+INFO: [ view_end ] --START--
+INFO: Run ShowPageTrace Behavior [ RunTime:-0.031829s ]
+INFO: [ view_end ] --END-- [ RunTime:0.001660s ]
+
+[ 2016-09-04T22:52:45+08:00 ] 127.0.0.1 /hotel/admin.php/Index/login
+INFO: [ route_check ] --START--
+INFO: Run CheckRoute Behavior [ RunTime:0.000739s ]
+INFO: [ route_check ] --END-- [ RunTime:0.000797s ]
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:-0.000224s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000414s ]
+INFO: [ view_template ] --START--
+INFO: Run LocationTemplate Behavior [ RunTime:-0.001636s ]
+INFO: [ view_template ] --END-- [ RunTime:0.000436s ]
+INFO: [ view_parse ] --START--
+INFO: Run ParseTemplate Behavior [ RunTime:-0.002096s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.005617s ]
+INFO: [ view_filter ] --START--
+INFO: Run ContentReplace Behavior [ RunTime:-0.007737s ]
+INFO: Run TokenBuild Behavior [ RunTime:-0.008092s ]
+INFO: Run WriteHtmlCache Behavior [ RunTime:-0.008499s ]
+INFO: Run ShowRuntime Behavior [ RunTime:-0.008776s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001489s ]
+INFO: [ view_end ] --START--
+INFO: Run ShowPageTrace Behavior [ RunTime:-0.009266s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000636s ]
+
+[ 2016-09-04T22:52:56+08:00 ] 127.0.0.1 /hotel/admin.php
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.001054s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001226s ]
+INFO: [ view_template ] --START--
+INFO: Run LocationTemplate Behavior [ RunTime:-0.001194s ]
+INFO: [ view_template ] --END-- [ RunTime:0.001009s ]
+INFO: [ view_parse ] --START--
+INFO: Run ParseTemplate Behavior [ RunTime:-0.002247s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.005914s ]
+INFO: [ view_filter ] --START--
+INFO: Run ContentReplace Behavior [ RunTime:-0.008158s ]
+INFO: Run TokenBuild Behavior [ RunTime:-0.008546s ]
+INFO: Run WriteHtmlCache Behavior [ RunTime:-0.008883s ]
+INFO: Run ShowRuntime Behavior [ RunTime:-0.009141s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001454s ]
+INFO: [ view_end ] --START--
+INFO: Run ShowPageTrace Behavior [ RunTime:-0.009650s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000727s ]
+
+[ 2016-09-04T22:52:56+08:00 ] 127.0.0.1 /hotel/admin.php/Layout/north?_=1473000776694
+INFO: [ route_check ] --START--
+INFO: Run CheckRoute Behavior [ RunTime:0.000950s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001035s ]
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:-0.000316s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000752s ]
+INFO: [ view_template ] --START--
+INFO: Run LocationTemplate Behavior [ RunTime:-0.002849s ]
+INFO: [ view_template ] --END-- [ RunTime:0.001086s ]
+INFO: [ view_parse ] --START--
+INFO: Run ParseTemplate Behavior [ RunTime:-0.003978s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.009589s ]
+INFO: [ view_filter ] --START--
+INFO: Run ContentReplace Behavior [ RunTime:-0.013600s ]
+INFO: Run TokenBuild Behavior [ RunTime:-0.014037s ]
+INFO: Run WriteHtmlCache Behavior [ RunTime:-0.014476s ]
+INFO: Run ShowRuntime Behavior [ RunTime:-0.014792s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001771s ]
+INFO: [ view_end ] --START--
+INFO: Run ShowPageTrace Behavior [ RunTime:-0.015434s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000751s ]
+
+[ 2016-09-04T22:52:56+08:00 ] 127.0.0.1 /hotel/admin.php/Layout/west?_=1473000776712
+INFO: [ route_check ] --START--
+INFO: Run CheckRoute Behavior [ RunTime:0.001252s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001337s ]
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:-0.000574s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000868s ]
+INFO: [ view_template ] --START--
+INFO: Run LocationTemplate Behavior [ RunTime:-0.003839s ]
+INFO: [ view_template ] --END-- [ RunTime:0.000832s ]
+INFO: [ view_parse ] --START--
+INFO: Run ParseTemplate Behavior [ RunTime:-0.004710s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.009965s ]
+INFO: [ view_filter ] --START--
+INFO: Run ContentReplace Behavior [ RunTime:-0.014717s ]
+INFO: Run TokenBuild Behavior [ RunTime:-0.015428s ]
+INFO: Run WriteHtmlCache Behavior [ RunTime:-0.016199s ]
+INFO: Run ShowRuntime Behavior [ RunTime:-0.018257s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.004090s ]
+INFO: [ view_end ] --START--
+INFO: Run ShowPageTrace Behavior [ RunTime:-0.018841s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000617s ]
+
+[ 2016-09-04T22:52:56+08:00 ] 127.0.0.1 /hotel/admin.php/Layout/center?_=1473000776722
+INFO: [ route_check ] --START--
+INFO: Run CheckRoute Behavior [ RunTime:0.001350s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001440s ]
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:-0.000588s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001056s ]
+INFO: [ view_template ] --START--
+INFO: Run LocationTemplate Behavior [ RunTime:-0.006048s ]
+INFO: [ view_template ] --END-- [ RunTime:0.001119s ]
+INFO: [ view_parse ] --START--
+INFO: Run ParseTemplate Behavior [ RunTime:-0.007213s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.008984s ]
+INFO: [ view_filter ] --START--
+INFO: Run ContentReplace Behavior [ RunTime:-0.016216s ]
+INFO: Run TokenBuild Behavior [ RunTime:-0.016693s ]
+INFO: Run WriteHtmlCache Behavior [ RunTime:-0.017164s ]
+INFO: Run ShowRuntime Behavior [ RunTime:-0.017571s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001890s ]
+INFO: [ view_end ] --START--
+INFO: Run ShowPageTrace Behavior [ RunTime:-0.018147s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000706s ]
+
+[ 2016-09-04T22:52:56+08:00 ] 127.0.0.1 /hotel/admin.php/Order/index
+INFO: [ route_check ] --START--
+INFO: Run CheckRoute Behavior [ RunTime:0.000660s ]
+INFO: [ route_check ] --END-- [ RunTime:0.000723s ]
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:-0.000338s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000613s ]
+INFO: [ view_template ] --START--
+INFO: Run LocationTemplate Behavior [ RunTime:-0.002385s ]
+INFO: [ view_template ] --END-- [ RunTime:0.000799s ]
+INFO: [ view_parse ] --START--
+INFO: Run ParseTemplate Behavior [ RunTime:-0.003213s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.008320s ]
+INFO: [ view_filter ] --START--
+INFO: Run ContentReplace Behavior [ RunTime:-0.011568s ]
+INFO: Run TokenBuild Behavior [ RunTime:-0.012171s ]
+INFO: Run WriteHtmlCache Behavior [ RunTime:-0.012873s ]
+INFO: Run ShowRuntime Behavior [ RunTime:-0.013496s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002869s ]
+INFO: [ view_end ] --START--
+INFO: Run ShowPageTrace Behavior [ RunTime:-0.015111s ]
+INFO: [ view_end ] --END-- [ RunTime:0.001359s ]
+
+[ 2016-09-04T22:52:56+08:00 ] 127.0.0.1 /hotel/admin.php/Order/index
+INFO: [ route_check ] --START--
+INFO: Run CheckRoute Behavior [ RunTime:0.000942s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001025s ]
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:-0.000299s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000688s ]
+INFO: [ view_template ] --START--
+INFO: Run LocationTemplate Behavior [ RunTime:-0.009735s ]
+INFO: [ view_template ] --END-- [ RunTime:0.000687s ]
+INFO: [ view_parse ] --START--
+INFO: Run ParseTemplate Behavior [ RunTime:-0.010453s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.008937s ]
+INFO: [ view_filter ] --START--
+INFO: Run ContentReplace Behavior [ RunTime:-0.019437s ]
+INFO: Run TokenBuild Behavior [ RunTime:-0.019964s ]
+INFO: Run WriteHtmlCache Behavior [ RunTime:-0.020507s ]
+INFO: Run ShowRuntime Behavior [ RunTime:-0.020850s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001989s ]
+INFO: [ view_end ] --START--
+INFO: Run ShowPageTrace Behavior [ RunTime:-0.021742s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000818s ]
+
+[ 2016-09-04T22:53:48+08:00 ] 127.0.0.1 /hotel/admin.php
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.001662s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001796s ]
+INFO: [ view_template ] --START--
+INFO: Run LocationTemplate Behavior [ RunTime:-0.002865s ]
+INFO: [ view_template ] --END-- [ RunTime:0.001758s ]
+INFO: [ view_parse ] --START--
+INFO: Run ParseTemplate Behavior [ RunTime:-0.004692s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.016729s ]
+INFO: [ view_filter ] --START--
+INFO: Run ContentReplace Behavior [ RunTime:-0.021490s ]
+INFO: Run TokenBuild Behavior [ RunTime:-0.022486s ]
+INFO: Run WriteHtmlCache Behavior [ RunTime:-0.023458s ]
+INFO: Run ShowRuntime Behavior [ RunTime:-0.024227s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.003881s ]
+INFO: [ view_end ] --START--
+INFO: Run ShowPageTrace Behavior [ RunTime:-0.025478s ]
+INFO: [ view_end ] --END-- [ RunTime:0.001497s ]
+
+[ 2016-09-04T22:53:49+08:00 ] 127.0.0.1 /hotel/admin.php/Layout/north?_=1473000829133
+INFO: [ route_check ] --START--
+INFO: Run CheckRoute Behavior [ RunTime:0.001757s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001891s ]
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:-0.000482s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001110s ]
+INFO: [ view_template ] --START--
+INFO: Run LocationTemplate Behavior [ RunTime:-0.003853s ]
+INFO: [ view_template ] --END-- [ RunTime:0.001291s ]
+INFO: [ view_parse ] --START--
+INFO: Run ParseTemplate Behavior [ RunTime:-0.005214s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.011069s ]
+INFO: [ view_filter ] --START--
+INFO: Run ContentReplace Behavior [ RunTime:-0.016298s ]
+INFO: Run TokenBuild Behavior [ RunTime:-0.016778s ]
+INFO: Run WriteHtmlCache Behavior [ RunTime:-0.017252s ]
+INFO: Run ShowRuntime Behavior [ RunTime:-0.017652s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001945s ]
+INFO: [ view_end ] --START--
+INFO: Run ShowPageTrace Behavior [ RunTime:-0.018315s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000748s ]
+
+[ 2016-09-04T22:53:49+08:00 ] 127.0.0.1 /hotel/admin.php/Layout/west?_=1473000829151
+INFO: [ route_check ] --START--
+INFO: Run CheckRoute Behavior [ RunTime:0.000969s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001051s ]
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:-0.000308s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000704s ]
+INFO: [ view_template ] --START--
+INFO: Run LocationTemplate Behavior [ RunTime:-0.005959s ]
+INFO: [ view_template ] --END-- [ RunTime:0.000960s ]
+INFO: [ view_parse ] --START--
+INFO: Run ParseTemplate Behavior [ RunTime:-0.006982s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.007576s ]
+INFO: [ view_filter ] --START--
+INFO: Run ContentReplace Behavior [ RunTime:-0.014573s ]
+INFO: Run TokenBuild Behavior [ RunTime:-0.014958s ]
+INFO: Run WriteHtmlCache Behavior [ RunTime:-0.015398s ]
+INFO: Run ShowRuntime Behavior [ RunTime:-0.015718s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001805s ]
+INFO: [ view_end ] --START--
+INFO: Run ShowPageTrace Behavior [ RunTime:-0.016436s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000706s ]
+
+[ 2016-09-04T22:53:49+08:00 ] 127.0.0.1 /hotel/admin.php/Layout/center?_=1473000829161
+INFO: [ route_check ] --START--
+INFO: Run CheckRoute Behavior [ RunTime:0.000829s ]
+INFO: [ route_check ] --END-- [ RunTime:0.000889s ]
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:-0.000341s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000522s ]
+INFO: [ view_template ] --START--
+INFO: Run LocationTemplate Behavior [ RunTime:-0.006451s ]
+INFO: [ view_template ] --END-- [ RunTime:0.001061s ]
+INFO: [ view_parse ] --START--
+INFO: Run ParseTemplate Behavior [ RunTime:-0.007580s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.009581s ]
+INFO: [ view_filter ] --START--
+INFO: Run ContentReplace Behavior [ RunTime:-0.017170s ]
+INFO: Run TokenBuild Behavior [ RunTime:-0.017706s ]
+INFO: Run WriteHtmlCache Behavior [ RunTime:-0.018233s ]
+INFO: Run ShowRuntime Behavior [ RunTime:-0.018624s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002071s ]
+INFO: [ view_end ] --START--
+INFO: Run ShowPageTrace Behavior [ RunTime:-0.019296s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000818s ]
+
+[ 2016-09-04T22:53:49+08:00 ] 127.0.0.1 /hotel/admin.php/Order/index
+INFO: [ route_check ] --START--
+INFO: Run CheckRoute Behavior [ RunTime:0.000759s ]
+INFO: [ route_check ] --END-- [ RunTime:0.000830s ]
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:-0.000536s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000882s ]
+INFO: [ view_template ] --START--
+INFO: Run LocationTemplate Behavior [ RunTime:-0.003586s ]
+INFO: [ view_template ] --END-- [ RunTime:0.001830s ]
+INFO: [ view_parse ] --START--
+INFO: Run ParseTemplate Behavior [ RunTime:-0.005485s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.008294s ]
+INFO: [ view_filter ] --START--
+INFO: Run ContentReplace Behavior [ RunTime:-0.013803s ]
+INFO: Run TokenBuild Behavior [ RunTime:-0.014201s ]
+INFO: Run WriteHtmlCache Behavior [ RunTime:-0.014520s ]
+INFO: Run ShowRuntime Behavior [ RunTime:-0.014793s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001402s ]
+INFO: [ view_end ] --START--
+INFO: Run ShowPageTrace Behavior [ RunTime:-0.015566s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000699s ]
+
+[ 2016-09-04T22:53:49+08:00 ] 127.0.0.1 /hotel/admin.php/Order/index
+INFO: [ route_check ] --START--
+INFO: Run CheckRoute Behavior [ RunTime:0.000978s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001066s ]
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:-0.000328s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000694s ]
+INFO: [ view_template ] --START--
+INFO: Run LocationTemplate Behavior [ RunTime:-0.016886s ]
+INFO: [ view_template ] --END-- [ RunTime:0.000757s ]
+INFO: [ view_parse ] --START--
+INFO: Run ParseTemplate Behavior [ RunTime:-0.017687s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.012605s ]
+INFO: [ view_filter ] --START--
+INFO: Run ContentReplace Behavior [ RunTime:-0.030309s ]
+INFO: Run TokenBuild Behavior [ RunTime:-0.030638s ]
+INFO: Run WriteHtmlCache Behavior [ RunTime:-0.030910s ]
+INFO: Run ShowRuntime Behavior [ RunTime:-0.031105s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001146s ]
+INFO: [ view_end ] --START--
+INFO: Run ShowPageTrace Behavior [ RunTime:-0.031744s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000640s ]
+
+[ 2016-09-04T22:53:55+08:00 ] 127.0.0.1 /hotel/admin.php/Index/login
+INFO: [ route_check ] --START--
+INFO: Run CheckRoute Behavior [ RunTime:0.000853s ]
+INFO: [ route_check ] --END-- [ RunTime:0.000927s ]
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:-0.000225s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000467s ]
+INFO: [ view_template ] --START--
+INFO: Run LocationTemplate Behavior [ RunTime:-0.001535s ]
+INFO: [ view_template ] --END-- [ RunTime:0.000427s ]
+INFO: [ view_parse ] --START--
+INFO: Run ParseTemplate Behavior [ RunTime:-0.001987s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.004900s ]
+INFO: [ view_filter ] --START--
+INFO: Run ContentReplace Behavior [ RunTime:-0.006909s ]
+INFO: Run TokenBuild Behavior [ RunTime:-0.007171s ]
+INFO: Run WriteHtmlCache Behavior [ RunTime:-0.007429s ]
+INFO: Run ShowRuntime Behavior [ RunTime:-0.007616s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001085s ]
+INFO: [ view_end ] --START--
+INFO: Run ShowPageTrace Behavior [ RunTime:-0.008029s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000419s ]
+
+[ 2016-09-04T22:54:02+08:00 ] 127.0.0.1 /hotel/admin.php
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.000531s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000583s ]
+INFO: [ view_template ] --START--
+INFO: Run LocationTemplate Behavior [ RunTime:-0.001031s ]
+INFO: [ view_template ] --END-- [ RunTime:0.000635s ]
+INFO: [ view_parse ] --START--
+INFO: Run ParseTemplate Behavior [ RunTime:-0.001688s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.005555s ]
+INFO: [ view_filter ] --START--
+INFO: Run ContentReplace Behavior [ RunTime:-0.007269s ]
+INFO: Run TokenBuild Behavior [ RunTime:-0.007682s ]
+INFO: Run WriteHtmlCache Behavior [ RunTime:-0.008073s ]
+INFO: Run ShowRuntime Behavior [ RunTime:-0.008393s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001574s ]
+INFO: [ view_end ] --START--
+INFO: Run ShowPageTrace Behavior [ RunTime:-0.008881s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000830s ]
+
+[ 2016-09-04T22:54:02+08:00 ] 127.0.0.1 /hotel/admin.php/Layout/north?_=1473000842626
+INFO: [ route_check ] --START--
+INFO: Run CheckRoute Behavior [ RunTime:0.001012s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001091s ]
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:-0.000509s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000868s ]
+INFO: [ view_template ] --START--
+INFO: Run LocationTemplate Behavior [ RunTime:-0.003100s ]
+INFO: [ view_template ] --END-- [ RunTime:0.001659s ]
+INFO: [ view_parse ] --START--
+INFO: Run ParseTemplate Behavior [ RunTime:-0.004842s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.010357s ]
+INFO: [ view_filter ] --START--
+INFO: Run ContentReplace Behavior [ RunTime:-0.015227s ]
+INFO: Run TokenBuild Behavior [ RunTime:-0.015890s ]
+INFO: Run WriteHtmlCache Behavior [ RunTime:-0.016592s ]
+INFO: Run ShowRuntime Behavior [ RunTime:-0.017197s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002913s ]
+INFO: [ view_end ] --START--
+INFO: Run ShowPageTrace Behavior [ RunTime:-0.018217s ]
+INFO: [ view_end ] --END-- [ RunTime:0.001932s ]
+
+[ 2016-09-04T22:54:02+08:00 ] 127.0.0.1 /hotel/admin.php/Layout/west?_=1473000842633
+INFO: [ route_check ] --START--
+INFO: Run CheckRoute Behavior [ RunTime:0.000915s ]
+INFO: [ route_check ] --END-- [ RunTime:0.000989s ]
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:-0.000290s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000658s ]
+INFO: [ view_template ] --START--
+INFO: Run LocationTemplate Behavior [ RunTime:-0.016440s ]
+INFO: [ view_template ] --END-- [ RunTime:0.002662s ]
+INFO: [ view_parse ] --START--
+INFO: Run ParseTemplate Behavior [ RunTime:-0.019153s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.011256s ]
+INFO: [ view_filter ] --START--
+INFO: Run ContentReplace Behavior [ RunTime:-0.030452s ]
+INFO: Run TokenBuild Behavior [ RunTime:-0.030828s ]
+INFO: Run WriteHtmlCache Behavior [ RunTime:-0.031133s ]
+INFO: Run ShowRuntime Behavior [ RunTime:-0.031355s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001276s ]
+INFO: [ view_end ] --START--
+INFO: Run ShowPageTrace Behavior [ RunTime:-0.031755s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000464s ]
+
+[ 2016-09-04T22:54:02+08:00 ] 127.0.0.1 /hotel/admin.php/Layout/center?_=1473000842638
+INFO: [ route_check ] --START--
+INFO: Run CheckRoute Behavior [ RunTime:0.002328s ]
+INFO: [ route_check ] --END-- [ RunTime:0.002464s ]
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:-0.000958s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001346s ]
+INFO: [ view_template ] --START--
+INFO: Run LocationTemplate Behavior [ RunTime:-0.005220s ]
+INFO: [ view_template ] --END-- [ RunTime:0.001694s ]
+INFO: [ view_parse ] --START--
+INFO: Run ParseTemplate Behavior [ RunTime:-0.006959s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.008096s ]
+INFO: [ view_filter ] --START--
+INFO: Run ContentReplace Behavior [ RunTime:-0.015069s ]
+INFO: Run TokenBuild Behavior [ RunTime:-0.015585s ]
+INFO: Run WriteHtmlCache Behavior [ RunTime:-0.016058s ]
+INFO: Run ShowRuntime Behavior [ RunTime:-0.016427s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001930s ]
+INFO: [ view_end ] --START--
+INFO: Run ShowPageTrace Behavior [ RunTime:-0.017071s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000922s ]
+
+[ 2016-09-04T22:54:02+08:00 ] 127.0.0.1 /hotel/admin.php/Order/index
+INFO: [ route_check ] --START--
+INFO: Run CheckRoute Behavior [ RunTime:0.001629s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001719s ]
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:-0.000602s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001014s ]
+INFO: [ view_template ] --START--
+INFO: Run LocationTemplate Behavior [ RunTime:-0.004431s ]
+INFO: [ view_template ] --END-- [ RunTime:0.001246s ]
+INFO: [ view_parse ] --START--
+INFO: Run ParseTemplate Behavior [ RunTime:-0.005718s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.013792s ]
+INFO: [ view_filter ] --START--
+INFO: Run ContentReplace Behavior [ RunTime:-0.019614s ]
+INFO: Run TokenBuild Behavior [ RunTime:-0.020650s ]
+INFO: Run WriteHtmlCache Behavior [ RunTime:-0.021632s ]
+INFO: Run ShowRuntime Behavior [ RunTime:-0.022371s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.004125s ]
+INFO: [ view_end ] --START--
+INFO: Run ShowPageTrace Behavior [ RunTime:-0.024407s ]
+INFO: [ view_end ] --END-- [ RunTime:0.001056s ]
+
+[ 2016-09-04T22:54:02+08:00 ] 127.0.0.1 /hotel/admin.php/Order/index
+INFO: [ route_check ] --START--
+INFO: Run CheckRoute Behavior [ RunTime:0.000855s ]
+INFO: [ route_check ] --END-- [ RunTime:0.000922s ]
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:-0.000206s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000466s ]
+INFO: [ view_template ] --START--
+INFO: Run LocationTemplate Behavior [ RunTime:-0.022872s ]
+INFO: [ view_template ] --END-- [ RunTime:0.000576s ]
+INFO: [ view_parse ] --START--
+INFO: Run ParseTemplate Behavior [ RunTime:-0.023470s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.005976s ]
+INFO: [ view_filter ] --START--
+INFO: Run ContentReplace Behavior [ RunTime:-0.029508s ]
+INFO: Run TokenBuild Behavior [ RunTime:-0.030098s ]
+INFO: Run WriteHtmlCache Behavior [ RunTime:-0.030647s ]
+INFO: Run ShowRuntime Behavior [ RunTime:-0.030911s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001926s ]
+INFO: [ view_end ] --START--
+INFO: Run ShowPageTrace Behavior [ RunTime:-0.032266s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000826s ]
+
+[ 2016-09-04T22:54:06+08:00 ] 127.0.0.1 /hotel/admin.php/Credit/index
+INFO: [ route_check ] --START--
+INFO: Run CheckRoute Behavior [ RunTime:0.000993s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001083s ]
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:-0.000330s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000822s ]
+INFO: [ view_template ] --START--
+INFO: Run LocationTemplate Behavior [ RunTime:-0.002381s ]
+INFO: [ view_template ] --END-- [ RunTime:0.001094s ]
+INFO: [ view_parse ] --START--
+INFO: Run ParseTemplate Behavior [ RunTime:-0.003521s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.014472s ]
+INFO: [ view_filter ] --START--
+INFO: Run ContentReplace Behavior [ RunTime:-0.018053s ]
+INFO: Run TokenBuild Behavior [ RunTime:-0.018798s ]
+INFO: Run WriteHtmlCache Behavior [ RunTime:-0.019307s ]
+INFO: Run ShowRuntime Behavior [ RunTime:-0.019663s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002202s ]
+INFO: [ view_end ] --START--
+INFO: Run ShowPageTrace Behavior [ RunTime:-0.020315s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000809s ]
+
+[ 2016-09-04T22:54:06+08:00 ] 127.0.0.1 /hotel/admin.php/Credit/index
+INFO: [ route_check ] --START--
+INFO: Run CheckRoute Behavior [ RunTime:0.001321s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001419s ]
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:-0.000731s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001259s ]
+INFO: [ view_template ] --START--
+INFO: Run LocationTemplate Behavior [ RunTime:-0.004009s ]
+INFO: [ view_template ] --END-- [ RunTime:0.002471s ]
+INFO: [ view_parse ] --START--
+INFO: Run ParseTemplate Behavior [ RunTime:-0.006512s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.009889s ]
+INFO: [ view_filter ] --START--
+INFO: Run ContentReplace Behavior [ RunTime:-0.016424s ]
+INFO: Run TokenBuild Behavior [ RunTime:-0.016900s ]
+INFO: Run WriteHtmlCache Behavior [ RunTime:-0.017326s ]
+INFO: Run ShowRuntime Behavior [ RunTime:-0.017647s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001682s ]
+INFO: [ view_end ] --START--
+INFO: Run ShowPageTrace Behavior [ RunTime:-0.018141s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000571s ]
+
+[ 2016-09-04T22:54:25+08:00 ] 127.0.0.1 /hotel/admin.php
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.000904s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000984s ]
+INFO: [ view_template ] --START--
+INFO: Run LocationTemplate Behavior [ RunTime:-0.001732s ]
+INFO: [ view_template ] --END-- [ RunTime:0.001072s ]
+INFO: [ view_parse ] --START--
+INFO: Run ParseTemplate Behavior [ RunTime:-0.002846s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.011757s ]
+INFO: [ view_filter ] --START--
+INFO: Run ContentReplace Behavior [ RunTime:-0.014658s ]
+INFO: Run TokenBuild Behavior [ RunTime:-0.015376s ]
+INFO: Run WriteHtmlCache Behavior [ RunTime:-0.016061s ]
+INFO: Run ShowRuntime Behavior [ RunTime:-0.016622s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002781s ]
+INFO: [ view_end ] --START--
+INFO: Run ShowPageTrace Behavior [ RunTime:-0.017496s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000937s ]
+
+[ 2016-09-04T22:54:25+08:00 ] 127.0.0.1 /hotel/admin.php/Layout/north?_=1473000865122
+INFO: [ route_check ] --START--
+INFO: Run CheckRoute Behavior [ RunTime:0.000962s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001054s ]
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:-0.000331s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000772s ]
+INFO: [ view_template ] --START--
+INFO: Run LocationTemplate Behavior [ RunTime:-0.002756s ]
+INFO: [ view_template ] --END-- [ RunTime:0.001253s ]
+INFO: [ view_parse ] --START--
+INFO: Run ParseTemplate Behavior [ RunTime:-0.004266s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.009290s ]
+INFO: [ view_filter ] --START--
+INFO: Run ContentReplace Behavior [ RunTime:-0.013596s ]
+INFO: Run TokenBuild Behavior [ RunTime:-0.014068s ]
+INFO: Run WriteHtmlCache Behavior [ RunTime:-0.014514s ]
+INFO: Run ShowRuntime Behavior [ RunTime:-0.014844s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001811s ]
+INFO: [ view_end ] --START--
+INFO: Run ShowPageTrace Behavior [ RunTime:-0.015467s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000733s ]
+
+[ 2016-09-04T22:54:25+08:00 ] 127.0.0.1 /hotel/admin.php/Layout/west?_=1473000865135
+INFO: [ route_check ] --START--
+INFO: Run CheckRoute Behavior [ RunTime:0.000922s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001001s ]
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:-0.000309s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000704s ]
+INFO: [ view_template ] --START--
+INFO: Run LocationTemplate Behavior [ RunTime:-0.004053s ]
+INFO: [ view_template ] --END-- [ RunTime:0.000926s ]
+INFO: [ view_parse ] --START--
+INFO: Run ParseTemplate Behavior [ RunTime:-0.005025s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.008507s ]
+INFO: [ view_filter ] --START--
+INFO: Run ContentReplace Behavior [ RunTime:-0.013551s ]
+INFO: Run TokenBuild Behavior [ RunTime:-0.013873s ]
+INFO: Run WriteHtmlCache Behavior [ RunTime:-0.014165s ]
+INFO: Run ShowRuntime Behavior [ RunTime:-0.014379s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001212s ]
+INFO: [ view_end ] --START--
+INFO: Run ShowPageTrace Behavior [ RunTime:-0.014800s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000455s ]
+
+[ 2016-09-04T22:54:25+08:00 ] 127.0.0.1 /hotel/admin.php/Layout/center?_=1473000865145
+INFO: [ route_check ] --START--
+INFO: Run CheckRoute Behavior [ RunTime:0.000681s ]
+INFO: [ route_check ] --END-- [ RunTime:0.000750s ]
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:-0.000768s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000785s ]
+INFO: [ view_template ] --START--
+INFO: Run LocationTemplate Behavior [ RunTime:-0.009826s ]
+INFO: [ view_template ] --END-- [ RunTime:0.000925s ]
+INFO: [ view_parse ] --START--
+INFO: Run ParseTemplate Behavior [ RunTime:-0.010813s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.007791s ]
+INFO: [ view_filter ] --START--
+INFO: Run ContentReplace Behavior [ RunTime:-0.018619s ]
+INFO: Run TokenBuild Behavior [ RunTime:-0.018935s ]
+INFO: Run WriteHtmlCache Behavior [ RunTime:-0.019221s ]
+INFO: Run ShowRuntime Behavior [ RunTime:-0.019432s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001175s ]
+INFO: [ view_end ] --START--
+INFO: Run ShowPageTrace Behavior [ RunTime:-0.019831s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000484s ]
+
+[ 2016-09-04T22:54:25+08:00 ] 127.0.0.1 /hotel/admin.php/Order/index
+INFO: [ route_check ] --START--
+INFO: Run CheckRoute Behavior [ RunTime:0.000596s ]
+INFO: [ route_check ] --END-- [ RunTime:0.000655s ]
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:-0.000203s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000566s ]
+INFO: [ view_template ] --START--
+INFO: Run LocationTemplate Behavior [ RunTime:-0.002592s ]
+INFO: [ view_template ] --END-- [ RunTime:0.000970s ]
+INFO: [ view_parse ] --START--
+INFO: Run ParseTemplate Behavior [ RunTime:-0.003745s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.009610s ]
+INFO: [ view_filter ] --START--
+INFO: Run ContentReplace Behavior [ RunTime:-0.013392s ]
+INFO: Run TokenBuild Behavior [ RunTime:-0.014043s ]
+INFO: Run WriteHtmlCache Behavior [ RunTime:-0.014689s ]
+INFO: Run ShowRuntime Behavior [ RunTime:-0.015063s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002303s ]
+INFO: [ view_end ] --START--
+INFO: Run ShowPageTrace Behavior [ RunTime:-0.016064s ]
+INFO: [ view_end ] --END-- [ RunTime:0.001174s ]
+
+[ 2016-09-04T22:54:25+08:00 ] 127.0.0.1 /hotel/admin.php/Order/index
+INFO: [ route_check ] --START--
+INFO: Run CheckRoute Behavior [ RunTime:0.000578s ]
+INFO: [ route_check ] --END-- [ RunTime:0.000629s ]
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:-0.000191s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000461s ]
+INFO: [ view_template ] --START--
+INFO: Run LocationTemplate Behavior [ RunTime:-0.017942s ]
+INFO: [ view_template ] --END-- [ RunTime:0.001519s ]
+INFO: [ view_parse ] --START--
+INFO: Run ParseTemplate Behavior [ RunTime:-0.020601s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.011363s ]
+INFO: [ view_filter ] --START--
+INFO: Run ContentReplace Behavior [ RunTime:-0.030887s ]
+INFO: Run TokenBuild Behavior [ RunTime:-0.031438s ]
+INFO: Run WriteHtmlCache Behavior [ RunTime:-0.031844s ]
+INFO: Run ShowRuntime Behavior [ RunTime:-0.032105s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001556s ]
+INFO: [ view_end ] --START--
+INFO: Run ShowPageTrace Behavior [ RunTime:-0.032688s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000843s ]
+
+[ 2016-09-04T22:54:29+08:00 ] 127.0.0.1 /hotel/admin.php/Credit/index
+INFO: [ route_check ] --START--
+INFO: Run CheckRoute Behavior [ RunTime:0.000941s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001027s ]
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:-0.000296s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000647s ]
+INFO: [ view_template ] --START--
+INFO: Run LocationTemplate Behavior [ RunTime:-0.001854s ]
+INFO: [ view_template ] --END-- [ RunTime:0.000770s ]
+INFO: [ view_parse ] --START--
+INFO: Run ParseTemplate Behavior [ RunTime:-0.002666s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.009598s ]
+INFO: [ view_filter ] --START--
+INFO: Run ContentReplace Behavior [ RunTime:-0.012317s ]
+INFO: Run TokenBuild Behavior [ RunTime:-0.012958s ]
+INFO: Run WriteHtmlCache Behavior [ RunTime:-0.013524s ]
+INFO: Run ShowRuntime Behavior [ RunTime:-0.013981s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002366s ]
+INFO: [ view_end ] --START--
+INFO: Run ShowPageTrace Behavior [ RunTime:-0.014749s ]
+INFO: [ view_end ] --END-- [ RunTime:0.001004s ]
+
+[ 2016-09-04T22:54:29+08:00 ] 127.0.0.1 /hotel/admin.php/Credit/index
+INFO: [ route_check ] --START--
+INFO: Run CheckRoute Behavior [ RunTime:0.001076s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001259s ]
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:-0.000418s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000826s ]
+INFO: [ view_template ] --START--
+INFO: Run LocationTemplate Behavior [ RunTime:-0.007503s ]
+INFO: [ view_template ] --END-- [ RunTime:0.001382s ]
+INFO: [ view_parse ] --START--
+INFO: Run ParseTemplate Behavior [ RunTime:-0.008866s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.010045s ]
+INFO: [ view_filter ] --START--
+INFO: Run ContentReplace Behavior [ RunTime:-0.018951s ]
+INFO: Run TokenBuild Behavior [ RunTime:-0.019484s ]
+INFO: Run WriteHtmlCache Behavior [ RunTime:-0.020043s ]
+INFO: Run ShowRuntime Behavior [ RunTime:-0.020426s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002153s ]
+INFO: [ view_end ] --START--
+INFO: Run ShowPageTrace Behavior [ RunTime:-0.021174s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000861s ]
+
+[ 2016-09-04T22:54:38+08:00 ] 127.0.0.1 /hotel/admin.php/User/index
+INFO: [ route_check ] --START--
+INFO: Run CheckRoute Behavior [ RunTime:0.000648s ]
+INFO: [ route_check ] --END-- [ RunTime:0.000704s ]
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:-0.000318s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000622s ]
+INFO: [ view_template ] --START--
+INFO: Run LocationTemplate Behavior [ RunTime:-0.002149s ]
+INFO: [ view_template ] --END-- [ RunTime:0.000732s ]
+INFO: [ view_parse ] --START--
+INFO: Run ParseTemplate Behavior [ RunTime:-0.002906s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.008867s ]
+INFO: [ view_filter ] --START--
+INFO: Run ContentReplace Behavior [ RunTime:-0.011831s ]
+INFO: Run TokenBuild Behavior [ RunTime:-0.012636s ]
+INFO: Run WriteHtmlCache Behavior [ RunTime:-0.013783s ]
+INFO: Run ShowRuntime Behavior [ RunTime:-0.014358s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.003297s ]
+INFO: [ view_end ] --START--
+INFO: Run ShowPageTrace Behavior [ RunTime:-0.015204s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000734s ]
+
+[ 2016-09-04T22:58:29+08:00 ] 127.0.0.1 /hotel/admin.php/Goods/index
+INFO: [ route_check ] --START--
+INFO: Run CheckRoute Behavior [ RunTime:0.001661s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001773s ]
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:-0.000567s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000841s ]
+INFO: [ view_template ] --START--
+INFO: Run LocationTemplate Behavior [ RunTime:-0.003414s ]
+INFO: [ view_template ] --END-- [ RunTime:0.001132s ]
+INFO: [ view_parse ] --START--
+INFO: Run ParseTemplate Behavior [ RunTime:-0.004591s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.010796s ]
+INFO: [ view_filter ] --START--
+INFO: Run ContentReplace Behavior [ RunTime:-0.015427s ]
+INFO: Run TokenBuild Behavior [ RunTime:-0.016124s ]
+INFO: Run WriteHtmlCache Behavior [ RunTime:-0.016883s ]
+INFO: Run ShowRuntime Behavior [ RunTime:-0.017409s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002713s ]
+INFO: [ view_end ] --START--
+INFO: Run ShowPageTrace Behavior [ RunTime:-0.018455s ]
+INFO: [ view_end ] --END-- [ RunTime:0.001122s ]
+
+[ 2016-09-04T22:58:32+08:00 ] 127.0.0.1 /hotel/admin.php/Goods/addpd
+INFO: [ route_check ] --START--
+INFO: Run CheckRoute Behavior [ RunTime:0.001212s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001367s ]
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:-0.000384s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000924s ]
+NOTIC: [8] Undefined index: pid D:\Hotel\Apache\htdocs\hotel\Admin\Lib\Action\GoodsAction.class.php 第 88 行.
+INFO: [ view_template ] --START--
+INFO: Run LocationTemplate Behavior [ RunTime:-0.003363s ]
+INFO: [ view_template ] --END-- [ RunTime:0.001146s ]
+INFO: [ view_parse ] --START--
+INFO: Run ParseTemplate Behavior [ RunTime:-0.004571s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.010721s ]
+INFO: [ view_filter ] --START--
+INFO: Run ContentReplace Behavior [ RunTime:-0.015303s ]
+INFO: Run TokenBuild Behavior [ RunTime:-0.015628s ]
+INFO: Run WriteHtmlCache Behavior [ RunTime:-0.015896s ]
+INFO: Run ShowRuntime Behavior [ RunTime:-0.016097s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001245s ]
+INFO: [ view_end ] --START--
+INFO: Run ShowPageTrace Behavior [ RunTime:-0.016610s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000685s ]
+
+[ 2016-09-04T22:58:33+08:00 ] 127.0.0.1 /hotel/admin.php/Goods/
+INFO: [ route_check ] --START--
+INFO: Run CheckRoute Behavior [ RunTime:0.001554s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001676s ]
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:-0.000333s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000723s ]
+INFO: [ view_template ] --START--
+INFO: Run LocationTemplate Behavior [ RunTime:-0.002668s ]
+INFO: [ view_template ] --END-- [ RunTime:0.001161s ]
+INFO: [ view_parse ] --START--
+INFO: Run ParseTemplate Behavior [ RunTime:-0.003893s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.011494s ]
+INFO: [ view_filter ] --START--
+INFO: Run ContentReplace Behavior [ RunTime:-0.015418s ]
+INFO: Run TokenBuild Behavior [ RunTime:-0.016023s ]
+INFO: Run WriteHtmlCache Behavior [ RunTime:-0.016572s ]
+INFO: Run ShowRuntime Behavior [ RunTime:-0.016953s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002128s ]
+INFO: [ view_end ] --START--
+INFO: Run ShowPageTrace Behavior [ RunTime:-0.017843s ]
+INFO: [ view_end ] --END-- [ RunTime:0.001406s ]
+
+[ 2016-09-04T22:58:35+08:00 ] 127.0.0.1 /hotel/admin.php/Goods/index
+INFO: [ route_check ] --START--
+INFO: Run CheckRoute Behavior [ RunTime:0.000517s ]
+INFO: [ route_check ] --END-- [ RunTime:0.000564s ]
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:-0.000170s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000415s ]
+INFO: [ view_template ] --START--
+INFO: Run LocationTemplate Behavior [ RunTime:-0.001545s ]
+INFO: [ view_template ] --END-- [ RunTime:0.000557s ]
+INFO: [ view_parse ] --START--
+INFO: Run ParseTemplate Behavior [ RunTime:-0.002124s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.005859s ]
+INFO: [ view_filter ] --START--
+INFO: Run ContentReplace Behavior [ RunTime:-0.008065s ]
+INFO: Run TokenBuild Behavior [ RunTime:-0.008562s ]
+INFO: Run WriteHtmlCache Behavior [ RunTime:-0.008872s ]
+INFO: Run ShowRuntime Behavior [ RunTime:-0.009075s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001362s ]
+INFO: [ view_end ] --START--
+INFO: Run ShowPageTrace Behavior [ RunTime:-0.009627s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000781s ]
+
+[ 2016-09-04T22:58:37+08:00 ] 127.0.0.1 /hotel/admin.php/Goods/uppd?id=3
+INFO: [ route_check ] --START--
+INFO: Run CheckRoute Behavior [ RunTime:0.001176s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001273s ]
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:-0.000667s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001100s ]
+SQL: SHOW COLUMNS FROM `rooms` [ RunTime:0.000926s ]
+NOTIC: [8] Use of undefined constant type_id - assumed 'type_id' D:\Hotel\Apache\htdocs\hotel\Admin\Lib\Action\GoodsAction.class.php 第 187 行.
+SQL: SELECT * FROM `rooms` WHERE ( `type_id` = 3 ) LIMIT 1   [ RunTime:0.000391s ]
+INFO: [ view_template ] --START--
+INFO: Run LocationTemplate Behavior [ RunTime:-0.020941s ]
+INFO: [ view_template ] --END-- [ RunTime:0.001327s ]
+INFO: [ view_parse ] --START--
+INFO: Run ParseTemplate Behavior [ RunTime:-0.022316s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.014426s ]
+INFO: [ view_filter ] --START--
+INFO: Run ContentReplace Behavior [ RunTime:-0.036783s ]
+INFO: Run TokenBuild Behavior [ RunTime:-0.037866s ]
+INFO: Run WriteHtmlCache Behavior [ RunTime:-0.039163s ]
+INFO: Run ShowRuntime Behavior [ RunTime:-0.040489s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.004763s ]
+INFO: [ view_end ] --START--
+INFO: Run ShowPageTrace Behavior [ RunTime:-0.041622s ]
+INFO: [ view_end ] --END-- [ RunTime:0.001103s ]
+
+[ 2016-09-04T22:58:38+08:00 ] 127.0.0.1 /hotel/admin.php/Goods/
+INFO: [ route_check ] --START--
+INFO: Run CheckRoute Behavior [ RunTime:0.001038s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001223s ]
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:-0.000625s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000936s ]
+INFO: [ view_template ] --START--
+INFO: Run LocationTemplate Behavior [ RunTime:-0.003679s ]
+INFO: [ view_template ] --END-- [ RunTime:0.001211s ]
+INFO: [ view_parse ] --START--
+INFO: Run ParseTemplate Behavior [ RunTime:-0.006362s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.012843s ]
+INFO: [ view_filter ] --START--
+INFO: Run ContentReplace Behavior [ RunTime:-0.019232s ]
+INFO: Run TokenBuild Behavior [ RunTime:-0.020083s ]
+INFO: Run WriteHtmlCache Behavior [ RunTime:-0.020852s ]
+INFO: Run ShowRuntime Behavior [ RunTime:-0.021421s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.003226s ]
+INFO: [ view_end ] --START--
+INFO: Run ShowPageTrace Behavior [ RunTime:-0.022743s ]
+INFO: [ view_end ] --END-- [ RunTime:0.001210s ]
+
+[ 2016-09-04T22:58:40+08:00 ] 127.0.0.1 /hotel/admin.php/Goods/index
+INFO: [ route_check ] --START--
+INFO: Run CheckRoute Behavior [ RunTime:0.001117s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001224s ]
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:-0.001496s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002327s ]
+INFO: [ view_template ] --START--
+INFO: Run LocationTemplate Behavior [ RunTime:-0.007628s ]
+INFO: [ view_template ] --END-- [ RunTime:0.001871s ]
+INFO: [ view_parse ] --START--
+INFO: Run ParseTemplate Behavior [ RunTime:-0.009567s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.009228s ]
+INFO: [ view_filter ] --START--
+INFO: Run ContentReplace Behavior [ RunTime:-0.018798s ]
+INFO: Run TokenBuild Behavior [ RunTime:-0.019296s ]
+INFO: Run WriteHtmlCache Behavior [ RunTime:-0.019927s ]
+INFO: Run ShowRuntime Behavior [ RunTime:-0.021476s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.003775s ]
+INFO: [ view_end ] --START--
+INFO: Run ShowPageTrace Behavior [ RunTime:-0.022962s ]
+INFO: [ view_end ] --END-- [ RunTime:0.001117s ]
+
+[ 2016-09-04T22:58:41+08:00 ] ERR: (ThinkException) 非法操作:﻿
+[ 2016-09-04T23:23:23+08:00 ] 127.0.0.1 /hotel/admin.php
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.000629s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000693s ]
+INFO: [ view_template ] --START--
+INFO: Run LocationTemplate Behavior [ RunTime:-0.002023s ]
+INFO: [ view_template ] --END-- [ RunTime:0.000825s ]
+INFO: [ view_parse ] --START--
+INFO: Run ParseTemplate Behavior [ RunTime:-0.002873s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.006272s ]
+INFO: [ view_filter ] --START--
+INFO: Run ContentReplace Behavior [ RunTime:-0.009189s ]
+INFO: Run TokenBuild Behavior [ RunTime:-0.009611s ]
+INFO: Run WriteHtmlCache Behavior [ RunTime:-0.010004s ]
+INFO: Run ShowRuntime Behavior [ RunTime:-0.010412s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001881s ]
+INFO: [ view_end ] --START--
+INFO: Run ShowPageTrace Behavior [ RunTime:-0.011127s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000784s ]
+
+[ 2016-09-04T23:23:23+08:00 ] 127.0.0.1 /hotel/admin.php/Layout/north?_=1473002603229
+INFO: [ route_check ] --START--
+INFO: Run CheckRoute Behavior [ RunTime:0.000789s ]
+INFO: [ route_check ] --END-- [ RunTime:0.000849s ]
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:-0.000361s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000552s ]
+INFO: [ view_template ] --START--
+INFO: Run LocationTemplate Behavior [ RunTime:-0.002168s ]
+INFO: [ view_template ] --END-- [ RunTime:0.000660s ]
+INFO: [ view_parse ] --START--
+INFO: Run ParseTemplate Behavior [ RunTime:-0.002856s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.006498s ]
+INFO: [ view_filter ] --START--
+INFO: Run ContentReplace Behavior [ RunTime:-0.009383s ]
+INFO: Run TokenBuild Behavior [ RunTime:-0.009843s ]
+INFO: Run WriteHtmlCache Behavior [ RunTime:-0.010244s ]
+INFO: Run ShowRuntime Behavior [ RunTime:-0.010542s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001599s ]
+INFO: [ view_end ] --START--
+INFO: Run ShowPageTrace Behavior [ RunTime:-0.011019s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000561s ]
+
+[ 2016-09-04T23:23:23+08:00 ] 127.0.0.1 /hotel/admin.php/Layout/west?_=1473002603246
+INFO: [ route_check ] --START--
+INFO: Run CheckRoute Behavior [ RunTime:0.000760s ]
+INFO: [ route_check ] --END-- [ RunTime:0.000817s ]
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:-0.000352s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000538s ]
+INFO: [ view_template ] --START--
+INFO: Run LocationTemplate Behavior [ RunTime:-0.002303s ]
+INFO: [ view_template ] --END-- [ RunTime:0.000426s ]
+INFO: [ view_parse ] --START--
+INFO: Run ParseTemplate Behavior [ RunTime:-0.002752s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.006151s ]
+INFO: [ view_filter ] --START--
+INFO: Run ContentReplace Behavior [ RunTime:-0.008931s ]
+INFO: Run TokenBuild Behavior [ RunTime:-0.009328s ]
+INFO: Run WriteHtmlCache Behavior [ RunTime:-0.009714s ]
+INFO: Run ShowRuntime Behavior [ RunTime:-0.010012s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001528s ]
+INFO: [ view_end ] --START--
+INFO: Run ShowPageTrace Behavior [ RunTime:-0.010499s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000545s ]
+
+[ 2016-09-04T23:23:23+08:00 ] 127.0.0.1 /hotel/admin.php/Layout/center?_=1473002603259
+INFO: [ route_check ] --START--
+INFO: Run CheckRoute Behavior [ RunTime:0.001266s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001431s ]
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:-0.000313s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000649s ]
+INFO: [ view_template ] --START--
+INFO: Run LocationTemplate Behavior [ RunTime:-0.001903s ]
+INFO: [ view_template ] --END-- [ RunTime:0.000537s ]
+INFO: [ view_parse ] --START--
+INFO: Run ParseTemplate Behavior [ RunTime:-0.002499s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.006051s ]
+INFO: [ view_filter ] --START--
+INFO: Run ContentReplace Behavior [ RunTime:-0.008575s ]
+INFO: Run TokenBuild Behavior [ RunTime:-0.009050s ]
+INFO: Run WriteHtmlCache Behavior [ RunTime:-0.009497s ]
+INFO: Run ShowRuntime Behavior [ RunTime:-0.009881s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001684s ]
+INFO: [ view_end ] --START--
+INFO: Run ShowPageTrace Behavior [ RunTime:-0.010293s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000462s ]
+
+[ 2016-09-04T23:23:23+08:00 ] 127.0.0.1 /hotel/admin.php/Order/index
+INFO: [ route_check ] --START--
+INFO: Run CheckRoute Behavior [ RunTime:0.000872s ]
+INFO: [ route_check ] --END-- [ RunTime:0.000950s ]
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:-0.000298s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000656s ]
+INFO: [ view_template ] --START--
+INFO: Run LocationTemplate Behavior [ RunTime:-0.002685s ]
+INFO: [ view_template ] --END-- [ RunTime:0.001044s ]
+INFO: [ view_parse ] --START--
+INFO: Run ParseTemplate Behavior [ RunTime:-0.003748s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.010919s ]
+INFO: [ view_filter ] --START--
+INFO: Run ContentReplace Behavior [ RunTime:-0.014695s ]
+INFO: Run TokenBuild Behavior [ RunTime:-0.015066s ]
+INFO: Run WriteHtmlCache Behavior [ RunTime:-0.015372s ]
+INFO: Run ShowRuntime Behavior [ RunTime:-0.015594s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001291s ]
+INFO: [ view_end ] --START--
+INFO: Run ShowPageTrace Behavior [ RunTime:-0.016411s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000612s ]
+
+[ 2016-09-04T23:23:23+08:00 ] 127.0.0.1 /hotel/admin.php/Order/index
+INFO: [ route_check ] --START--
+INFO: Run CheckRoute Behavior [ RunTime:0.000966s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001048s ]
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:-0.000329s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000880s ]
+INFO: [ view_template ] --START--
+INFO: Run LocationTemplate Behavior [ RunTime:-0.012669s ]
+INFO: [ view_template ] --END-- [ RunTime:0.000965s ]
+INFO: [ view_parse ] --START--
+INFO: Run ParseTemplate Behavior [ RunTime:-0.013672s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.012835s ]
+INFO: [ view_filter ] --START--
+INFO: Run ContentReplace Behavior [ RunTime:-0.026518s ]
+INFO: Run TokenBuild Behavior [ RunTime:-0.026844s ]
+INFO: Run WriteHtmlCache Behavior [ RunTime:-0.027111s ]
+INFO: Run ShowRuntime Behavior [ RunTime:-0.027305s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001210s ]
+INFO: [ view_end ] --START--
+INFO: Run ShowPageTrace Behavior [ RunTime:-0.027989s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000788s ]
+
+[ 2016-09-04T23:23:29+08:00 ] 127.0.0.1 /hotel/admin.php/Goods/index
+INFO: [ route_check ] --START--
+INFO: Run CheckRoute Behavior [ RunTime:0.000790s ]
+INFO: [ route_check ] --END-- [ RunTime:0.000853s ]
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:-0.000390s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000561s ]
+INFO: [ view_template ] --START--
+INFO: Run LocationTemplate Behavior [ RunTime:-0.002284s ]
+INFO: [ view_template ] --END-- [ RunTime:0.000803s ]
+INFO: [ view_parse ] --START--
+INFO: Run ParseTemplate Behavior [ RunTime:-0.003130s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.008193s ]
+INFO: [ view_filter ] --START--
+INFO: Run ContentReplace Behavior [ RunTime:-0.011347s ]
+INFO: Run TokenBuild Behavior [ RunTime:-0.011855s ]
+INFO: Run WriteHtmlCache Behavior [ RunTime:-0.012457s ]
+INFO: Run ShowRuntime Behavior [ RunTime:-0.012869s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002112s ]
+INFO: [ view_end ] --START--
+INFO: Run ShowPageTrace Behavior [ RunTime:-0.013923s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000856s ]
+
+[ 2016-09-04T23:23:30+08:00 ] 127.0.0.1 /hotel/admin.php/Goods/index
+INFO: [ route_check ] --START--
+INFO: Run CheckRoute Behavior [ RunTime:0.000720s ]
+INFO: [ route_check ] --END-- [ RunTime:0.000813s ]
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:-0.000196s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000405s ]
+INFO: [ view_template ] --START--
+INFO: Run LocationTemplate Behavior [ RunTime:-0.001599s ]
+INFO: [ view_template ] --END-- [ RunTime:0.000379s ]
+INFO: [ view_parse ] --START--
+INFO: Run ParseTemplate Behavior [ RunTime:-0.002022s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.006061s ]
+INFO: [ view_filter ] --START--
+INFO: Run ContentReplace Behavior [ RunTime:-0.008099s ]
+INFO: Run TokenBuild Behavior [ RunTime:-0.008444s ]
+INFO: Run WriteHtmlCache Behavior [ RunTime:-0.008766s ]
+INFO: Run ShowRuntime Behavior [ RunTime:-0.008999s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001285s ]
+INFO: [ view_end ] --START--
+INFO: Run ShowPageTrace Behavior [ RunTime:-0.009628s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000506s ]
+
+[ 2016-09-04T23:23:38+08:00 ] 127.0.0.1 /hotel/admin.php/Order/onorder
+INFO: [ route_check ] --START--
+INFO: Run CheckRoute Behavior [ RunTime:0.000585s ]
+INFO: [ route_check ] --END-- [ RunTime:0.000658s ]
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:-0.000226s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000507s ]
+INFO: [ view_template ] --START--
+INFO: Run LocationTemplate Behavior [ RunTime:-0.001820s ]
+INFO: [ view_template ] --END-- [ RunTime:0.000552s ]
+INFO: [ view_parse ] --START--
+INFO: Run ParseTemplate Behavior [ RunTime:-0.002397s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.008938s ]
+INFO: [ view_filter ] --START--
+INFO: Run ContentReplace Behavior [ RunTime:-0.011370s ]
+INFO: Run TokenBuild Behavior [ RunTime:-0.011795s ]
+INFO: Run WriteHtmlCache Behavior [ RunTime:-0.012145s ]
+INFO: Run ShowRuntime Behavior [ RunTime:-0.012396s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001435s ]
+INFO: [ view_end ] --START--
+INFO: Run ShowPageTrace Behavior [ RunTime:-0.013087s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000705s ]
+
+[ 2016-09-04T23:23:38+08:00 ] 127.0.0.1 /hotel/admin.php/Order/onorder
+INFO: [ route_check ] --START--
+INFO: Run CheckRoute Behavior [ RunTime:0.000563s ]
+INFO: [ route_check ] --END-- [ RunTime:0.000609s ]
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:-0.000187s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000555s ]
+INFO: [ view_template ] --START--
+INFO: Run LocationTemplate Behavior [ RunTime:-0.001835s ]
+INFO: [ view_template ] --END-- [ RunTime:0.000473s ]
+INFO: [ view_parse ] --START--
+INFO: Run ParseTemplate Behavior [ RunTime:-0.002331s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.006728s ]
+INFO: [ view_filter ] --START--
+INFO: Run ContentReplace Behavior [ RunTime:-0.009083s ]
+INFO: Run TokenBuild Behavior [ RunTime:-0.009464s ]
+INFO: Run WriteHtmlCache Behavior [ RunTime:-0.009794s ]
+INFO: Run ShowRuntime Behavior [ RunTime:-0.010034s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001328s ]
+INFO: [ view_end ] --START--
+INFO: Run ShowPageTrace Behavior [ RunTime:-0.010671s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000545s ]
+
+[ 2016-09-04T23:29:25+08:00 ] ERR: (ThinkException) You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'WHERE ( `reservation_id` = 0 )' at line 1
+ [ SQL语句 ] : UPDATE `order_rooms` SET  WHERE ( `reservation_id` = 0 )
+[ 2016-09-04T23:29:49+08:00 ] 127.0.0.1 /hotel/admin.php/Order/payorder
+INFO: [ route_check ] --START--
+INFO: Run CheckRoute Behavior [ RunTime:0.001555s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001686s ]
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:-0.000496s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001190s ]
+INFO: [ view_template ] --START--
+INFO: Run LocationTemplate Behavior [ RunTime:-0.004318s ]
+INFO: [ view_template ] --END-- [ RunTime:0.001969s ]
+INFO: [ view_parse ] --START--
+INFO: Run ParseTemplate Behavior [ RunTime:-0.006361s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.020449s ]
+INFO: [ view_filter ] --START--
+INFO: Run ContentReplace Behavior [ RunTime:-0.026842s ]
+INFO: Run TokenBuild Behavior [ RunTime:-0.028218s ]
+INFO: Run WriteHtmlCache Behavior [ RunTime:-0.029164s ]
+INFO: Run ShowRuntime Behavior [ RunTime:-0.029677s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.003563s ]
+INFO: [ view_end ] --START--
+INFO: Run ShowPageTrace Behavior [ RunTime:-0.030792s ]
+INFO: [ view_end ] --END-- [ RunTime:0.002370s ]
+
+[ 2016-09-04T23:34:00+08:00 ] 127.0.0.1 /hotel/admin.php/Order/index
+INFO: [ route_check ] --START--
+INFO: Run CheckRoute Behavior [ RunTime:0.002109s ]
+INFO: [ route_check ] --END-- [ RunTime:0.002239s ]
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:-0.000905s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002373s ]
+INFO: [ view_template ] --START--
+INFO: Run LocationTemplate Behavior [ RunTime:-0.007978s ]
+INFO: [ view_template ] --END-- [ RunTime:0.001961s ]
+INFO: [ view_parse ] --START--
+INFO: Run ParseTemplate Behavior [ RunTime:-0.010010s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.019685s ]
+INFO: [ view_filter ] --START--
+INFO: Run ContentReplace Behavior [ RunTime:-0.029761s ]
+INFO: Run TokenBuild Behavior [ RunTime:-0.030914s ]
+INFO: Run WriteHtmlCache Behavior [ RunTime:-0.032098s ]
+INFO: Run ShowRuntime Behavior [ RunTime:-0.032885s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.004781s ]
+INFO: [ view_end ] --START--
+INFO: Run ShowPageTrace Behavior [ RunTime:-0.035050s ]
+INFO: [ view_end ] --END-- [ RunTime:0.002940s ]
+
+[ 2016-09-04T23:34:02+08:00 ] 127.0.0.1 /hotel/admin.php/Order/onorder
+INFO: [ route_check ] --START--
+INFO: Run CheckRoute Behavior [ RunTime:0.002254s ]
+INFO: [ route_check ] --END-- [ RunTime:0.002434s ]
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:-0.000783s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001423s ]
+INFO: [ view_template ] --START--
+INFO: Run LocationTemplate Behavior [ RunTime:-0.006293s ]
+INFO: [ view_template ] --END-- [ RunTime:0.004402s ]
+INFO: [ view_parse ] --START--
+INFO: Run ParseTemplate Behavior [ RunTime:-0.010774s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.018785s ]
+INFO: [ view_filter ] --START--
+INFO: Run ContentReplace Behavior [ RunTime:-0.029571s ]
+INFO: Run TokenBuild Behavior [ RunTime:-0.030098s ]
+INFO: Run WriteHtmlCache Behavior [ RunTime:-0.030505s ]
+INFO: Run ShowRuntime Behavior [ RunTime:-0.030789s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001757s ]
+INFO: [ view_end ] --START--
+INFO: Run ShowPageTrace Behavior [ RunTime:-0.031578s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000744s ]
+
+[ 2016-09-04T23:34:02+08:00 ] 127.0.0.1 /hotel/admin.php/Order/onorder
+INFO: [ route_check ] --START--
+INFO: Run CheckRoute Behavior [ RunTime:0.001073s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001156s ]
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:-0.000408s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000625s ]
+INFO: [ view_template ] --START--
+INFO: Run LocationTemplate Behavior [ RunTime:-0.010169s ]
+INFO: [ view_template ] --END-- [ RunTime:0.000999s ]
+INFO: [ view_parse ] --START--
+INFO: Run ParseTemplate Behavior [ RunTime:-0.011195s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.006592s ]
+INFO: [ view_filter ] --START--
+INFO: Run ContentReplace Behavior [ RunTime:-0.017809s ]
+INFO: Run TokenBuild Behavior [ RunTime:-0.018204s ]
+INFO: Run WriteHtmlCache Behavior [ RunTime:-0.018545s ]
+INFO: Run ShowRuntime Behavior [ RunTime:-0.018842s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001464s ]
+INFO: [ view_end ] --START--
+INFO: Run ShowPageTrace Behavior [ RunTime:-0.019502s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000880s ]
+
+[ 2016-09-04T23:34:06+08:00 ] 127.0.0.1 /hotel/admin.php/Order/onorder
+INFO: [ route_check ] --START--
+INFO: Run CheckRoute Behavior [ RunTime:0.000536s ]
+INFO: [ route_check ] --END-- [ RunTime:0.000584s ]
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:-0.000186s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000409s ]
+INFO: [ view_template ] --START--
+INFO: Run LocationTemplate Behavior [ RunTime:-0.001540s ]
+INFO: [ view_template ] --END-- [ RunTime:0.000604s ]
+INFO: [ view_parse ] --START--
+INFO: Run ParseTemplate Behavior [ RunTime:-0.002219s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.006407s ]
+INFO: [ view_filter ] --START--
+INFO: Run ContentReplace Behavior [ RunTime:-0.008640s ]
+INFO: Run TokenBuild Behavior [ RunTime:-0.008964s ]
+INFO: Run WriteHtmlCache Behavior [ RunTime:-0.009387s ]
+INFO: Run ShowRuntime Behavior [ RunTime:-0.009628s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001367s ]
+INFO: [ view_end ] --START--
+INFO: Run ShowPageTrace Behavior [ RunTime:-0.010270s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000582s ]
+
+[ 2016-09-04T23:34:12+08:00 ] 127.0.0.1 /hotel/admin.php/Order/onorder
+INFO: [ route_check ] --START--
+INFO: Run CheckRoute Behavior [ RunTime:0.001127s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001230s ]
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:-0.000386s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000884s ]
+INFO: [ view_template ] --START--
+INFO: Run LocationTemplate Behavior [ RunTime:-0.003191s ]
+INFO: [ view_template ] --END-- [ RunTime:0.001806s ]
+INFO: [ view_parse ] --START--
+INFO: Run ParseTemplate Behavior [ RunTime:-0.005063s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.013493s ]
+INFO: [ view_filter ] --START--
+INFO: Run ContentReplace Behavior [ RunTime:-0.018575s ]
+INFO: Run TokenBuild Behavior [ RunTime:-0.019079s ]
+INFO: Run WriteHtmlCache Behavior [ RunTime:-0.019463s ]
+INFO: Run ShowRuntime Behavior [ RunTime:-0.019728s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001633s ]
+INFO: [ view_end ] --START--
+INFO: Run ShowPageTrace Behavior [ RunTime:-0.020483s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000794s ]
+
+[ 2016-09-04T23:34:20+08:00 ] 127.0.0.1 /hotel/admin.php/Order/index
+INFO: [ route_check ] --START--
+INFO: Run CheckRoute Behavior [ RunTime:0.000596s ]
+INFO: [ route_check ] --END-- [ RunTime:0.000655s ]
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:-0.000214s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000482s ]
+INFO: [ view_template ] --START--
+INFO: Run LocationTemplate Behavior [ RunTime:-0.002972s ]
+INFO: [ view_template ] --END-- [ RunTime:0.000961s ]
+INFO: [ view_parse ] --START--
+INFO: Run ParseTemplate Behavior [ RunTime:-0.003958s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.008008s ]
+INFO: [ view_filter ] --START--
+INFO: Run ContentReplace Behavior [ RunTime:-0.012007s ]
+INFO: Run TokenBuild Behavior [ RunTime:-0.012585s ]
+INFO: Run WriteHtmlCache Behavior [ RunTime:-0.013036s ]
+INFO: Run ShowRuntime Behavior [ RunTime:-0.013367s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001845s ]
+INFO: [ view_end ] --START--
+INFO: Run ShowPageTrace Behavior [ RunTime:-0.014098s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000672s ]
+
+[ 2016-09-04T23:34:29+08:00 ] 127.0.0.1 /hotel/admin.php
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.001012s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001128s ]
+INFO: [ view_template ] --START--
+INFO: Run LocationTemplate Behavior [ RunTime:-0.001836s ]
+INFO: [ view_template ] --END-- [ RunTime:0.000851s ]
+INFO: [ view_parse ] --START--
+INFO: Run ParseTemplate Behavior [ RunTime:-0.002727s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.007698s ]
+INFO: [ view_filter ] --START--
+INFO: Run ContentReplace Behavior [ RunTime:-0.010451s ]
+INFO: Run TokenBuild Behavior [ RunTime:-0.010725s ]
+INFO: Run WriteHtmlCache Behavior [ RunTime:-0.010986s ]
+INFO: Run ShowRuntime Behavior [ RunTime:-0.011174s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001153s ]
+INFO: [ view_end ] --START--
+INFO: Run ShowPageTrace Behavior [ RunTime:-0.011642s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000452s ]
+
+[ 2016-09-04T23:34:29+08:00 ] 127.0.0.1 /hotel/admin.php/Layout/north?_=1473003269488
+INFO: [ route_check ] --START--
+INFO: Run CheckRoute Behavior [ RunTime:0.001023s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001118s ]
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:-0.000357s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000703s ]
+INFO: [ view_template ] --START--
+INFO: Run LocationTemplate Behavior [ RunTime:-0.002513s ]
+INFO: [ view_template ] --END-- [ RunTime:0.000793s ]
+INFO: [ view_parse ] --START--
+INFO: Run ParseTemplate Behavior [ RunTime:-0.003347s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.008640s ]
+INFO: [ view_filter ] --START--
+INFO: Run ContentReplace Behavior [ RunTime:-0.012027s ]
+INFO: Run TokenBuild Behavior [ RunTime:-0.012459s ]
+INFO: Run WriteHtmlCache Behavior [ RunTime:-0.012899s ]
+INFO: Run ShowRuntime Behavior [ RunTime:-0.013220s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001738s ]
+INFO: [ view_end ] --START--
+INFO: Run ShowPageTrace Behavior [ RunTime:-0.013824s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000757s ]
+
+[ 2016-09-04T23:34:29+08:00 ] 127.0.0.1 /hotel/admin.php/Layout/west?_=1473003269496
+INFO: [ route_check ] --START--
+INFO: Run CheckRoute Behavior [ RunTime:0.000962s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001036s ]
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:-0.000317s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000728s ]
+INFO: [ view_template ] --START--
+INFO: Run LocationTemplate Behavior [ RunTime:-0.003036s ]
+INFO: [ view_template ] --END-- [ RunTime:0.000566s ]
+INFO: [ view_parse ] --START--
+INFO: Run ParseTemplate Behavior [ RunTime:-0.003645s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.008560s ]
+INFO: [ view_filter ] --START--
+INFO: Run ContentReplace Behavior [ RunTime:-0.012245s ]
+INFO: Run TokenBuild Behavior [ RunTime:-0.012672s ]
+INFO: Run WriteHtmlCache Behavior [ RunTime:-0.013114s ]
+INFO: Run ShowRuntime Behavior [ RunTime:-0.013425s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001739s ]
+INFO: [ view_end ] --START--
+INFO: Run ShowPageTrace Behavior [ RunTime:-0.014045s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000774s ]
+
+[ 2016-09-04T23:34:29+08:00 ] 127.0.0.1 /hotel/admin.php/Layout/center?_=1473003269501
+INFO: [ route_check ] --START--
+INFO: Run CheckRoute Behavior [ RunTime:0.000757s ]
+INFO: [ route_check ] --END-- [ RunTime:0.000820s ]
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:-0.000215s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000679s ]
+INFO: [ view_template ] --START--
+INFO: Run LocationTemplate Behavior [ RunTime:-0.002266s ]
+INFO: [ view_template ] --END-- [ RunTime:0.000872s ]
+INFO: [ view_parse ] --START--
+INFO: Run ParseTemplate Behavior [ RunTime:-0.003190s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.008710s ]
+INFO: [ view_filter ] --START--
+INFO: Run ContentReplace Behavior [ RunTime:-0.011982s ]
+INFO: Run TokenBuild Behavior [ RunTime:-0.012482s ]
+INFO: Run WriteHtmlCache Behavior [ RunTime:-0.012805s ]
+INFO: Run ShowRuntime Behavior [ RunTime:-0.013195s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001843s ]
+INFO: [ view_end ] --START--
+INFO: Run ShowPageTrace Behavior [ RunTime:-0.013851s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000520s ]
+
+[ 2016-09-04T23:34:29+08:00 ] 127.0.0.1 /hotel/admin.php/Order/index
+INFO: [ route_check ] --START--
+INFO: Run CheckRoute Behavior [ RunTime:0.000957s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001054s ]
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:-0.000354s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000744s ]
+INFO: [ view_template ] --START--
+INFO: Run LocationTemplate Behavior [ RunTime:-0.002484s ]
+INFO: [ view_template ] --END-- [ RunTime:0.000562s ]
+INFO: [ view_parse ] --START--
+INFO: Run ParseTemplate Behavior [ RunTime:-0.003075s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.007023s ]
+INFO: [ view_filter ] --START--
+INFO: Run ContentReplace Behavior [ RunTime:-0.010162s ]
+INFO: Run TokenBuild Behavior [ RunTime:-0.010903s ]
+INFO: Run WriteHtmlCache Behavior [ RunTime:-0.011583s ]
+INFO: Run ShowRuntime Behavior [ RunTime:-0.011853s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002105s ]
+INFO: [ view_end ] --START--
+INFO: Run ShowPageTrace Behavior [ RunTime:-0.012537s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000854s ]
+
+[ 2016-09-04T23:34:29+08:00 ] 127.0.0.1 /hotel/admin.php/Order/index
+INFO: [ route_check ] --START--
+INFO: Run CheckRoute Behavior [ RunTime:0.001013s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001101s ]
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:-0.000316s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000729s ]
+INFO: [ view_template ] --START--
+INFO: Run LocationTemplate Behavior [ RunTime:-0.010050s ]
+INFO: [ view_template ] --END-- [ RunTime:0.001349s ]
+INFO: [ view_parse ] --START--
+INFO: Run ParseTemplate Behavior [ RunTime:-0.011170s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.008586s ]
+INFO: [ view_filter ] --START--
+INFO: Run ContentReplace Behavior [ RunTime:-0.019798s ]
+INFO: Run TokenBuild Behavior [ RunTime:-0.020388s ]
+INFO: Run WriteHtmlCache Behavior [ RunTime:-0.020891s ]
+INFO: Run ShowRuntime Behavior [ RunTime:-0.021253s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002176s ]
+INFO: [ view_end ] --START--
+INFO: Run ShowPageTrace Behavior [ RunTime:-0.022415s ]
+INFO: [ view_end ] --END-- [ RunTime:0.001075s ]
+
+[ 2016-09-04T23:34:31+08:00 ] 127.0.0.1 /hotel/admin.php/Order/onorder
+INFO: [ route_check ] --START--
+INFO: Run CheckRoute Behavior [ RunTime:0.000963s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001049s ]
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:-0.000317s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000712s ]
+INFO: [ view_template ] --START--
+INFO: Run LocationTemplate Behavior [ RunTime:-0.002795s ]
+INFO: [ view_template ] --END-- [ RunTime:0.000929s ]
+INFO: [ view_parse ] --START--
+INFO: Run ParseTemplate Behavior [ RunTime:-0.003766s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.025321s ]
+INFO: [ view_filter ] --START--
+INFO: Run ContentReplace Behavior [ RunTime:-0.029113s ]
+INFO: Run TokenBuild Behavior [ RunTime:-0.029483s ]
+INFO: Run WriteHtmlCache Behavior [ RunTime:-0.029799s ]
+INFO: Run ShowRuntime Behavior [ RunTime:-0.030019s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001273s ]
+INFO: [ view_end ] --START--
+INFO: Run ShowPageTrace Behavior [ RunTime:-0.030644s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000511s ]
+
+[ 2016-09-04T23:34:31+08:00 ] 127.0.0.1 /hotel/admin.php/Order/onorder
+INFO: [ route_check ] --START--
+INFO: Run CheckRoute Behavior [ RunTime:0.000781s ]
+INFO: [ route_check ] --END-- [ RunTime:0.000851s ]
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:-0.000220s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000467s ]
+INFO: [ view_template ] --START--
+INFO: Run LocationTemplate Behavior [ RunTime:-0.004934s ]
+INFO: [ view_template ] --END-- [ RunTime:0.000859s ]
+INFO: [ view_parse ] --START--
+INFO: Run ParseTemplate Behavior [ RunTime:-0.005835s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.008338s ]
+INFO: [ view_filter ] --START--
+INFO: Run ContentReplace Behavior [ RunTime:-0.014207s ]
+INFO: Run TokenBuild Behavior [ RunTime:-0.014822s ]
+INFO: Run WriteHtmlCache Behavior [ RunTime:-0.015333s ]
+INFO: Run ShowRuntime Behavior [ RunTime:-0.015739s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002094s ]
+INFO: [ view_end ] --START--
+INFO: Run ShowPageTrace Behavior [ RunTime:-0.016610s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000799s ]
+
+[ 2016-09-04T23:34:33+08:00 ] 127.0.0.1 /hotel/admin.php/Order/payorder
+INFO: [ route_check ] --START--
+INFO: Run CheckRoute Behavior [ RunTime:0.001572s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001722s ]
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:-0.003106s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001582s ]
+INFO: [ view_template ] --START--
+INFO: Run LocationTemplate Behavior [ RunTime:-0.007287s ]
+INFO: [ view_template ] --END-- [ RunTime:0.001277s ]
+INFO: [ view_parse ] --START--
+INFO: Run ParseTemplate Behavior [ RunTime:-0.008631s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.011367s ]
+INFO: [ view_filter ] --START--
+INFO: Run ContentReplace Behavior [ RunTime:-0.020038s ]
+INFO: Run TokenBuild Behavior [ RunTime:-0.020795s ]
+INFO: Run WriteHtmlCache Behavior [ RunTime:-0.021384s ]
+INFO: Run ShowRuntime Behavior [ RunTime:-0.021767s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002366s ]
+INFO: [ view_end ] --START--
+INFO: Run ShowPageTrace Behavior [ RunTime:-0.022717s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000885s ]
+
+[ 2016-09-04T23:34:34+08:00 ] 127.0.0.1 /hotel/admin.php/Order/payorder
+INFO: [ route_check ] --START--
+INFO: Run CheckRoute Behavior [ RunTime:0.000765s ]
+INFO: [ route_check ] --END-- [ RunTime:0.000823s ]
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:-0.000356s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000608s ]
+INFO: [ view_template ] --START--
+INFO: Run LocationTemplate Behavior [ RunTime:-0.002490s ]
+INFO: [ view_template ] --END-- [ RunTime:0.000805s ]
+INFO: [ view_parse ] --START--
+INFO: Run ParseTemplate Behavior [ RunTime:-0.003326s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.008621s ]
+INFO: [ view_filter ] --START--
+INFO: Run ContentReplace Behavior [ RunTime:-0.011970s ]
+INFO: Run TokenBuild Behavior [ RunTime:-0.012481s ]
+INFO: Run WriteHtmlCache Behavior [ RunTime:-0.012926s ]
+INFO: Run ShowRuntime Behavior [ RunTime:-0.013297s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001850s ]
+INFO: [ view_end ] --START--
+INFO: Run ShowPageTrace Behavior [ RunTime:-0.014131s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000702s ]
+
+[ 2016-09-04T23:35:08+08:00 ] 127.0.0.1 /hotel/admin.php/Order/payorder
+INFO: [ route_check ] --START--
+INFO: Run CheckRoute Behavior [ RunTime:0.002005s ]
+INFO: [ route_check ] --END-- [ RunTime:0.002136s ]
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:-0.000942s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001353s ]
+INFO: [ view_template ] --START--
+INFO: Run LocationTemplate Behavior [ RunTime:-0.006419s ]
+INFO: [ view_template ] --END-- [ RunTime:0.001972s ]
+INFO: [ view_parse ] --START--
+INFO: Run ParseTemplate Behavior [ RunTime:-0.008456s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.021889s ]
+INFO: [ view_filter ] --START--
+INFO: Run ContentReplace Behavior [ RunTime:-0.030416s ]
+INFO: Run TokenBuild Behavior [ RunTime:-0.031615s ]
+INFO: Run WriteHtmlCache Behavior [ RunTime:-0.032618s ]
+INFO: Run ShowRuntime Behavior [ RunTime:-0.033796s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.004601s ]
+INFO: [ view_end ] --START--
+INFO: Run ShowPageTrace Behavior [ RunTime:-0.035619s ]
+INFO: [ view_end ] --END-- [ RunTime:0.002289s ]
+
+[ 2016-09-04T23:35:10+08:00 ] 127.0.0.1 /hotel/admin.php/Order/index
+INFO: [ route_check ] --START--
+INFO: Run CheckRoute Behavior [ RunTime:0.001346s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001490s ]
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:-0.000442s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001018s ]
+INFO: [ view_template ] --START--
+INFO: Run LocationTemplate Behavior [ RunTime:-0.003818s ]
+INFO: [ view_template ] --END-- [ RunTime:0.001542s ]
+INFO: [ view_parse ] --START--
+INFO: Run ParseTemplate Behavior [ RunTime:-0.005420s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.013219s ]
+INFO: [ view_filter ] --START--
+INFO: Run ContentReplace Behavior [ RunTime:-0.018648s ]
+INFO: Run TokenBuild Behavior [ RunTime:-0.018986s ]
+INFO: Run WriteHtmlCache Behavior [ RunTime:-0.019264s ]
+INFO: Run ShowRuntime Behavior [ RunTime:-0.019460s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001147s ]
+INFO: [ view_end ] --START--
+INFO: Run ShowPageTrace Behavior [ RunTime:-0.020026s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000494s ]
+
+[ 2016-09-04T23:35:15+08:00 ] 127.0.0.1 /hotel/admin.php/Order/onorder
+INFO: [ route_check ] --START--
+INFO: Run CheckRoute Behavior [ RunTime:0.001182s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001286s ]
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:-0.000381s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001072s ]
+INFO: [ view_template ] --START--
+INFO: Run LocationTemplate Behavior [ RunTime:-0.003556s ]
+INFO: [ view_template ] --END-- [ RunTime:0.001364s ]
+INFO: [ view_parse ] --START--
+INFO: Run ParseTemplate Behavior [ RunTime:-0.004999s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.015109s ]
+INFO: [ view_filter ] --START--
+INFO: Run ContentReplace Behavior [ RunTime:-0.020158s ]
+INFO: Run TokenBuild Behavior [ RunTime:-0.020913s ]
+INFO: Run WriteHtmlCache Behavior [ RunTime:-0.021498s ]
+INFO: Run ShowRuntime Behavior [ RunTime:-0.022403s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.004610s ]
+INFO: [ view_end ] --START--
+INFO: Run ShowPageTrace Behavior [ RunTime:-0.025480s ]
+INFO: [ view_end ] --END-- [ RunTime:0.001296s ]
+
+[ 2016-09-04T23:35:18+08:00 ] 127.0.0.1 /hotel/admin.php/Order/onorder
+INFO: [ route_check ] --START--
+INFO: Run CheckRoute Behavior [ RunTime:0.000515s ]
+INFO: [ route_check ] --END-- [ RunTime:0.000558s ]
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:-0.000249s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001571s ]
+INFO: [ view_template ] --START--
+INFO: Run LocationTemplate Behavior [ RunTime:-0.003146s ]
+INFO: [ view_template ] --END-- [ RunTime:0.000647s ]
+INFO: [ view_parse ] --START--
+INFO: Run ParseTemplate Behavior [ RunTime:-0.003816s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.006676s ]
+INFO: [ view_filter ] --START--
+INFO: Run ContentReplace Behavior [ RunTime:-0.010527s ]
+INFO: Run TokenBuild Behavior [ RunTime:-0.010948s ]
+INFO: Run WriteHtmlCache Behavior [ RunTime:-0.011360s ]
+INFO: Run ShowRuntime Behavior [ RunTime:-0.011621s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001480s ]
+INFO: [ view_end ] --START--
+INFO: Run ShowPageTrace Behavior [ RunTime:-0.012237s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000578s ]
+
+[ 2016-09-04T23:38:39+08:00 ] 127.0.0.1 /hotel/admin.php/Order/onorder
+INFO: [ route_check ] --START--
+INFO: Run CheckRoute Behavior [ RunTime:0.001325s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001426s ]
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:-0.000633s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000869s ]
+INFO: [ view_template ] --START--
+INFO: Run LocationTemplate Behavior [ RunTime:-0.003732s ]
+INFO: [ view_template ] --END-- [ RunTime:0.001124s ]
+INFO: [ view_parse ] --START--
+INFO: Run ParseTemplate Behavior [ RunTime:-0.004899s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.012818s ]
+INFO: [ view_filter ] --START--
+INFO: Run ContentReplace Behavior [ RunTime:-0.017738s ]
+INFO: Run TokenBuild Behavior [ RunTime:-0.018570s ]
+INFO: Run WriteHtmlCache Behavior [ RunTime:-0.019374s ]
+INFO: Run ShowRuntime Behavior [ RunTime:-0.019876s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.003183s ]
+INFO: [ view_end ] --START--
+INFO: Run ShowPageTrace Behavior [ RunTime:-0.022803s ]
+INFO: [ view_end ] --END-- [ RunTime:0.001382s ]
+
+[ 2016-09-04T23:38:41+08:00 ] 127.0.0.1 /hotel/admin.php/Order/onorder
+INFO: [ route_check ] --START--
+INFO: Run CheckRoute Behavior [ RunTime:0.001068s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001181s ]
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:-0.000461s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000852s ]
+INFO: [ view_template ] --START--
+INFO: Run LocationTemplate Behavior [ RunTime:-0.003353s ]
+INFO: [ view_template ] --END-- [ RunTime:0.000769s ]
+INFO: [ view_parse ] --START--
+INFO: Run ParseTemplate Behavior [ RunTime:-0.004150s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.009415s ]
+INFO: [ view_filter ] --START--
+INFO: Run ContentReplace Behavior [ RunTime:-0.013605s ]
+INFO: Run TokenBuild Behavior [ RunTime:-0.014211s ]
+INFO: Run WriteHtmlCache Behavior [ RunTime:-0.014719s ]
+INFO: Run ShowRuntime Behavior [ RunTime:-0.015056s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002095s ]
+INFO: [ view_end ] --START--
+INFO: Run ShowPageTrace Behavior [ RunTime:-0.016024s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000895s ]
+
+[ 2016-09-04T23:38:49+08:00 ] 127.0.0.1 /hotel/admin.php/Order/onorder
+INFO: [ route_check ] --START--
+INFO: Run CheckRoute Behavior [ RunTime:0.000603s ]
+INFO: [ route_check ] --END-- [ RunTime:0.000653s ]
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:-0.000284s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000552s ]
+INFO: [ view_template ] --START--
+INFO: Run LocationTemplate Behavior [ RunTime:-0.002140s ]
+INFO: [ view_template ] --END-- [ RunTime:0.001212s ]
+INFO: [ view_parse ] --START--
+INFO: Run ParseTemplate Behavior [ RunTime:-0.003302s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.007579s ]
+INFO: [ view_filter ] --START--
+INFO: Run ContentReplace Behavior [ RunTime:-0.010905s ]
+INFO: Run TokenBuild Behavior [ RunTime:-0.011366s ]
+INFO: Run WriteHtmlCache Behavior [ RunTime:-0.011826s ]
+INFO: Run ShowRuntime Behavior [ RunTime:-0.012305s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002140s ]
+INFO: [ view_end ] --START--
+INFO: Run ShowPageTrace Behavior [ RunTime:-0.013307s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000896s ]
+
+[ 2016-09-04T23:38:58+08:00 ] 127.0.0.1 /hotel/admin.php
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.000765s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000853s ]
+INFO: [ view_template ] --START--
+INFO: Run LocationTemplate Behavior [ RunTime:-0.001262s ]
+INFO: [ view_template ] --END-- [ RunTime:0.000730s ]
+INFO: [ view_parse ] --START--
+INFO: Run ParseTemplate Behavior [ RunTime:-0.002038s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.007570s ]
+INFO: [ view_filter ] --START--
+INFO: Run ContentReplace Behavior [ RunTime:-0.009653s ]
+INFO: Run TokenBuild Behavior [ RunTime:-0.010022s ]
+INFO: Run WriteHtmlCache Behavior [ RunTime:-0.010449s ]
+INFO: Run ShowRuntime Behavior [ RunTime:-0.010721s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001556s ]
+INFO: [ view_end ] --START--
+INFO: Run ShowPageTrace Behavior [ RunTime:-0.011275s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000690s ]
+
+[ 2016-09-04T23:38:58+08:00 ] 127.0.0.1 /hotel/admin.php/Layout/north?_=1473003538284
+INFO: [ route_check ] --START--
+INFO: Run CheckRoute Behavior [ RunTime:0.000624s ]
+INFO: [ route_check ] --END-- [ RunTime:0.000685s ]
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:-0.000207s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000469s ]
+INFO: [ view_template ] --START--
+INFO: Run LocationTemplate Behavior [ RunTime:-0.001678s ]
+INFO: [ view_template ] --END-- [ RunTime:0.000780s ]
+INFO: [ view_parse ] --START--
+INFO: Run ParseTemplate Behavior [ RunTime:-0.002510s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.009362s ]
+INFO: [ view_filter ] --START--
+INFO: Run ContentReplace Behavior [ RunTime:-0.011913s ]
+INFO: Run TokenBuild Behavior [ RunTime:-0.012408s ]
+INFO: Run WriteHtmlCache Behavior [ RunTime:-0.012882s ]
+INFO: Run ShowRuntime Behavior [ RunTime:-0.013227s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001856s ]
+INFO: [ view_end ] --START--
+INFO: Run ShowPageTrace Behavior [ RunTime:-0.013831s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000733s ]
+
+[ 2016-09-04T23:38:58+08:00 ] 127.0.0.1 /hotel/admin.php/Layout/west?_=1473003538291
+INFO: [ route_check ] --START--
+INFO: Run CheckRoute Behavior [ RunTime:0.000664s ]
+INFO: [ route_check ] --END-- [ RunTime:0.000733s ]
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:-0.000216s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000485s ]
+INFO: [ view_template ] --START--
+INFO: Run LocationTemplate Behavior [ RunTime:-0.006477s ]
+INFO: [ view_template ] --END-- [ RunTime:0.000854s ]
+INFO: [ view_parse ] --START--
+INFO: Run ParseTemplate Behavior [ RunTime:-0.007367s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.008890s ]
+INFO: [ view_filter ] --START--
+INFO: Run ContentReplace Behavior [ RunTime:-0.016299s ]
+INFO: Run TokenBuild Behavior [ RunTime:-0.016882s ]
+INFO: Run WriteHtmlCache Behavior [ RunTime:-0.017470s ]
+INFO: Run ShowRuntime Behavior [ RunTime:-0.017925s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002326s ]
+INFO: [ view_end ] --START--
+INFO: Run ShowPageTrace Behavior [ RunTime:-0.018684s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000968s ]
+
+[ 2016-09-04T23:38:58+08:00 ] 127.0.0.1 /hotel/admin.php/Layout/center?_=1473003538299
+INFO: [ route_check ] --START--
+INFO: Run CheckRoute Behavior [ RunTime:0.000585s ]
+INFO: [ route_check ] --END-- [ RunTime:0.000633s ]
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:-0.000183s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000445s ]
+INFO: [ view_template ] --START--
+INFO: Run LocationTemplate Behavior [ RunTime:-0.003344s ]
+INFO: [ view_template ] --END-- [ RunTime:0.000773s ]
+INFO: [ view_parse ] --START--
+INFO: Run ParseTemplate Behavior [ RunTime:-0.004135s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.007863s ]
+INFO: [ view_filter ] --START--
+INFO: Run ContentReplace Behavior [ RunTime:-0.012040s ]
+INFO: Run TokenBuild Behavior [ RunTime:-0.012497s ]
+INFO: Run WriteHtmlCache Behavior [ RunTime:-0.012954s ]
+INFO: Run ShowRuntime Behavior [ RunTime:-0.013289s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001823s ]
+INFO: [ view_end ] --START--
+INFO: Run ShowPageTrace Behavior [ RunTime:-0.013939s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000813s ]
+
+[ 2016-09-04T23:38:58+08:00 ] 127.0.0.1 /hotel/admin.php/Order/index
+INFO: [ route_check ] --START--
+INFO: Run CheckRoute Behavior [ RunTime:0.000982s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001068s ]
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:-0.000320s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000759s ]
+INFO: [ view_template ] --START--
+INFO: Run LocationTemplate Behavior [ RunTime:-0.002645s ]
+INFO: [ view_template ] --END-- [ RunTime:0.000775s ]
+INFO: [ view_parse ] --START--
+INFO: Run ParseTemplate Behavior [ RunTime:-0.003462s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.010905s ]
+INFO: [ view_filter ] --START--
+INFO: Run ContentReplace Behavior [ RunTime:-0.014391s ]
+INFO: Run TokenBuild Behavior [ RunTime:-0.014806s ]
+INFO: Run WriteHtmlCache Behavior [ RunTime:-0.015138s ]
+INFO: Run ShowRuntime Behavior [ RunTime:-0.015471s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001504s ]
+INFO: [ view_end ] --START--
+INFO: Run ShowPageTrace Behavior [ RunTime:-0.016199s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000575s ]
+
+[ 2016-09-04T23:38:58+08:00 ] 127.0.0.1 /hotel/admin.php/Order/index
+INFO: [ route_check ] --START--
+INFO: Run CheckRoute Behavior [ RunTime:0.001000s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001096s ]
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:-0.000330s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000766s ]
+INFO: [ view_template ] --START--
+INFO: Run LocationTemplate Behavior [ RunTime:-0.002526s ]
+INFO: [ view_template ] --END-- [ RunTime:0.000675s ]
+INFO: [ view_parse ] --START--
+INFO: Run ParseTemplate Behavior [ RunTime:-0.003227s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.010255s ]
+INFO: [ view_filter ] --START--
+INFO: Run ContentReplace Behavior [ RunTime:-0.013543s ]
+INFO: Run TokenBuild Behavior [ RunTime:-0.014300s ]
+INFO: Run WriteHtmlCache Behavior [ RunTime:-0.015141s ]
+INFO: Run ShowRuntime Behavior [ RunTime:-0.015714s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002975s ]
+INFO: [ view_end ] --START--
+INFO: Run ShowPageTrace Behavior [ RunTime:-0.016822s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000909s ]
+
+[ 2016-09-04T23:38:59+08:00 ] 127.0.0.1 /hotel/admin.php/Order/index
+INFO: [ route_check ] --START--
+INFO: Run CheckRoute Behavior [ RunTime:0.001068s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001161s ]
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:-0.000337s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000681s ]
+INFO: [ view_template ] --START--
+INFO: Run LocationTemplate Behavior [ RunTime:-0.002405s ]
+INFO: [ view_template ] --END-- [ RunTime:0.000723s ]
+INFO: [ view_parse ] --START--
+INFO: Run ParseTemplate Behavior [ RunTime:-0.003149s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.009381s ]
+INFO: [ view_filter ] --START--
+INFO: Run ContentReplace Behavior [ RunTime:-0.012628s ]
+INFO: Run TokenBuild Behavior [ RunTime:-0.014014s ]
+INFO: Run WriteHtmlCache Behavior [ RunTime:-0.015032s ]
+INFO: Run ShowRuntime Behavior [ RunTime:-0.015515s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.004781s ]
+INFO: [ view_end ] --START--
+INFO: Run ShowPageTrace Behavior [ RunTime:-0.018179s ]
+INFO: [ view_end ] --END-- [ RunTime:0.001165s ]
+
+[ 2016-09-04T23:39:02+08:00 ] 127.0.0.1 /hotel/admin.php/Order/index
+INFO: [ route_check ] --START--
+INFO: Run CheckRoute Behavior [ RunTime:0.001354s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001471s ]
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:-0.000464s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000862s ]
+INFO: [ view_template ] --START--
+INFO: Run LocationTemplate Behavior [ RunTime:-0.003219s ]
+INFO: [ view_template ] --END-- [ RunTime:0.000803s ]
+INFO: [ view_parse ] --START--
+INFO: Run ParseTemplate Behavior [ RunTime:-0.004076s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.013354s ]
+INFO: [ view_filter ] --START--
+INFO: Run ContentReplace Behavior [ RunTime:-0.017470s ]
+INFO: Run TokenBuild Behavior [ RunTime:-0.018201s ]
+INFO: Run WriteHtmlCache Behavior [ RunTime:-0.018872s ]
+INFO: Run ShowRuntime Behavior [ RunTime:-0.019516s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.004357s ]
+INFO: [ view_end ] --START--
+INFO: Run ShowPageTrace Behavior [ RunTime:-0.022864s ]
+INFO: [ view_end ] --END-- [ RunTime:0.001150s ]
+
+[ 2016-09-04T23:39:19+08:00 ] 127.0.0.1 /hotel/admin.php/Order/index
+INFO: [ route_check ] --START--
+INFO: Run CheckRoute Behavior [ RunTime:0.001537s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001667s ]
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:-0.000498s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001169s ]
+INFO: [ view_template ] --START--
+INFO: Run LocationTemplate Behavior [ RunTime:-0.004354s ]
+INFO: [ view_template ] --END-- [ RunTime:0.001551s ]
+INFO: [ view_parse ] --START--
+INFO: Run ParseTemplate Behavior [ RunTime:-0.006007s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.015644s ]
+INFO: [ view_filter ] --START--
+INFO: Run ContentReplace Behavior [ RunTime:-0.021943s ]
+INFO: Run TokenBuild Behavior [ RunTime:-0.022648s ]
+INFO: Run WriteHtmlCache Behavior [ RunTime:-0.023219s ]
+INFO: Run ShowRuntime Behavior [ RunTime:-0.023583s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002309s ]
+INFO: [ view_end ] --START--
+INFO: Run ShowPageTrace Behavior [ RunTime:-0.024664s ]
+INFO: [ view_end ] --END-- [ RunTime:0.001307s ]
+
+[ 2016-09-04T23:39:21+08:00 ] 127.0.0.1 /hotel/admin.php/Order/onorder
+INFO: [ route_check ] --START--
+INFO: Run CheckRoute Behavior [ RunTime:0.001552s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001687s ]
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:-0.000388s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000729s ]
+INFO: [ view_template ] --START--
+INFO: Run LocationTemplate Behavior [ RunTime:-0.002798s ]
+INFO: [ view_template ] --END-- [ RunTime:0.000841s ]
+INFO: [ view_parse ] --START--
+INFO: Run ParseTemplate Behavior [ RunTime:-0.003680s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.013470s ]
+INFO: [ view_filter ] --START--
+INFO: Run ContentReplace Behavior [ RunTime:-0.017226s ]
+INFO: Run TokenBuild Behavior [ RunTime:-0.017866s ]
+INFO: Run WriteHtmlCache Behavior [ RunTime:-0.018421s ]
+INFO: Run ShowRuntime Behavior [ RunTime:-0.018824s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002449s ]
+INFO: [ view_end ] --START--
+INFO: Run ShowPageTrace Behavior [ RunTime:-0.020194s ]
+INFO: [ view_end ] --END-- [ RunTime:0.001002s ]
+
+[ 2016-09-04T23:39:21+08:00 ] 127.0.0.1 /hotel/admin.php/Order/onorder
+INFO: [ route_check ] --START--
+INFO: Run CheckRoute Behavior [ RunTime:0.000992s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001056s ]
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:-0.000785s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000951s ]
+INFO: [ view_template ] --START--
+INFO: Run LocationTemplate Behavior [ RunTime:-0.004228s ]
+INFO: [ view_template ] --END-- [ RunTime:0.001189s ]
+INFO: [ view_parse ] --START--
+INFO: Run ParseTemplate Behavior [ RunTime:-0.005485s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.011418s ]
+INFO: [ view_filter ] --START--
+INFO: Run ContentReplace Behavior [ RunTime:-0.016911s ]
+INFO: Run TokenBuild Behavior [ RunTime:-0.017340s ]
+INFO: Run WriteHtmlCache Behavior [ RunTime:-0.017693s ]
+INFO: Run ShowRuntime Behavior [ RunTime:-0.017968s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001462s ]
+INFO: [ view_end ] --START--
+INFO: Run ShowPageTrace Behavior [ RunTime:-0.018620s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000631s ]
+
+[ 2016-09-04T23:39:24+08:00 ] 127.0.0.1 /hotel/admin.php/Order/onorder
+INFO: [ route_check ] --START--
+INFO: Run CheckRoute Behavior [ RunTime:0.000728s ]
+INFO: [ route_check ] --END-- [ RunTime:0.000791s ]
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:-0.000231s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000485s ]
+INFO: [ view_template ] --START--
+INFO: Run LocationTemplate Behavior [ RunTime:-0.001857s ]
+INFO: [ view_template ] --END-- [ RunTime:0.000637s ]
+INFO: [ view_parse ] --START--
+INFO: Run ParseTemplate Behavior [ RunTime:-0.002564s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.006912s ]
+INFO: [ view_filter ] --START--
+INFO: Run ContentReplace Behavior [ RunTime:-0.009496s ]
+INFO: Run TokenBuild Behavior [ RunTime:-0.009857s ]
+INFO: Run WriteHtmlCache Behavior [ RunTime:-0.010131s ]
+INFO: Run ShowRuntime Behavior [ RunTime:-0.010326s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001161s ]
+INFO: [ view_end ] --START--
+INFO: Run ShowPageTrace Behavior [ RunTime:-0.010894s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000706s ]
+
+[ 2016-09-04T23:39:26+08:00 ] 127.0.0.1 /hotel/admin.php/Order/onorder
+INFO: [ route_check ] --START--
+INFO: Run CheckRoute Behavior [ RunTime:0.000517s ]
+INFO: [ route_check ] --END-- [ RunTime:0.000563s ]
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:-0.000172s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000392s ]
+INFO: [ view_template ] --START--
+INFO: Run LocationTemplate Behavior [ RunTime:-0.001747s ]
+INFO: [ view_template ] --END-- [ RunTime:0.000540s ]
+INFO: [ view_parse ] --START--
+INFO: Run ParseTemplate Behavior [ RunTime:-0.002308s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.006183s ]
+INFO: [ view_filter ] --START--
+INFO: Run ContentReplace Behavior [ RunTime:-0.008515s ]
+INFO: Run TokenBuild Behavior [ RunTime:-0.008836s ]
+INFO: Run WriteHtmlCache Behavior [ RunTime:-0.009104s ]
+INFO: Run ShowRuntime Behavior [ RunTime:-0.009296s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001151s ]
+INFO: [ view_end ] --START--
+INFO: Run ShowPageTrace Behavior [ RunTime:-0.009888s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000527s ]
+
+[ 2016-09-04T23:39:32+08:00 ] 127.0.0.1 /hotel/admin.php/Order/index
+INFO: [ route_check ] --START--
+INFO: Run CheckRoute Behavior [ RunTime:0.001171s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001270s ]
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:-0.000366s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000841s ]
+INFO: [ view_template ] --START--
+INFO: Run LocationTemplate Behavior [ RunTime:-0.005255s ]
+INFO: [ view_template ] --END-- [ RunTime:0.001393s ]
+INFO: [ view_parse ] --START--
+INFO: Run ParseTemplate Behavior [ RunTime:-0.006698s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.010243s ]
+INFO: [ view_filter ] --START--
+INFO: Run ContentReplace Behavior [ RunTime:-0.016951s ]
+INFO: Run TokenBuild Behavior [ RunTime:-0.017352s ]
+INFO: Run WriteHtmlCache Behavior [ RunTime:-0.017694s ]
+INFO: Run ShowRuntime Behavior [ RunTime:-0.017953s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001401s ]
+INFO: [ view_end ] --START--
+INFO: Run ShowPageTrace Behavior [ RunTime:-0.018586s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000749s ]
+
+[ 2016-09-04T23:39:52+08:00 ] 127.0.0.1 /hotel/admin.php/Order/onorder
+INFO: [ route_check ] --START--
+INFO: Run CheckRoute Behavior [ RunTime:0.001707s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001843s ]
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:-0.007776s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.009358s ]
+INFO: [ view_template ] --START--
+INFO: Run LocationTemplate Behavior [ RunTime:-0.020406s ]
+INFO: [ view_template ] --END-- [ RunTime:0.001832s ]
+INFO: [ view_parse ] --START--
+INFO: Run ParseTemplate Behavior [ RunTime:-0.022320s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.015519s ]
+INFO: [ view_filter ] --START--
+INFO: Run ContentReplace Behavior [ RunTime:-0.037844s ]
+INFO: Run TokenBuild Behavior [ RunTime:-0.039500s ]
+INFO: Run WriteHtmlCache Behavior [ RunTime:-0.040759s ]
+INFO: Run ShowRuntime Behavior [ RunTime:-0.041482s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.004283s ]
+INFO: [ view_end ] --START--
+INFO: Run ShowPageTrace Behavior [ RunTime:-0.042351s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000818s ]
+
+[ 2016-09-04T23:39:52+08:00 ] 127.0.0.1 /hotel/admin.php/Order/onorder
+INFO: [ route_check ] --START--
+INFO: Run CheckRoute Behavior [ RunTime:0.001737s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001849s ]
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:-0.000517s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000786s ]
+INFO: [ view_template ] --START--
+INFO: Run LocationTemplate Behavior [ RunTime:-0.008893s ]
+INFO: [ view_template ] --END-- [ RunTime:0.000906s ]
+INFO: [ view_parse ] --START--
+INFO: Run ParseTemplate Behavior [ RunTime:-0.009840s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.010788s ]
+INFO: [ view_filter ] --START--
+INFO: Run ContentReplace Behavior [ RunTime:-0.020656s ]
+INFO: Run TokenBuild Behavior [ RunTime:-0.021208s ]
+INFO: Run WriteHtmlCache Behavior [ RunTime:-0.021656s ]
+INFO: Run ShowRuntime Behavior [ RunTime:-0.022007s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001856s ]
+INFO: [ view_end ] --START--
+INFO: Run ShowPageTrace Behavior [ RunTime:-0.022839s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000815s ]
+

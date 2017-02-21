@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Document</title>
+</head>
+<body>
+<h1>商品管理</h1>
+<div >
+    <form action="{:U('Adminstore/goods')}" method="get">
+    <div style="float:left">
+        <select name="chaxun" id="">
+            <option value="1">商品名</option>
+        </select>
+    </div>
+    <div style="float:left">
+        <input type="text" name="find" >
+    </div>
+    <div>
+        <input type="submit" value="搜索">
+    </div>
+    </form>
+</div>
+        <table  border="1" cellpadding="1" cellspacing="1" width="100%" align="center">
+        <tr>
+            <th>id</th>
+            <th>商品名</th>
+            <th style="width:60px">商品信息</th>
+            <th>所属分类</th>
+            <th>价格</th>
+            <th>库存</th>
+            <th>操作</th>
+        </tr>
+        <volist name="list" id="vo">
+        <tr>
+            <td>{$vo.gid}</td>
+            <td ><img src="{$vo.iname}" alt="">&nbsp;&nbsp;{$vo.gname}</td>
+            <td style="width:60px">{$vo.msg}</td>
+            <td>{$vo.cname}</td>
+            <td>{$vo.price}</td>
+            <td>{$vo.stock}</td>
+            <td><a href="{:U('Adminstore/editgoods')}?id={$vo.gid}">商品信息编辑</a>
+                    <a href="{:U('Adminstore/editimgs')}?id={$vo.gid}">图片信息编辑</a>
+            </td>
+        </tr>
+        </volist>        
+    </table>
+</body>
+</html>

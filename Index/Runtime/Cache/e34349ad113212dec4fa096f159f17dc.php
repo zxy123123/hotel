@@ -1,0 +1,1 @@
+<?php if (!defined('THINK_PATH')) exit();?>欢迎来到春堤网站管理系统

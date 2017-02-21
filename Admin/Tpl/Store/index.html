@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+<link rel="stylesheet" type="text/css" href="__PUBLIC__/themes/icon.css" />
+<link href="__PUBLIC__/css/store.css" rel="stylesheet" type="text/css" />
+<script type="text/javascript" src="__PUBLIC__/js/jquery-1.8.0.min.js"></script>
+<script type="text/javascript" src="__PUBLIC__/js/bootstrap.min.js"></script>
+<script type="text/javascript" src="__PUBLIC__/layer/layer.js"></script>
+
+    <title>Document</title>
+</head>
+<body>
+<volist name="list" id="vo">
+<div class="goods">
+<a href="{:U('Store/gooddetail')}?id={$vo.id}"><img src="{$vo.iname}" alt=""></a>
+<p style="text-align:center">{$vo.gname}</p>
+</div>
+</volist>
+</body>
+</html>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

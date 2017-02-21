@@ -1,0 +1,309 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<link id="easyuiTheme" rel="stylesheet" type="text/css" href="__PUBLIC__/themes/bootstrap/easyui.css" />
+<link rel="stylesheet" type="text/css" href="__PUBLIC__/themes/icon.css" />
+<script type="text/javascript" src="__PUBLIC__/js/jquery-1.8.0.min.js"></script>
+<script type="text/javascript" src="__PUBLIC__/js/jquery.easyui.min.js"></script>
+<script type="text/javascript" src="__PUBLIC__/js/admin.js" charset="utf-8"></script>
+<script type="text/javascript" charset="utf-8">
+var datagrid = $('#datagrid_Order');
+var isClickOk = true;
+function edit(id) {
+	$.ajax({
+		url: '__APP__/Order/getOrderById',
+		data: {id: id},
+		dataType: 'json',
+		success: function (rows) {
+			rows = rows[0];
+			$('#_orderid').val(rows.order_id);
+			$("input[name='state'][value="+rows.state+"]").attr("checked",true);
+
+		}
+	});
+	$('#editDlg').dialog('open').dialog('setTitle', '修改订单信息');
+}
+function batch(t){
+	var datagrid = $("#datagrid_Order");
+	var rows = datagrid.datagrid('getChecked');
+	var ids = [];
+	var tn = (t=='confirm')?"接单":"修改订单状态为已支付";
+	if (rows.length > 0) {
+		parent.dj.messagerConfirm('请确认', '您要批量'+tn+'吗？', function(r) {
+			if (r) {
+				for ( var i = 0; i < rows.length; i++) {
+					ids.push(rows[i].order_id);
+				}
+				$.ajax({
+					url : '__APP__/Order/batch',
+					data : {
+						type:t,
+						ids : ids.join(',')
+					},
+					dataType : 'json',
+					success : function(d) {
+						datagrid.datagrid('load');
+						datagrid.datagrid('unselectAll');
+						parent.dj.messagerShow({
+							title : '提示',
+							msg : d.info
+						});
+					}
+				});
+			}
+		});
+	} else {
+		parent.dj.messagerAlert('提示', '请勾选要处理的订单！', 'error');
+	}
+}
+
+function bgcolor(index,row){  
+    if (row.flag==0){   
+        return 'background-color:red;';   
+    }   
+}   
+
+function view(id) {
+	$.ajax({
+		url: '__APP__/Order/getOrderById',
+		data: {id: id},
+		dataType: 'json',
+		async: false,
+		success: function (rows) {
+			var table = '';
+				table+= '<tr>';
+				table+='<td>'+rows.hotel_name+'</td>';
+				table+='<td>'+rows.type_name+'</td>';
+				table+='<td>'+rows.name+'</td>';
+				table+='<td>'+rows.phone_number+'</td>';
+				table+='<td>'+rows.identity_card+'</td>';
+				table+='<td>'+rows.start_time+'</td>';
+				table+='<td>'+rows.end_time+'</td>';
+				table+='<td>'+rows.total_price+'</td>';
+				table+='<td>'+rows.special_requirement+'</td>';
+				table+="</tr>";
+			//alert(table);
+			$('.itbody').empty();
+			$('.itbody').append(table);
+		}
+	});
+	$('#viewDlg').dialog('open').dialog('setTitle', '订单信息');
+}
+function exportData() {
+	var rows = $('#datagrid_Order').datagrid('getChecked');
+	var ids = [];
+	for (var i = 0; i < rows.length; i++) {
+		ids.push(rows[i].order_id);
+	}
+	var str =  ids.join(',');
+	var href = '__APP__/Order/export?idstr='+str;
+	location.href=href;
+}
+function _search() {
+	$('#datagrid_Order').datagrid('loadData', { total: 0, rows: [] }); 
+	$('#datagrid_Order').datagrid('load', dj.serializeObject($('#searchForm')));
+}
+function cleanSearch() {
+	$('#datagrid_Order').datagrid('load', {});
+	$('#searchForm input').val('');
+}
+
+//删除选中项
+function deleteData() {
+	var datagrid = $("#datagrid_Order");
+	var rows = datagrid.datagrid('getChecked');
+	var ids = [];
+	if (rows.length > 0) {
+		parent.dj.messagerConfirm('请确认', '您要删除当前所选项目？', function(r) {
+			if (r) {
+				for ( var i = 0; i < rows.length; i++) {
+					ids.push(rows[i].order_id);
+				}
+				$.ajax({
+					url : '__APP__/Order/delete',
+					data : {
+						ids : ids.join(',')
+					},
+					dataType : 'json',
+					success : function(d) {
+						datagrid.datagrid('load');
+						datagrid.datagrid('unselectAll');
+						parent.dj.messagerShow({
+							title : '提示',
+							msg : d.info
+						});
+					}
+				});
+			}
+		});
+	} else {
+		parent.dj.messagerAlert('提示', '请勾选要删除的记录！', 'error');
+	}
+}
+
+
+function edit_ok() {
+	$.messager.defaults = { ok: "确定", cancel: "取消" };
+	$.messager.confirm('Confirm', '您确定修改?', function (r) {
+		if (r) {
+			$('#editForm').form('submit', {
+				url: "__APP__/Order/edit",
+				dataType: 'json',
+				onSubmit: function () {
+
+					if ($('#editForm').form('validate')) {
+						datagrid.datagrid('loadData', { total: 0, rows: [] }); 
+						datagrid.datagrid('load');
+						$.messager.alert('操作提示', '修改信息成功！', 'info');
+						return true;
+					} else {
+						$.messager.alert('操作提示', '信息填写不完整！', 'error');
+						return false;
+					}
+				}
+			});
+			$('#datagrid_Order').datagrid('reload');
+			$('#editDlg').dialog('close');
+		}
+
+	});
+}
+
+function formatOper(val,row,index){  
+	var str= ''; 
+	str+=' &nbsp;&nbsp;<a href="javascript:void(0);" onclick="view('+row.reservation_id+')">订单详情</a>';
+	return str;
+}
+function formatsex(val,row,index){
+	return (row.sex==1)?"女":"男";
+}
+function formatphone(val,row,index){
+	return row.order_id;
+}
+function formataddress(val,row,index){
+	return row.address1+''+row.address2+''+row.address3;
+}
+function myformatter(date){
+	var y = date.getFullYear();
+	var m = date.getMonth()+1;
+	var d = date.getDate();
+	return y+'-'+(m<10?('0'+m):m)+'-'+(d<10?('0'+d):d);
+}
+function myparser(s){
+	if (!s) return new Date();
+	var ss = (s.split('-'));
+	var y = parseInt(ss[0],10);
+	var m = parseInt(ss[1],10);
+	var d = parseInt(ss[2],10);
+	if (!isNaN(y) && !isNaN(m) && !isNaN(d)){
+	return new Date(y,m-1,d);
+	} else {
+	return new Date();
+	}
+}
+</script>
+<title>后台管理</title>
+</head>
+<body>
+<div class="easyui-panel" data-options="fit:true">
+	<table class="easyui-datagrid" id="datagrid_Order" data-options="url:'__APP__/Order/getAllOrder?type=payorder',method:'post',pagination:true,fit:true,toolbar:'#toolbar',rownumbers:true,checkOnSelect: true,rowStyler:bgcolor">
+		<thead>
+			<tr>
+				<th data-options="field:'reservation_id',checkbox: true">ID</th>
+				<th data-options="field:'hotel_name',sortable: true" width="150" >酒店名</th>
+				<th data-options="field:'type_name',sortable: true" width="100" >房间名</th>
+				<th data-options="field:'name',sortable: true" width="100" >客户名字</th>
+				<th data-options="field:'phone_number',sortable: true" width="150" >客户手机号</th>
+				<th data-options="field:'identity_card',sortable: true" width="150" >客户身份证号</th>
+				<th data-options="field:'start_time',sortable: true" width="150">入住时间</th>
+				<th data-options="field:'end_time',align:'center',sortable: true" width="150">离开时间</th>
+				<th data-options="field:'total_price' ,sortable: true" width="100" >订单总价格</th>
+				<th data-options="field:'cz',width:120,align:'center',formatter:formatOper" width="200">操作</th>
+			</tr>
+		</thead>
+	</table>
+
+	<div id="toolbar" style="padding:5px;">
+		<a href="javascript:void(0)" class="easyui-linkbutton" iconCls="icon-print" plain="true" onclick="exportData()">导出csv</a>
+		<a href="javascript:void(0)" class="easyui-linkbutton" iconCls="icon-reload" plain="true" onclick="batch('confirm')">批量接单</a>
+		<a href="javascript:void(0)" class="easyui-linkbutton" iconCls="icon-ok" plain="true" onclick="batch('done')">批量处理订单</a>
+		<a href="javascript:void(0)" class="easyui-linkbutton" iconCls="icon-cut" plain="true" onclick="deleteData()">删除</a>
+		
+		<form id="searchForm" style="display:inline-block;*display:inline;zoom:1;">
+			<input name="search"  placeholder="标题或内容" data-options="prompt:'请输入搜索内容',searcher:''" class="easyui-validatebox textbox"
+				style="width: 180px; vertical-align: middle;" />
+				选择分类: <select name="state">
+				<option value="">全部</option>
+				<option value="未入住">未入住</option>
+				<option value="已入住">已入住</option>
+				</select>
+				入住时间:<input name="orderdate" class="easyui-datebox" data-options="formatter:myformatter,parser:myparser" />
+				离开时间: <input name="sdate" class="easyui-datebox" data-options="formatter:myformatter,parser:myparser" />
+			<input name="hiddenid" id="hiddenid" type="hidden" />
+			<a href="javascript:void(0);" class="easyui-linkbutton" plain="true" onclick="_search();">搜索</a>
+		</form>
+	</div>
+</div>
+
+    <!--	修改订单信息的表单		-->
+    <div id="editDlg" class="easyui-dialog" style="width: 400px; height: 300px; padding: 10px 20px"
+        closed="true" buttons="#editDlgBtn" data-options="modal:true">
+        <form id="editForm" method="post">
+        <table width="350" border="0">
+            <tr>
+                <td width="150" align="right">
+                    订单状态：
+                </td>
+                <td width="250">
+					<input type="radio" name="state" value="未入住" />未入住
+					<input type="radio" name="state" value="已入住" />已入住
+                </td>
+                <input type="hidden" name="order_id" id="_orderid" />
+            </tr>
+        </table>
+        </form>
+    </div>
+    
+    
+    <!-- 密码重置 -->
+        <!--	修改订单信息的表单		-->
+    <div id="viewDlg" class="easyui-dialog" style="width: 1200px; height: 300px; padding: 10px 20px"
+        closed="true" buttons="#viewDlgBtn" data-options="modal:true">
+        <style>
+    .itemtable th,td{
+	border:solid 1px #ccc;
+    }
+    </style>
+	<table style="border:solid 1px #ccc;width:100%;table-layout:fixed;
+empty-cells:show;
+border-collapse: collapse;
+margin:0 auto; " class="itemtable">
+	<tr>
+	<th>酒店名</th>
+	<th>房间名</th>
+	<th>客户名字</th>
+	<th>客户手机号</th>
+	<th>客户身份证</th>
+	<th>入住时间</th>
+	<th>离开时间</th>
+	<th>订单总价格</th>
+	<th>客户留言</th>
+	</tr>
+	<tbody class="itbody"></tbody>
+	</table>
+    </div>
+     <!--	修改户信息的按钮，被Jquery设置，当没被调用的时候不显示		-->
+    <div id="viewDlgBtn">
+         <a href="#" class="easyui-linkbutton" iconcls="icon-cut"
+                onclick="javascript:$('#viewDlg').dialog('close')">取消</a>
+    </div>
+       
+    <!--	修改户信息的按钮，被Jquery设置，当没被调用的时候不显示		-->
+    <div id="editDlgBtn">
+        <a href="#" id="addSaveBooktimecode" class="easyui-linkbutton" iconcls="icon-ok"
+            onclick="edit_ok()">确认</a> <a href="#" class="easyui-linkbutton" iconcls="icon-cut"
+                onclick="javascript:$('#editDlg').dialog('close')">取消</a>
+    </div>
+</body>
+</html>

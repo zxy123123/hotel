@@ -1,0 +1,151 @@
+﻿
+<include file="Public:header"/>
+
+<link rel="stylesheet" type="text/css" href="__PUBLIC__/uploadify/uploadify.css" />
+<script src="__PUBLIC__/uploadify/jquery.uploadify.min.js" type="text/javascript"></script>
+
+<head>
+<body>
+    <style>
+        .stage{
+            position:absolute;
+            top:0;
+            bottom:0;
+            left:0;
+            right:0;
+            background:rgba(0,0,0,0.2);
+            display:none;
+        }
+        .form{
+            position:absolute;
+            top:50%;
+            left:50%;
+            transform: translate(-50%,-50%);
+            padding:10px;
+            background: #fff;
+        }
+        .close{
+            position:absolute;
+            cursor: pointer;
+            top:0;
+            right:0;
+            transform: translate(50%,-50%);
+            width:14px;
+            height:14px;
+            text-align: center;
+            line-height:14px;
+            border-radius: 100%;
+            background:gray;
+        }
+    </style>
+
+<div>
+    <form action="{:U('Goods/hotelinfoa')}" method="post">
+        <div style="float:left">
+            <select name="chaxun" id="cha">
+                <option value="1">酒店名称</option>
+                <option value="2">酒店地址</option>
+            </select>
+        </div>
+        <div style="float:left">
+            <input type="text" name="hotel">
+        </div>
+        <div>
+            <input type="submit" value="搜索">
+        </div>
+    </form>
+</div>
+<table  border="1" cellpadding="1" cellspacing="1" width="100%" align="center">
+	<thead>
+	<tr>
+		<th >ID</th>
+		<th >酒店名称</th>
+		<th >酒店星级</th>
+		<th >酒店电话</th>
+		<th >酒店地址</th>
+		<th >酒店邮箱</th>
+                        <th>详情</th>
+		<th>酒店图片</th>
+		<th >操作</th>
+	</tr>
+<volist name="list" id="vo">
+	<tr>
+	<th>{$vo.id}</th>
+	<th>{$vo.name}</th>
+	<th>
+	<if condition="($vo.grade eq inn)"> 酒馆
+	<elseif condition="$vo.grade eq chain"/>连锁酒店
+	<elseif condition="$vo.grade eq theme"/>主题酒店
+	<elseif condition="$vo.grade eq three_star"/>三星级
+	<elseif condition="$vo.grade eq four_star"/>四星级
+	<elseif condition="$vo.grade eq five_star"/>五星级
+	<else /> null
+	</if>
+	</th>
+	<th>{$vo.phone_number}</th>
+	<th>{$vo.address}</th>
+	<th>{$vo.email}</th>
+    <th>
+        <button class="qita" onclick="other({$vo.id})">详情</button>
+        <div class="stage qita_{$vo.id}" >
+                    <div class="form">
+                <table border="1">
+                    <tr>
+                        <th width="80">地址经度</th>
+                        <th width="80">地址纬度</th>
+                        <th width="80">路线</th>
+                        <th width="80">酒店介绍</th>
+                        <th width="80">改签退订规则</th>
+                    </tr>
+                    <tr>
+                        <th width="80">{$vo.longitude}</th>
+                        <th width="80">{$vo.latitude}</th>
+                        <th width="80">{$vo.routes}</th>
+                        <th width="80">{$vo.introduction}</th>
+                        <th width="80">{$vo.endorse_rules}</th>
+                        <!-- <th width="80">11</th> -->
+                    </tr>
+                </table>
+                        <span class="close">&times;</span>
+                    <div>
+            </div>
+    </th>
+
+	<th>
+		<button class="btn" onclick="show({$vo.id})">酒店图片</button>
+		<div class="stage img_{$vo.id}" >
+		        	<div class="form">
+				<img src="/Public/image/hotel/{$vo.url}" alt="" >
+			            <span class="close">&times;</span>
+		        	<div>
+	    	</div>
+
+	</th>
+	<th><a href="{:U('Goods/edithotela')}?id={$vo.id}" class="btn btn-danger">编辑信息</a>
+	<a href="{:U('Goods/edhotpica')}?id={$vo.id}" class="btn btn-danger">编辑图片</a>
+	<a href="{:U('Goods/infodel')}?id={$vo.id}" class="btn btn-danger">删除</a>
+            </th>
+	</tr>
+	</thead>
+    </volist>
+</table>
+
+
+</div>
+<!-- <script type="text/javascript" src="__PUBLIC__/lhgdialog/lhgdialog.min.js"></script> -->
+<script type="text/javascript">
+
+        function show(id)
+        {
+            $('.img_'+id).fadeIn('1000');
+        }
+        $('.close').click(function(){
+            $('.stage').fadeOut('1000');
+        })
+        function other(id)
+        {
+            $('.qita_'+id).fadeIn('1000');
+        }
+</script>
+</body>
+</html>

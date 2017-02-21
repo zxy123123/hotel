@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Document</title>
+</head>
+<body>  
+    <a href="{:U('Store/index')}" style="float:right;background:#f00">继续购物</a>
+    <a href="{:U('Store/alldel')}" style="float:right;background:#E9C341">清空购物车</a>
+    <a href="" style="float:right;background:#04D900">总计¥{$count}
+    </a>
+    <a href="{:U('Store/dobuy')}" style="float:right;background:#1596FA">立刻结算</a>
+    <table border="1" cellpadding="1" cellspacing="1" width="100%" align="center">
+            <tr>
+                    <th>商品</th>
+                    <th>商品名</th>
+                    <th>商品价格</th>
+                    <th>购买数量</th>
+                    <th>小计</th>
+                    <th>操作</th>
+            </tr>
+            <volist name="list" id="vo">
+                <tr>
+                    <td><img src="{$vo.iname}" alt=""></td>
+                    <td><a href="{:U('Store/gooddetail')}?id={$vo.iid}">{$vo.gname}</a></td>
+                    <td>{$vo.price}</td>
+                    <td>{$vo.qty}</td>
+                    <td>{$vo[price] * $vo[qty]}</td>
+                    <td><a href="{:U('Store/del')}?id={$vo.id}">删除</a></td>
+                </tr>
+            </volist>
+    </table>
+
+</body>
+</html>

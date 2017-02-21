@@ -1,0 +1,148 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<link id="easyuiTheme" rel="stylesheet" type="text/css" href="__PUBLIC__/themes/bootstrap/easyui.css" />
+<link rel="stylesheet" type="text/css" href="__PUBLIC__/themes/icon.css" />
+<script type="text/javascript" src="__PUBLIC__/js/jquery-1.8.0.min.js"></script>
+<script type="text/javascript" src="__PUBLIC__/js/jquery-1.7.2.min.js"></script>
+<script type="text/javascript" src="__PUBLIC__/js/jquery.easyui.min.js"></script>
+<script type="text/javascript" src="__PUBLIC__/js/admin.js" charset="utf-8"></script>
+<script type="text/javascript" src="__PUBLIC__/js/vue.js" charset="utf-8"></script>
+<title>后台管理</title>
+</head>
+<body>
+<div id="my-vue" class="container">
+    <header>热门酒店</header>
+    <div class="myForm">
+            <template v-if="addr1 != []">
+            <div>
+            {{#if ok}}
+            <h1>Yes</h1>
+            {{/if}}
+            </div>
+            <select name="pro" id="province"  v-on:change="getcities($event)">
+                <option value="" v-for="item in addr1" v-bind:value="item.code" v-text="item.fullname"></option>
+            </select>
+            </template>
+            <template v-if="addr2 != []">
+                <select name="city" id="city"  v-on:change="getstreets($event)">
+                <option value="" v-for="item in addr2" v-bind:value="item.code" v-text="item.fullname"></option>
+            </select>
+            </template>
+            <template v-if="addr2 != []">
+            <select name="street" id="street">
+                <option value="" v-for="item in addr3" v-bind:value="item.code" v-text="item.fullname"></option>
+            </select>
+            </template>
+         <button class="btn btn-success" id="shezhi">设置</button>
+    </div>
+</div>
+
+<ul>
+<volist name="list" id="vo">
+<li>{$vo.fullname}</li>
+</volist>
+</ul>
+
+
+<!-- js -->
+<script>
+var vm = new Vue({
+    el:'#my-vue',
+    data:{
+        addr1:[],
+        addr2:[],
+        addr3:[],
+        result:{
+            pro:'',
+            city:'',
+            street:''
+        }
+    },
+    methods:{
+        getcities:function(e){
+            var m = this;
+            var code = $('#province option:selected').val();
+            $.ajax({
+                type:'get',
+                url:"{:U('City/addred')}",
+                async:false,
+                data:"parent_code="+code,
+                success:function(data){
+                    vm.addr2 = data;
+                    vm.addr3 = [];
+                },
+            dataType:'json',
+            });
+        },
+        getstreets:function(e){
+            var m = this;
+            var code = $('#city option:selected').val();
+            $.ajax({
+                type:'get',
+                url:"{:U('City/addred')}",
+                async:false,
+                data:"parent_code="+code,
+                success:function(data){
+                    vm.addr3 = data;
+                },
+            dataType:'json',
+            });
+        },
+
+        getData:function(code){
+            $.ajax({
+                type:'get',
+                url:"{:U('City/addred')}",
+                async:false,
+                data:"parent_code="+code,
+                success:function(data){
+                    return data;
+                },
+                dataType:'json',
+            });
+        }
+    }
+});
+
+    $(document).ready(function(){
+        $.ajax({
+            type:'get',
+            url:"{:U('City/addred')}",
+            async:false,
+            success:function(data){
+                // console.log(data);
+                // console.log(data);
+                vm.addr1 = data;
+                // console.log(vm.addr1);
+            },
+            dataType:'json',
+        });
+
+    })
+    
+    $('#shezhi').click(function()
+    {
+        var sheng = $('#province').val();
+        var shi = $('#city').val();
+        var qu = $('#street').val();
+        $.ajax({
+            type:"post",
+            url:"{:U('City/setup')}",
+            data:{'sheng':sheng,'shi':shi,'qu':qu},
+            success:function(data){
+                
+                window.location.reload();
+            }
+        })
+    })
+
+
+
+
+</script>
+
+</body>
+</html>
+

@@ -1,0 +1,514 @@
+.fl{float: left}
+.fr{float: right}
+
+            .goods{
+                border:1px solid #ddd;
+                float:left;
+                width:30%;
+                margin:1%;
+            }
+
+
+.aaa{
+    background: #F0F0F0;
+    width:98%;
+    height: 500px;
+    padding-top:30px;
+    padding-left:30px; 
+}
+
+.mt30{margin-top:30px;}
+
+.bbb{
+    width:37%;
+    height: 400px;
+}
+
+.ccc{
+    width:60%;
+    height: 400px;
+}
+
+.addAddressPop table{
+  width: 100%;
+  color: #707070;
+}
+
+.addAddressPop table th{
+  width: 70px;
+  text-align: left;
+  vertical-align: top;
+  padding-top: 5px;
+}
+
+.addAddressPop table td{
+  height: 50px;
+  vertical-align: top;
+}
+
+
+.addAddressPop table input{
+  font: 14px/1.5 "Helvetica Neue",Helvetica,tahoma,Arial,\5FAE\8F6F\96C5\9ED1; 
+  border: 1px solid #dcdcdc;
+  outline: none;
+  padding-left: 10px;
+  height: 30px;
+  width: 80%;
+}
+
+.addAddressPop table select{
+  font: 14px/1.5 "Helvetica Neue",Helvetica,tahoma,Arial,\5FAE\8F6F\96C5\9ED1; 
+  border: 1px solid #dcdcdc;
+  outline: none;
+  height: 30px;
+  color: #707070;
+}
+
+.addAddressPop table .detailAddress{
+  margin:10px 0 20px; 
+}
+
+.addAddressPop .content .bottom input[type="submit"]{
+  background: #ed6942;
+  float: none;
+  margin: 0 auto;
+  display: block;
+  width: 150px;
+}
+
+
+.addAddressPop table input[type="password"]{
+  font-size: 15px;
+  width: 50%;
+}
+
+.pop{
+   font-family: Arial,'微软雅黑','黑体', sans-serif;
+   /*display: none;*/
+}
+
+.popBG{
+  position: fixed;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  right: 0;
+  background: #eee;
+  background: rgba(0,0,0,0.6);
+  z-index: 88888;
+  display: block;
+}
+
+.popUp{
+    width: 458px;
+    display: block;
+    position: fixed;
+    z-index: 99999;
+    left: 50%;
+    top: 50%;
+    margin-top: -250px;
+    margin-left: -175px;
+    color: black;
+}
+
+.popUp .title{
+  position: relative;
+  background:#96b53e;
+  width:100%;
+  height: 38px;
+  line-height: 38px;
+  font-size: 16px;
+  text-align: center;
+  color: white;
+  border-top-left-radius: 5px;
+  border-top-right-radius: 5px;
+}
+
+.popUp .title .closeButton{
+  position: absolute;
+  right: 0;
+  top: 0;
+  width: 38px;
+  height: 38px;
+  cursor: pointer;
+  background: url(../images/closeBtn.png) no-repeat center;
+}
+
+.popUp .content{
+  min-height: 80px;
+  padding: 30px;
+  background: white;
+  line-height: 22px;
+  border-bottom-left-radius: 5px;
+  border-bottom-right-radius: 5px;
+  color: #505050;
+}
+
+.popUp .content img{
+  display: block;
+  width: 148px;
+  height: 148px;
+  margin: 0 auto 20px;
+}
+
+
+.popUp .content ul{
+  margin-bottom: 10px;
+}
+
+
+.popUp .content ul li{
+  border: 1px solid #dcdcdc;
+  padding: 5px 7px;
+  cursor: pointer;
+  margin-right: 10px;
+  margin-bottom: 10px;
+}
+
+.popUp .content ul .on{
+  border: 1px solid #95b53e;
+}
+
+.popUp .content ul h2{
+  float: left;
+}
+
+
+.popUp .content ul h3{
+  float: right;
+  width: 225px;
+}
+
+
+.popUp .content p{
+  clear: both;
+  margin-bottom: 15px;
+}
+
+.popUp .content p input{
+  border: 1px solid #dcdcdc;
+  text-align: center; 
+  outline: none;
+  width: 35px;
+  height: 30px;
+  font-size: 14px;
+  color: #505050;
+  margin: 0 5px;
+}
+
+.popUp .content p .wider{
+  width: 70px;
+}
+
+.popUp .content p input:focus{
+  border-color: #95b53e;
+}
+
+.popUp .content p .green{
+  color: #7b9d20;
+  padding-right: 5px;
+}
+
+
+.popUp .content p .orange{ color: #f2914a;}
+.popUp .content p .red{ color: #ed3624;}
+
+
+
+.popUp .content .bottom{
+  border-top: 1px solid #dcdcdc;
+  padding: 20px 10% 0;
+  margin-top: 10px;
+  height: 32px;
+}
+
+
+.popUp .content .bottom input{
+  width: 85px;
+  height: 32px;
+  background: #95b53e;
+  color: white;
+  line-height: 32px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  outline: none;
+  float: left;
+}
+
+.popUp .content .bottom input[type="button"]{
+  background: #eeeeee;
+  color: #505050;
+  float: right;
+}
+
+.popUp .content .center{
+  text-align: center;
+}
+
+.contactAddress .addNewAddress{
+  display: block;
+  color: #ed6942;
+  border: 1px solid #ed6942;
+  width: 108px;
+  height: 26px;
+  line-height: 26px;
+  border-radius: 3px;
+  text-align: center;
+  margin: 30px auto 5px;
+  cursor: pointer;
+}
+
+.contactAddress th{
+ text-align: left;
+ padding-left: 10px;
+}
+
+.contactAddress td{
+ text-align: left;
+ padding-left: 10px;
+ font-size: 13px;
+}
+
+
+.contactAddress .contactName{
+  width: 86px;
+  font-size: 13px;
+}
+
+.contactAddress .address{
+  width: 230px;
+  font-size: 13px;
+  padding-right: 10px;
+}
+
+
+.contactAddress i{
+  color: #96b540;
+}
+
+.contactAddress td .active{
+  color: gray;
+}
+
+
+.contactAddress .delete{
+  color:#eb6a43;
+  margin-left: 5px;
+  cursor: pointer;
+}
+
+.contactAddress i{
+  cursor: pointer;
+}
+
+.contactAddress .addNewAddress{
+  display: block;
+  color: #ed6942;
+  border: 1px solid #ed6942;
+  width: 108px;
+  height: 26px;
+  line-height: 26px;
+  border-radius: 3px;
+  text-align: center;
+  margin: 30px auto 5px;
+  cursor: pointer;
+}
+
+
+/*公共部分*/
+
+.normalTab{
+  margin-top: 40px;
+}
+
+.normalTab tr{
+  height: 40px;
+  border: 1px solid #d2d2d2;
+}
+
+.normalTab th{
+  background: #fafafa;
+}
+
+.normalTab td{
+  text-align: center;
+}
+
+/*公共部分 END*/
+
+.pop{
+   font-family: Arial,'微软雅黑','黑体', sans-serif;
+   /*display: none;*/
+}
+
+.popBG{
+  position: fixed;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  right: 0;
+  background: #eee;
+  background: rgba(0,0,0,0.6);
+  z-index: 88888;
+  display: block;
+}
+
+.popUp{
+    width: 458px;
+    display: block;
+    position: fixed;
+    z-index: 99999;
+    left: 50%;
+    top: 50%;
+    margin-top: -250px;
+    margin-left: -175px;
+    color: black;
+}
+
+.popUp .title{
+  position: relative;
+  background:#96b53e;
+  width:100%;
+  height: 38px;
+  line-height: 38px;
+  font-size: 16px;
+  text-align: center;
+  color: white;
+  border-top-left-radius: 5px;
+  border-top-right-radius: 5px;
+}
+
+.popUp .title .closeButton{
+  position: absolute;
+  right: 0;
+  top: 0;
+  width: 38px;
+  height: 38px;
+  cursor: pointer;
+  background: url(../images/closeBtn.png) no-repeat center;
+}
+
+.popUp .content{
+  min-height: 80px;
+  padding: 30px;
+  background: white;
+  line-height: 22px;
+  border-bottom-left-radius: 5px;
+  border-bottom-right-radius: 5px;
+  color: #505050;
+}
+
+.popUp .content img{
+  display: block;
+  width: 148px;
+  height: 148px;
+  margin: 0 auto 20px;
+}
+
+
+.popUp .content ul{
+  margin-bottom: 10px;
+}
+
+
+.popUp .content ul li{
+  border: 1px solid #dcdcdc;
+  padding: 5px 7px;
+  cursor: pointer;
+  margin-right: 10px;
+  margin-bottom: 10px;
+}
+
+.popUp .content ul .on{
+  border: 1px solid #95b53e;
+}
+
+.popUp .content ul h2{
+  float: left;
+}
+
+
+.popUp .content ul h3{
+  float: right;
+  width: 225px;
+}
+
+
+.popUp .content p{
+  clear: both;
+  margin-bottom: 15px;
+}
+
+.popUp .content p input{
+  border: 1px solid #dcdcdc;
+  text-align: center; 
+  outline: none;
+  width: 35px;
+  height: 30px;
+  font-size: 14px;
+  color: #505050;
+  margin: 0 5px;
+}
+
+.popUp .content p .wider{
+  width: 70px;
+}
+
+.popUp .content p input:focus{
+  border-color: #95b53e;
+}
+
+.popUp .content p .green{
+  color: #7b9d20;
+  padding-right: 5px;
+}
+
+
+.popUp .content p .orange{ color: #f2914a;}
+.popUp .content p .red{ color: #ed3624;}
+
+
+
+.popUp .content .bottom{
+  border-top: 1px solid #dcdcdc;
+  padding: 20px 10% 0;
+  margin-top: 10px;
+  height: 32px;
+}
+
+
+.popUp .content .bottom input{
+  width: 85px;
+  height: 32px;
+  background: #95b53e;
+  color: white;
+  line-height: 32px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  outline: none;
+  float: left;
+}
+
+.popUp .content .bottom input[type="button"]{
+  background: #eeeeee;
+  color: #505050;
+  float: right;
+}
+
+.popUp .content .center{
+  text-align: center;
+}
+
+
+
+
+
+
+
+
+
+
+
+
